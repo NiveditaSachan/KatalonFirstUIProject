@@ -12,14 +12,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
-import com.kms.katalon.core.webui.driver.DriverFactory
-
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.junit.After as After
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.interactions.Actions as Actions
-import org.openqa.selenium.interactions.Mouse
+import org.openqa.selenium.interactions.Mouse as Mouse
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
 WebUI.openBrowser('')
@@ -48,29 +47,47 @@ WebUI.waitForPageLoad(10)
 
 WebUI.scrollToElement(findTestObject('BigBasket/AddToCart/Page_Best Online Grocery Store in I/btn_ADD_item'), 10)
 
-WebUI.waitForElementClickable(findTestObject('BigBasket/AddToCart/Page_Best Online Grocery Store in I/button_Add'), 10)
-'This is ADD button in Key word search results to add product to basket'
+//WebUI.waitForElementClickable(findTestObject('BigBasket/AddToCart/Page_Best Online Grocery Store in I/button_Add'), 10)
 
 //Thread.sleep(10000)
-
+'This is ADD button in Key word search results to add product to basket'
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement ele=driver.findElement(By.xpath("(//button[@class='btn btn-add col-xs-9'][contains(text(),'Add')])[1]"))
+WebElement ele = driver.findElement(By.xpath('(//button[@class=\'btn btn-add col-xs-9\'][contains(text(),\'Add\')])[1]'))
 
-// Actions class to perform an action on an element which is not clickable
-/*
-Actions myAction = new Actions(driver)
-myAction.moveToElement(ele).click().build().perform()
-Thread.sleep(3000)
-myAction.moveToElement(ele).click().perform()
 
-*/
 // Using JavaScript Executer to clickon an element whichis not clickable
-JavascriptExecutor jse2 = (JavascriptExecutor)driver;
-jse2.executeScript("arguments[0].click()",ele);
+JavascriptExecutor jse = ((driver) as JavascriptExecutor)
+
+jse.executeScript('arguments[0].click()', ele)
 
 
-Thread.sleep(10000)
+Thread.sleep(3000)
+
+WebElement bigBasketLogo=driver.findElement(By.xpath("//div[@id='st-trigger-effects']/a[@title='Bigbasket']"))
+jse.executeScript('arguments[0].click()',bigBasketLogo )
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('BigBasket/AddToCart/Page_Best Online Grocery Store in I/noOfItemInBasket'))
+
+noOfItemInBasket = WebUI.getText(findTestObject('BigBasket/AddToCart/Page_Best Online Grocery Store in I/noOfItemInBasket'))
+
+println('no Of Item In Basket ...' + noOfItemInBasket)
+
+WebUI.verifyElementPresent(findTestObject('BigBasket/AddToCart/Page_Best Online Grocery Store in I/div_ QuantityAddRemove'), 
+    10)
+
+WebUI.verifyElementPresent(findTestObject('BigBasket/AddToCart/Page_Best Online Grocery Store in I/div_ProductPriceRs'), 
+    10)
+
+WebUI.verifyElementPresent(findTestObject('BigBasket/AddToCart/Page_Best Online Grocery Store in I/SubTotalInRs'), 10)
+
+price = WebUI.getText(findTestObject('Object Repository/BigBasket/AddToCart/Page_Best Online Grocery Store in I/SubTotalInRs'))
+
+println('Price is : ' + price)
+
+WebUI.click(findTestObject('BigBasket/AddToCart/Page_Best Online Grocery Store in I/Basket_Checkout'))
 
 WebUI.closeBrowser()
 
