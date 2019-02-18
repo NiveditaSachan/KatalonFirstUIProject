@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Suite1,,,2019-02-11 10:53:00,2019-02-11 10:53:05,5.271s,FAILED
+,,,,,,
+Test Cases/nopCommerceUIDemo/Electronics-camera,,,2019-02-11 10:53:00,2019-02-11 10:53:04,3.817s,FAILED
+"openBrowser("""")",,,2019-02-11 10:53:01,2019-02-11 10:53:04,3.095s,FAILED
+"navigateToUrl(""http://demo.nopcommerce.com/"")",,,2019-02-11 10:53:04,2019-02-11 10:53:04,0.029s,FAILED
+"verifyElementVisible(findTestObject(""nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics""))",,,2019-02-11 10:53:04,2019-02-11 10:53:04,0.068s,FAILED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",,,2019-02-11 10:53:04,2019-02-11 10:53:04,0.050s,FAILED
+,,,,,,
+Test Cases/nopCommerceUIDemo/VerifyPagination,,,2019-02-11 10:53:04,2019-02-11 10:53:05,0.964s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by""), 10)",,,2019-02-11 10:53:04,2019-02-11 10:53:05,0.058s,FAILED
+"verifyOptionPresentByLabel(findTestObject(""nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName""), ""Position"", false, 60)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.037s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName""), ""http://demo.nopcommerce.com/camera-photo?orderby=5"", true)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.046s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Display""), 10)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.022s,FAILED
+"verifyOptionPresentByLabel(findTestObject(""nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369""), ""3"", false, 10)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.016s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369""), ""http://demo.nopcommerce.com/camera-photo?orderby=5&pagesize=3"", true)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.010s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/strong_Filter by price""), 0)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.012s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Under 500.00""), 0)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.020s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Over 500.00""), 0)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.027s,FAILED
+"getNumberOfTotalOption(findTestObject(""nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Nikon D5500 DSLR""))",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.024s,FAILED
+"getNumberOfTotalOption(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam""), CONTINUE_ON_FAILURE)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.020s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam                _1""), 0)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.015s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_1300.00""), 0)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.015s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div""), 0)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.008s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Apple iCam""), 0)",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.008s,FAILED
+"click(findTestObject(""Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_1300.00_buttons""))",,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.040s,FAILED
+closeBrowser(),,,2019-02-11 10:53:05,2019-02-11 10:53:05,0.023s,FAILED

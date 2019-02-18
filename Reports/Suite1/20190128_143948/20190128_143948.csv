@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Suite1,Firefox 62.0,,2019-01-28 14:39:51,2019-01-28 14:40:15,23.869s,PASSED
+,,,,,,
+Test Cases/TestCase_2,Firefox 62.0,,2019-01-28 14:39:52,2019-01-28 14:40:04,12.632s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/symfony/web/index.php/auth/login"")",Firefox 62.0,,2019-01-28 14:39:52,2019-01-28 14:40:00,8.166s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""), findTestData(""TestData"").getValue(1, 1))",Firefox 62.0,,2019-01-28 14:40:00,2019-01-28 14:40:00,0.174s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_txtPassword""), findTestData(""TestData"").getValue(2, 1))",Firefox 62.0,,2019-01-28 14:40:00,2019-01-28 14:40:01,0.115s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Password_Submit""))",Firefox 62.0,,2019-01-28 14:40:01,2019-01-28 14:40:03,2.613s,PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/img (1)""), 0)",Firefox 62.0,,2019-01-28 14:40:03,2019-01-28 14:40:03,0.048s,PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/b_Dashboard""), 0)",Firefox 62.0,,2019-01-28 14:40:03,2019-01-28 14:40:03,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard""), 0)",Firefox 62.0,,2019-01-28 14:40:03,2019-01-28 14:40:03,0.016s,PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/img""))",Firefox 62.0,,2019-01-28 14:40:03,2019-01-28 14:40:03,0.085s,PASSED
+"waitForElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard""), 10)",Firefox 62.0,,2019-01-28 14:40:03,2019-01-28 14:40:03,0.062s,PASSED
+closeBrowser(),Firefox 62.0,,2019-01-28 14:40:03,2019-01-28 14:40:04,0.767s,PASSED
+,,,,,,
+Test Cases/TestCase_2,Firefox 62.0,,2019-01-28 14:40:04,2019-01-28 14:40:15,10.798s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/symfony/web/index.php/auth/login"")",Firefox 62.0,,2019-01-28 14:40:04,2019-01-28 14:40:10,6.207s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""), findTestData(""TestData"").getValue(1, 1))",Firefox 62.0,,2019-01-28 14:40:10,2019-01-28 14:40:11,0.091s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_txtPassword""), findTestData(""TestData"").getValue(2, 1))",Firefox 62.0,,2019-01-28 14:40:11,2019-01-28 14:40:11,0.111s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Password_Submit""))",Firefox 62.0,,2019-01-28 14:40:11,2019-01-28 14:40:14,3.435s,PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/img (1)""), 0)",Firefox 62.0,,2019-01-28 14:40:14,2019-01-28 14:40:14,0.061s,PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/b_Dashboard""), 0)",Firefox 62.0,,2019-01-28 14:40:14,2019-01-28 14:40:14,0.024s,PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard""), 0)",Firefox 62.0,,2019-01-28 14:40:14,2019-01-28 14:40:14,0.016s,PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/img""))",Firefox 62.0,,2019-01-28 14:40:14,2019-01-28 14:40:14,0.054s,PASSED
+"waitForElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard""), 10)",Firefox 62.0,,2019-01-28 14:40:14,2019-01-28 14:40:14,0.018s,PASSED
+closeBrowser(),Firefox 62.0,,2019-01-28 14:40:14,2019-01-28 14:40:15,0.762s,PASSED

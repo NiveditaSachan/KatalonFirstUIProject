@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite1" time="5" tests="0" failures="2" errors="0">
+   <testsuite name="Suite1" tests="0" failures="2" errors="0" time="5" timestamp="2019-02-11 10:53:00" hostname="nivedita - 192.168.0.107" id="Test Suites/Suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105257"/>
+         <property name="logFiles" value="/Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105257/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nivedita - 192.168.0.107"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/nopCommerceUIDemo/Electronics-camera" classname="Test Cases/nopCommerceUIDemo/Electronics-camera" status="FAILED">
+         <failure type="FAILED" message="Test Cases/nopCommerceUIDemo/Electronics-camera FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Electronics-camera.run(Electronics-camera:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862577579.run(TempTestSuite1549862577579.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-11 10:53:00 - [TEST_CASE][FAILED] - Test Cases/nopCommerceUIDemo/Electronics-camera: Test Cases/nopCommerceUIDemo/Electronics-camera FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Electronics-camera.run(Electronics-camera:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862577579.run(TempTestSuite1549862577579.groovy:36)
+
+
+2019-02-11 10:53:01 - [TEST_STEP][FAILED] - openBrowser(""): Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+
+2019-02-11 10:53:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-11 10:53:02 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-11 10:53:04 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+
+2019-02-11 10:53:04 - [TEST_STEP][FAILED] - navigateToUrl("http://demo.nopcommerce.com/"): Unable to navigate to 'http://demo.nopcommerce.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:04 - [MESSAGE][FAILED] - Unable to navigate to 'http://demo.nopcommerce.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:04 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics")): Unable to verify object 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics' is visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:04 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics' is visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:04 - [TEST_STEP][FAILED] - verifyAllLinksOnCurrentPageAccessible(false, []): verifyAllLinksOnCurrentPageAccessible(false, []) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Electronics-camera.run(Electronics-camera:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862577579.run(TempTestSuite1549862577579.groovy:36)
+
+
+2019-02-11 10:53:04 - [MESSAGE][FAILED] - verifyAllLinksOnCurrentPageAccessible(false, []) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Electronics-camera.run(Electronics-camera:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862577579.run(TempTestSuite1549862577579.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-11 10:53:00 - [TEST_CASE][FAILED] - Test Cases/nopCommerceUIDemo/Electronics-camera: Test Cases/nopCommerceUIDemo/Electronics-camera FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Electronics-camera.run(Electronics-camera:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862577579.run(TempTestSuite1549862577579.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nopCommerceUIDemo/VerifyPagination" classname="Test Cases/nopCommerceUIDemo/VerifyPagination" status="FAILED">
+         <failure type="FAILED" message="Test Cases/nopCommerceUIDemo/VerifyPagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at VerifyPagination.run(VerifyPagination:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862577579.run(TempTestSuite1549862577579.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-11 10:53:04 - [TEST_CASE][FAILED] - Test Cases/nopCommerceUIDemo/VerifyPagination: Test Cases/nopCommerceUIDemo/VerifyPagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at VerifyPagination.run(VerifyPagination:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862577579.run(TempTestSuite1549862577579.groovy:36)
+
+
+2019-02-11 10:53:04 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by"), 10): Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - verifyOptionPresentByLabel(findTestObject("nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName"), "Position", false, 60): Unable to verify option is present by label 'Position' in object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName'  (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to verify option is present by label 'Position' in object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName'  (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName"), "http://demo.nopcommerce.com/camera-photo?orderby=5", true): Unable to select option by value 'http://demo.nopcommerce.com/camera-photo?orderby=5' of object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to select option by value 'http://demo.nopcommerce.com/camera-photo?orderby=5' of object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Display"), 10): Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Display' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Display' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - verifyOptionPresentByLabel(findTestObject("nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369"), "3", false, 10): Unable to verify option is present by label '3' in object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369'  (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to verify option is present by label '3' in object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369'  (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369"), "http://demo.nopcommerce.com/camera-photo?orderby=5&pagesize=3", true): Unable to select option by value 'http://demo.nopcommerce.com/camera-photo?orderby=5&pagesize=3' of object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to select option by value 'http://demo.nopcommerce.com/camera-photo?orderby=5&pagesize=3' of object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/strong_Filter by price"), 0): Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/strong_Filter by price' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/strong_Filter by price' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Under 500.00"), 0): Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Under 500.00' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Under 500.00' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Over 500.00"), 0): Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Over 500.00' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Over 500.00' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - getNumberOfTotalOption(findTestObject("nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Nikon D5500 DSLR")): Unable to get total options of object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Nikon D5500 DSLR' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to get total options of object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Nikon D5500 DSLR' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - getNumberOfTotalOption(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam"), CONTINUE_ON_FAILURE): Unable to get total options of object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to get total options of object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam                _1"), 0): Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam                _1' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam                _1' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_1300.00"), 0): Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_1300.00' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_1300.00' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div"), 0): Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Apple iCam"), 0): Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Apple iCam' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Apple iCam' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_1300.00_buttons")): Unable to click on object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_1300.00_buttons' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_1300.00_buttons' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:53:05 - [TEST_STEP][FAILED] - closeBrowser(): closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at VerifyPagination.run(VerifyPagination:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862577579.run(TempTestSuite1549862577579.groovy:36)
+
+
+2019-02-11 10:53:05 - [MESSAGE][PASSED] - Browser is closed
+
+2019-02-11 10:53:05 - [MESSAGE][FAILED] - closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at VerifyPagination.run(VerifyPagination:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862577579.run(TempTestSuite1549862577579.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-11 10:53:04 - [TEST_CASE][FAILED] - Test Cases/nopCommerceUIDemo/VerifyPagination: Test Cases/nopCommerceUIDemo/VerifyPagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at VerifyPagination.run(VerifyPagination:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862577579.run(TempTestSuite1549862577579.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-11 10:53:00 - [TEST_SUITE][FAILED] - Suite1: Test Cases/nopCommerceUIDemo/Electronics-camera FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Electronics-camera.run(Electronics-camera:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862577579.run(TempTestSuite1549862577579.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-11 10:53:00 - [TEST_SUITE][FAILED] - Suite1: Test Cases/nopCommerceUIDemo/Electronics-camera FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: invalid argument: can't kill an exited process
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Electronics-camera.run(Electronics-camera:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862577579.run(TempTestSuite1549862577579.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

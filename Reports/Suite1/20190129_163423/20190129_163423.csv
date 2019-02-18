@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Suite1,Firefox 62.0,,2019-01-29 16:34:26,2019-01-29 16:35:50,1m - 23.572s,FAILED
+,,,,,,
+Test Cases/TestCase_2,Firefox 62.0,,2019-01-29 16:34:27,2019-01-29 16:34:39,12.678s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/symfony/web/index.php/auth/login"")",Firefox 62.0,,2019-01-29 16:34:27,2019-01-29 16:34:35,8.056s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""), UserName)",Firefox 62.0,,2019-01-29 16:34:35,2019-01-29 16:34:35,0.171s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_txtPassword""), Password)",Firefox 62.0,,2019-01-29 16:34:35,2019-01-29 16:34:36,0.109s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Password_Submit""))",Firefox 62.0,,2019-01-29 16:34:36,2019-01-29 16:34:38,2.644s,PASSED
+"if (!(verifyElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/img (1)""), 0)))",Firefox 62.0,,2019-01-29 16:34:38,2019-01-29 16:34:38,0.065s,PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/b_Dashboard""), 0)",Firefox 62.0,,2019-01-29 16:34:38,2019-01-29 16:34:38,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard""), 0)",Firefox 62.0,,2019-01-29 16:34:38,2019-01-29 16:34:38,0.069s,PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/img""))",Firefox 62.0,,2019-01-29 16:34:38,2019-01-29 16:34:38,0.101s,PASSED
+"waitForElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard""), 10)",Firefox 62.0,,2019-01-29 16:34:38,2019-01-29 16:34:39,0.026s,PASSED
+closeBrowser(),Firefox 62.0,,2019-01-29 16:34:39,2019-01-29 16:34:39,0.901s,PASSED
+,,,,,,
+Test Cases/TestCase_2,Firefox 62.0,,2019-01-29 16:34:39,2019-01-29 16:35:49,1m - 9.605s,FAILED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/symfony/web/index.php/auth/login"")",Firefox 62.0,,2019-01-29 16:34:39,2019-01-29 16:34:45,5.952s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""), UserName)",Firefox 62.0,,2019-01-29 16:34:45,2019-01-29 16:34:45,0.083s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_txtPassword""), Password)",Firefox 62.0,,2019-01-29 16:34:45,2019-01-29 16:34:46,0.059s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Password_Submit""))",Firefox 62.0,,2019-01-29 16:34:46,2019-01-29 16:34:47,1.527s,PASSED
+"if (!(verifyElementPresent(findTestObject(""Page_OrangeHRM/Page_OrangeHRM/img (1)""), 0)))",Firefox 62.0,,2019-01-29 16:34:47,2019-01-29 16:35:49,1m - 1.963s,FAILED

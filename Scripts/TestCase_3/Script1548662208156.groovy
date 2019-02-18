@@ -13,3 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('http://lifecharger.org/')
+WebUI.verifyElementPresent(findTestObject('null'), 10)
+WebUI.verifyElementPresent(findTestObject('null'), 10)
+WebUI.verifyElementPresent(findTestObject('null'), 10)
+WebUI.setText( findTestObject('null') , "Hello")
+WebUI.click( findTestObject('null')  )
+WebUI.closeBrowser()

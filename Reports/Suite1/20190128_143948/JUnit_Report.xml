@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite1" time="23" tests="2" failures="0" errors="0">
+   <testsuite name="Suite1" tests="2" failures="0" errors="0" time="23" timestamp="2019-01-28 14:39:51" hostname="nivedita - 192.168.0.110" id="Test Suites/Suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190128_143948"/>
+         <property name="logFiles" value="/Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190128_143948/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nivedita - 192.168.0.110"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="3cf332c1-983c-1c44-91c1-4318153b15d2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TestCase_2" classname="Test Cases/TestCase_2" status="PASSED">
+         <system-out><![CDATA[2019-01-28 14:39:52 - [TEST_CASE][PASSED] - Test Cases/TestCase_2: Test Cases/TestCase_2
+
+2019-01-28 14:39:52 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/symfony/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/symfony/web/index.php/auth/login'
+
+2019-01-28 14:39:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-28 14:39:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-28 14:40:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/symfony/web/index.php/auth/login'
+
+2019-01-28 14:40:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_LOGIN Panel_txtUsername"), findTestData("TestData").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-01-28 14:40:00 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-01-28 14:40:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_Username_txtPassword"), findTestData("TestData").getValue(2, 1)): Text 'admin123' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-01-28 14:40:01 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-01-28 14:40:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-01-28 14:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-01-28 14:40:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_OrangeHRM/Page_OrangeHRM/img (1)"), 0): Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/img (1)' is present
+
+2019-01-28 14:40:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-28 14:40:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/img (1)' is present
+
+2019-01-28 14:40:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_OrangeHRM/Page_OrangeHRM/b_Dashboard"), 0): Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/b_Dashboard' is present
+
+2019-01-28 14:40:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-28 14:40:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/b_Dashboard' is present
+
+2019-01-28 14:40:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard"), 0): Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard' is present
+
+2019-01-28 14:40:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-28 14:40:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard' is present
+
+2019-01-28 14:40:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_OrangeHRM/img")): Object 'Object Repository/Page_OrangeHRM/img' is visible
+
+2019-01-28 14:40:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/img' is visible
+
+2019-01-28 14:40:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard"), 10): Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard' is present
+
+2019-01-28 14:40:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard' is present
+
+2019-01-28 14:40:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-28 14:40:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_2" classname="Test Cases/TestCase_2" status="PASSED">
+         <system-out><![CDATA[2019-01-28 14:40:04 - [TEST_CASE][PASSED] - Test Cases/TestCase_2: Test Cases/TestCase_2
+
+2019-01-28 14:40:04 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/symfony/web/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/symfony/web/index.php/auth/login'
+
+2019-01-28 14:40:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-28 14:40:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/symfony/web/index.php/auth/login'
+
+2019-01-28 14:40:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_LOGIN Panel_txtUsername"), findTestData("TestData").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-01-28 14:40:11 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-01-28 14:40:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_Username_txtPassword"), findTestData("TestData").getValue(2, 1)): Text 'admin123' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-01-28 14:40:11 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-01-28 14:40:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-01-28 14:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-01-28 14:40:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_OrangeHRM/Page_OrangeHRM/img (1)"), 0): Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/img (1)' is present
+
+2019-01-28 14:40:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-28 14:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/img (1)' is present
+
+2019-01-28 14:40:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_OrangeHRM/Page_OrangeHRM/b_Dashboard"), 0): Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/b_Dashboard' is present
+
+2019-01-28 14:40:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-28 14:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/b_Dashboard' is present
+
+2019-01-28 14:40:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard"), 0): Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard' is present
+
+2019-01-28 14:40:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-28 14:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard' is present
+
+2019-01-28 14:40:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_OrangeHRM/img")): Object 'Object Repository/Page_OrangeHRM/img' is visible
+
+2019-01-28 14:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/img' is visible
+
+2019-01-28 14:40:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard"), 10): Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard' is present
+
+2019-01-28 14:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/Page_OrangeHRM/h1_Dashboard' is present
+
+2019-01-28 14:40:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-28 14:40:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-28 14:39:51 - [TEST_SUITE][PASSED] - Suite1: Test Cases/TestCase_2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

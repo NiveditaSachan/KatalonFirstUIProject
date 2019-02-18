@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite1" time="10" tests="1" failures="1" errors="0">
+   <testsuite name="Suite1" tests="1" failures="1" errors="0" time="10" timestamp="2019-02-11 10:57:24" hostname="nivedita - 192.168.0.107" id="Test Suites/Suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105721"/>
+         <property name="logFiles" value="/Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105721/execution0.log"/>
+         <property name="attachments" value="/Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105721/1549862854368.png, /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105721/1549862854694.png"/>
+         <property name="hostName" value="nivedita - 192.168.0.107"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="3fa53ffabea88579ffaff64f95f20981"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/nopCommerceUIDemo/Electronics-camera" classname="Test Cases/nopCommerceUIDemo/Electronics-camera" status="PASSED">
+         <system-out><![CDATA[2019-02-11 10:57:25 - [TEST_CASE][PASSED] - Test Cases/nopCommerceUIDemo/Electronics-camera: Test Cases/nopCommerceUIDemo/Electronics-camera
+
+2019-02-11 10:57:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-11 10:57:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-11 10:57:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-11 10:57:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-11 10:57:28 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.nopcommerce.com/"): Navigate to 'http://demo.nopcommerce.com/' successfully
+
+2019-02-11 10:57:30 - [MESSAGE][PASSED] - Navigate to 'http://demo.nopcommerce.com/' successfully
+
+2019-02-11 10:57:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics")): Object 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics' is visible
+
+2019-02-11 10:57:30 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics' is visible
+
+2019-02-11 10:57:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Camera  photo"), 60): Object 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Camera  photo' is present
+
+2019-02-11 10:57:30 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Camera  photo' is present
+
+2019-02-11 10:57:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Cell phones"), 60): Object 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Cell phones' is present
+
+2019-02-11 10:57:30 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Cell phones' is present
+
+2019-02-11 10:57:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Others"), 60): Object 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Others' is present
+
+2019-02-11 10:57:30 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Others' is present
+
+2019-02-11 10:57:30 - [TEST_STEP][PASSED] - mouseOver(findTestObject("nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics")): Object: 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics' is hovered
+
+2019-02-11 10:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics' is hovered
+
+2019-02-11 10:57:30 - [TEST_STEP][PASSED] - click(findTestObject("nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Camera  photo")): Object: 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Camera  photo' is clicked on
+
+2019-02-11 10:57:33 - [MESSAGE][PASSED] - Object: 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Camera  photo' is clicked on
+
+2019-02-11 10:57:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store. Camera/h1_Camera  photo")): Object 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store. Camera/h1_Camera  photo' is visible
+
+2019-02-11 10:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store. Camera/h1_Camera  photo' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nopCommerceUIDemo/VerifyPagination" classname="Test Cases/nopCommerceUIDemo/VerifyPagination" status="FAILED">
+         <failure type="FAILED" message="Test Cases/nopCommerceUIDemo/VerifyPagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at VerifyPagination.run(VerifyPagination:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862841943.run(TempTestSuite1549862841943.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-11 10:57:33 - [TEST_CASE][FAILED] - Test Cases/nopCommerceUIDemo/VerifyPagination: Test Cases/nopCommerceUIDemo/VerifyPagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at VerifyPagination.run(VerifyPagination:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862841943.run(TempTestSuite1549862841943.groovy:36)
+
+
+2019-02-11 10:57:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by"), 10): Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by' is present
+
+2019-02-11 10:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by' is present
+
+2019-02-11 10:57:33 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName"), "Position", false, 60): 1 option(s) with label 'Position' is/are present in object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName' 
+
+2019-02-11 10:57:33 - [MESSAGE][PASSED] - 1 option(s) with label 'Position' is/are present in object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName' 
+
+2019-02-11 10:57:33 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName"), "http://demo.nopcommerce.com/camera-photo?orderby=5", true): No option matched.
+
+2019-02-11 10:57:34 - [MESSAGE][FAILED] - No option matched.
+
+2019-02-11 10:57:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Display"), 10): Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Display' is present
+
+2019-02-11 10:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Display' is present
+
+2019-02-11 10:57:34 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369"), "3", false, 10): 1 option(s) with label '3' is/are present in object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369' 
+
+2019-02-11 10:57:34 - [MESSAGE][PASSED] - 1 option(s) with label '3' is/are present in object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369' 
+
+2019-02-11 10:57:34 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369"), "http://demo.nopcommerce.com/camera-photo?orderby=5&pagesize=3", true): No option matched.
+
+2019-02-11 10:57:34 - [MESSAGE][FAILED] - No option matched.
+
+2019-02-11 10:57:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/strong_Filter by price"), 0): Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/strong_Filter by price' is present
+
+2019-02-11 10:57:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/strong_Filter by price' is present
+
+2019-02-11 10:57:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Under 500.00"), 0): Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Under 500.00' is present
+
+2019-02-11 10:57:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Under 500.00' is present
+
+2019-02-11 10:57:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Over 500.00"), 0): Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Over 500.00' is present
+
+2019-02-11 10:57:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Over 500.00' is present
+
+2019-02-11 10:57:34 - [TEST_STEP][FAILED] - getNumberOfTotalOption(findTestObject("nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Nikon D5500 DSLR")): Unable to get total options of object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Nikon D5500 DSLR' (Root cause: org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:57:34 - [MESSAGE][FAILED] - Unable to get total options of object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Nikon D5500 DSLR' (Root cause: org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|/Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105721/1549862854368.png]]
+
+2019-02-11 10:57:34 - [TEST_STEP][FAILED] - getNumberOfTotalOption(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam"), CONTINUE_ON_FAILURE): Unable to get total options of object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam' (Root cause: org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-02-11 10:57:34 - [MESSAGE][FAILED] - Unable to get total options of object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam' (Root cause: org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:cf1:d579:9bc4:947a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|/Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105721/1549862854694.png]]
+
+2019-02-11 10:57:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam                _1"), 0): Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam                _1' is present
+
+2019-02-11 10:57:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Apple iCam                _1' is present
+
+2019-02-11 10:57:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_1300.00"), 0): Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_1300.00' is present
+
+2019-02-11 10:57:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_1300.00' is present
+
+2019-02-11 10:57:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div"), 0): Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div' is present
+
+2019-02-11 10:57:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div' is present
+
+2019-02-11 10:57:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Apple iCam"), 0): Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Apple iCam' is present
+
+2019-02-11 10:57:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-11 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Apple iCam' is present
+
+2019-02-11 10:57:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_1300.00_buttons")): Object: 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_1300.00_buttons' is clicked on
+
+2019-02-11 10:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_1300.00_buttons' is clicked on
+
+2019-02-11 10:57:35 - [TEST_STEP][FAILED] - closeBrowser(): closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at VerifyPagination.run(VerifyPagination:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862841943.run(TempTestSuite1549862841943.groovy:36)
+
+
+2019-02-11 10:57:35 - [MESSAGE][PASSED] - Browser is closed
+
+2019-02-11 10:57:35 - [MESSAGE][FAILED] - closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at VerifyPagination.run(VerifyPagination:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862841943.run(TempTestSuite1549862841943.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-11 10:57:33 - [TEST_CASE][FAILED] - Test Cases/nopCommerceUIDemo/VerifyPagination: Test Cases/nopCommerceUIDemo/VerifyPagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at VerifyPagination.run(VerifyPagination:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862841943.run(TempTestSuite1549862841943.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-11 10:57:24 - [TEST_SUITE][FAILED] - Suite1: Test Cases/nopCommerceUIDemo/VerifyPagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at VerifyPagination.run(VerifyPagination:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862841943.run(TempTestSuite1549862841943.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-11 10:57:24 - [TEST_SUITE][FAILED] - Suite1: Test Cases/nopCommerceUIDemo/VerifyPagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No option matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at VerifyPagination.run(VerifyPagination:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549862841943.run(TempTestSuite1549862841943.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-11T10:55:08</date>
+  <millis>1549862708415</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Suite1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Suite1</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Suite1</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:08</date>
+  <millis>1549862708467</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = nivedita - 192.168.0.107</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">nivedita - 192.168.0.107</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:08</date>
+  <millis>1549862708468</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:08</date>
+  <millis>1549862708478</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.107</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.107</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:08</date>
+  <millis>1549862708482</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:08</date>
+  <millis>1549862708945</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/nopCommerceUIDemo/Electronics-camera</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/nopCommerceUIDemo/Electronics-camera</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/nopCommerceUIDemo/Electronics-camera</property>
+  <property name="source">\\Users\\nivedita\\Katalon Studio\\FirstUIProject\\Test Cases\\nopCommerceUIDemo\\Electronics-camera.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:09</date>
+  <millis>1549862709627</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:10</date>
+  <millis>1549862710355</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:10</date>
+  <millis>1549862710398</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:13</date>
+  <millis>1549862713003</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = ad76d24da8aba886bd9f99e97d3d6143</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">ad76d24da8aba886bd9f99e97d3d6143</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:13</date>
+  <millis>1549862713197</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 71.0.3578.98</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 71.0.3578.98</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:13</date>
+  <millis>1549862713198</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:13</date>
+  <millis>1549862713201</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:13</date>
+  <millis>1549862713203</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:13</date>
+  <millis>1549862713204</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:13</date>
+  <millis>1549862713207</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:13</date>
+  <millis>1549862713209</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;http://demo.nopcommerce.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:14</date>
+  <millis>1549862714795</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;http://demo.nopcommerce.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:14</date>
+  <millis>1549862714798</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;http://demo.nopcommerce.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:14</date>
+  <millis>1549862714798</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementVisible(findTestObject(\&amp;quot;nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:14</date>
+  <millis>1549862714949</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics&amp;apos; is visible</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:14</date>
+  <millis>1549862714951</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementVisible(findTestObject(\&amp;quot;nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:14</date>
+  <millis>1549862714951</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyAllLinksOnCurrentPageAccessible(false, [])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:16</date>
+  <millis>1549862716516</millis>
+  <sequence>35</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 60 unique links on the page http://demo.nopcommerce.com/</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:19</date>
+  <millis>1549862719437</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a88c789e-0046-49a6-a445-d65a961521bd</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:19</date>
+  <millis>1549862719586</millis>
+  <sequence>39</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:19</date>
+  <millis>1549862719640</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">977b3c36-d226-49cd-97ec-928c6774afba</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:19</date>
+  <millis>1549862719650</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:19</date>
+  <millis>1549862719709</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">f562a18c-bcf5-4dfa-befd-3eeeb548ac34</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:19</date>
+  <millis>1549862719711</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:20</date>
+  <millis>1549862720795</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">37d8d949-1688-41dd-9c62-b7f597f2c4ef</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:20</date>
+  <millis>1549862720802</millis>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:21</date>
+  <millis>1549862721666</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/4.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">000274ac-869d-44fd-bec2-3b06daf63afb</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:21</date>
+  <millis>1549862721671</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:22</date>
+  <millis>1549862722087</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/5.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ce8091ce-d201-406f-9ece-a387c9ffd50e</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:22</date>
+  <millis>1549862722095</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:22</date>
+  <millis>1549862722612</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/6.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">d64652ee-e42b-4f02-a6b5-9f4a63ec226d</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:22</date>
+  <millis>1549862722617</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:23</date>
+  <millis>1549862723111</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/7.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">0bb6e3ab-5991-4b44-bcc9-1a00d75432d1</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:23</date>
+  <millis>1549862723114</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:23</date>
+  <millis>1549862723140</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/8.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">c3e90a94-476e-452a-b7f5-4f699478f2c3</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:23</date>
+  <millis>1549862723142</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:24</date>
+  <millis>1549862724423</millis>
+  <sequence>65</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/9.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b7c41126-8305-4fb4-88ea-9a19f7df191a</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:24</date>
+  <millis>1549862724426</millis>
+  <sequence>66</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:25</date>
+  <millis>1549862725849</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/10.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">98cba599-68d9-40ce-b669-c895ac4da009</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:25</date>
+  <millis>1549862725851</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:27</date>
+  <millis>1549862727963</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/11.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b0a96ba6-883e-4020-81fd-d979448b58c1</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:27</date>
+  <millis>1549862727967</millis>
+  <sequence>72</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:31</date>
+  <millis>1549862731235</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/12.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">236cc9fa-ebd5-44a9-9961-901c0cf7a812</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:31</date>
+  <millis>1549862731239</millis>
+  <sequence>75</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:37</date>
+  <millis>1549862737012</millis>
+  <sequence>77</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/13.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">647d4993-8a5f-4860-b0ea-8d00bee491fc</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:37</date>
+  <millis>1549862737016</millis>
+  <sequence>78</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:37</date>
+  <millis>1549862737590</millis>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/14.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">5335086b-2f1a-4e8a-b469-c672da760306</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:37</date>
+  <millis>1549862737592</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:38</date>
+  <millis>1549862738491</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/15.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">fe1a4279-aec6-4115-b2c3-3a6bdb0ca904</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:38</date>
+  <millis>1549862738507</millis>
+  <sequence>84</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:39</date>
+  <millis>1549862739767</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/16.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">436a4bda-4548-47a1-b290-5f13ae73cac0</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:39</date>
+  <millis>1549862739772</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:41</date>
+  <millis>1549862741547</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/17.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">33fe376c-f6e2-4fbc-885d-36ac5f5505ae</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:41</date>
+  <millis>1549862741551</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:44</date>
+  <millis>1549862744283</millis>
+  <sequence>92</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/18.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">249f41db-6a21-4c3b-8e04-6b6ac8572f11</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:44</date>
+  <millis>1549862744287</millis>
+  <sequence>93</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:49</date>
+  <millis>1549862749243</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/19.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">fd892066-0bab-4966-8ece-12aa91ac7fb2</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:49</date>
+  <millis>1549862749248</millis>
+  <sequence>96</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:57</date>
+  <millis>1549862757535</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/20.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">3ab9c0c2-fee6-4845-b9b2-dd83a65549de</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:57</date>
+  <millis>1549862757540</millis>
+  <sequence>99</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:58</date>
+  <millis>1549862758350</millis>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/21.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">af6cb838-8b9f-4222-b0ba-78f62df56a6e</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:58</date>
+  <millis>1549862758353</millis>
+  <sequence>102</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:55:59</date>
+  <millis>1549862759434</millis>
+  <sequence>104</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/22.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">6b5b5abf-9b6c-444a-8a11-3448e4d410a5</property>
+</record>
+<record>
+  <date>2019-02-11T10:55:59</date>
+  <millis>1549862759438</millis>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:56:00</date>
+  <millis>1549862760985</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/23.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">44c32662-8cc6-4ebf-9895-d1fc09cdf945</property>
+</record>
+<record>
+  <date>2019-02-11T10:56:00</date>
+  <millis>1549862760988</millis>
+  <sequence>108</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:56:03</date>
+  <millis>1549862763501</millis>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/24.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">57aff471-a9a1-4dcf-a463-b437b2162d80</property>
+</record>
+<record>
+  <date>2019-02-11T10:56:03</date>
+  <millis>1549862763503</millis>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:56:03</date>
+  <millis>1549862763577</millis>
+  <sequence>113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/25.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">63b6736d-43ed-4a14-bcf3-b67d2a847f12</property>
+</record>
+<record>
+  <date>2019-02-11T10:56:03</date>
+  <millis>1549862763582</millis>
+  <sequence>114</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:56:03</date>
+  <millis>1549862763635</millis>
+  <sequence>116</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/26.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">3016654b-3cd9-4dc8-b920-8d20122a0f97</property>
+</record>
+<record>
+  <date>2019-02-11T10:56:03</date>
+  <millis>1549862763638</millis>
+  <sequence>117</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:56:03</date>
+  <millis>1549862763660</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/27.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">5786772a-a0d2-45ea-9662-581f4b63b6af</property>
+</record>
+<record>
+  <date>2019-02-11T10:56:03</date>
+  <millis>1549862763661</millis>
+  <sequence>120</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:56:03</date>
+  <millis>1549862763697</millis>
+  <sequence>122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/28.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">429fce72-47a9-4ef7-9557-bb9225a4e679</property>
+</record>
+<record>
+  <date>2019-02-11T10:56:03</date>
+  <millis>1549862763699</millis>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:56:03</date>
+  <millis>1549862763720</millis>
+  <sequence>125</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/29.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ae0956dc-fabd-4a55-beaa-e61f84646685</property>
+</record>
+<record>
+  <date>2019-02-11T10:56:03</date>
+  <millis>1549862763722</millis>
+  <sequence>126</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:56:08</date>
+  <millis>1549862768184</millis>
+  <sequence>128</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/30.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">1af34e1b-7acc-47a3-8ed4-6962465fa177</property>
+</record>
+<record>
+  <date>2019-02-11T10:56:08</date>
+  <millis>1549862768188</millis>
+  <sequence>129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-11T10:56:08</date>
+  <millis>1549862768210</millis>
+  <sequence>131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/31.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">95147517-35ff-435e-a02d-e602b428cbb0</property>
+</record>
+<record>
+  <date>2019-02-11T10:56:08</date>
+  <millis>1549862768213</millis>
+  <sequence>132</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-11T10:56:10</date>
+  <millis>1549862770062</millis>
+  <sequence>134</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/nivedita/Katalon Studio/FirstUIProject/Reports/Suite1/20190211_105505/requests/main/32.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">5a4a5930-e879-49c1-89c5-07ad9e9dbb92</property>
+</record>
+<record>
+  <date>2019-02-11T10:56:10</date>
+  <millis>1549862770074</millis>
+  <sequence>135</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to send request (Root cause: java.io.IOException: Premature EOF)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
