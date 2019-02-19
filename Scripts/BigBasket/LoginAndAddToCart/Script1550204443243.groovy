@@ -36,6 +36,41 @@ WebUI.click(findTestObject('BigBasket/LoginBigBasket/Page_Online Grocery Shoppin
 
 Thread.sleep(10000)
 
+WebUI.click(findTestObject('BigBasket/AddToCart/Page_Online Grocery Shopping and On/span_UserAccount'))
+
+WebUI.click(findTestObject('BigBasket/AddToCart/Page_Online Grocery Shopping and On/a_My Basket No Items'))
+
+Thread.sleep(5000)
+
+items = WebUI.getText( findTestObject('Object Repository/BigBasket/Basket/ItemCount'))
+count =Integer.parseInt(items.replace(" items", "").trim())
+println("Count is : " + count)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+//   driver.findElement(By.xpath("//a[@id[contains(.,'remove')]]"))
+
+if (count>0 ) {
+	
+	 Removebutton= driver.findElements(By.xpath("//a[@id[contains(.,'remove')]]"))
+	 
+	 int noOfRemoveButton = Removebutton.size()
+	 println("no of items with remove buttons.. " + noOfRemoveButton)
+	
+    for (i = 0; i < noOfRemoveButton; i++) {
+		Removebutton[i].click()
+		println("Element Remove button : "+i + ": " + Removebutton[i])
+		Thread.sleep(2000)
+    }
+	Thread.sleep(2000)
+}
+driver.findElement(By.xpath("//div[@id='empty_message']/div/a[contains(.,'CONTINUE SHOPPING')]")).click()
+
+
+//driver.findElement(By.xpath("//input[@id='id_q']"))
+
+//WebUI.scrollToElement(findTestObject('BigBasket/AddToCart/Page_Best Online Grocery Store in I/SearchBar'), 10)
+Thread.sleep(2000)
 WebUI.setText(findTestObject('BigBasket/AddToCart/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 
     'Daal')
 
@@ -48,24 +83,20 @@ WebUI.waitForPageLoad(10)
 WebUI.scrollToElement(findTestObject('BigBasket/AddToCart/Page_Best Online Grocery Store in I/btn_ADD_item'), 10)
 
 //WebUI.waitForElementClickable(findTestObject('BigBasket/AddToCart/Page_Best Online Grocery Store in I/button_Add'), 10)
-
 //Thread.sleep(10000)
 'This is ADD button in Key word search results to add product to basket'
-WebDriver driver = DriverFactory.getWebDriver()
-
 WebElement ele = driver.findElement(By.xpath('(//button[@class=\'btn btn-add col-xs-9\'][contains(text(),\'Add\')])[1]'))
-
 
 // Using JavaScript Executer to clickon an element whichis not clickable
 JavascriptExecutor jse = ((driver) as JavascriptExecutor)
 
 jse.executeScript('arguments[0].click()', ele)
 
-
 Thread.sleep(3000)
 
-WebElement bigBasketLogo=driver.findElement(By.xpath("//div[@id='st-trigger-effects']/a[@title='Bigbasket']"))
-jse.executeScript('arguments[0].click()',bigBasketLogo )
+WebElement bigBasketLogo = driver.findElement(By.xpath('//div[@id=\'st-trigger-effects\']/a[@title=\'Bigbasket\']'))
+
+jse.executeScript('arguments[0].click()', bigBasketLogo)
 
 Thread.sleep(2000)
 
