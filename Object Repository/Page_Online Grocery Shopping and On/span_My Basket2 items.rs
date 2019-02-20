@@ -1,91 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Basket_Checkout</name>
+   <name>span_My Basket2 items</name>
    <tag></tag>
-   <elementGuidId>3d0f2de3-f770-4173-8f1d-a3c92386b55e</elementGuidId>
+   <elementGuidId>aaf2efcb-708f-4162-ba70-2ccbdbe2d21d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[11]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//div/button[contains(.,'View Basket &amp; Checkout')]</value>
+         <value>//div[@id='navbar-main']/div/bigbasket-cart-template/div/div[2]/a/span[2]/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>class</name>
       <type>Main</type>
-      <value>button</value>
+      <value>basket-content</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>qa</name>
-      <type>Main</type>
-      <value>viewBasketMB</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-click</name>
-      <type>Main</type>
-      <value>vm.goToBasketPage(vm.cart.cart_no_items);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>View Basket &amp; Checkout</value>
+      <value>My Basket2 items</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/button[contains(.,'View Basket &amp; Checkout')]</value>
+      <value>id(&quot;navbar-main&quot;)/div[@class=&quot;container&quot;]/bigbasket-cart-template[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;col-md-2 col-sm-2 col-xs-2 mb-pos mb-pad-0 mw-header-icons&quot;]/div[@class=&quot;dropdown checkout-section hvr-drop hidden-xs hidden-sm&quot;]/a[@class=&quot;btn btn-default basket-btn-drop hidden-xs hidden-sm&quot;]/span[@class=&quot;hidden-xs hidden-sm&quot;]/span[@class=&quot;basket-content&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>(//button[@type='button'])[11]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='navbar-main']/div/bigbasket-cart-template/div/div[2]/ul/li[2]/div[2]/div[2]/button</value>
+      <value>//div[@id='navbar-main']/div/bigbasket-cart-template/div/div[2]/a/span[2]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='**'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Address'])[1]/following::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW ALL PRODUCTS'])[1]/preceding::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='view all'])[2]/following::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Basket &amp; Checkout'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/button</value>
+      <value>//a/span[2]/span</value>
    </webElementXpaths>
 </WebElementEntity>

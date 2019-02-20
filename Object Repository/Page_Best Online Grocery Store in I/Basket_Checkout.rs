@@ -3,28 +3,24 @@
    <description></description>
    <name>Basket_Checkout</name>
    <tag></tag>
-   <elementGuidId>3d0f2de3-f770-4173-8f1d-a3c92386b55e</elementGuidId>
+   <elementGuidId>ab5b6fd1-011d-4b81-87e5-3cb081865e6c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[11]</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//div/button[contains(.,'View Basket &amp; Checkout')]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -45,18 +41,18 @@
       <value>vm.goToBasketPage(vm.cart.cart_no_items);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>View Basket &amp; Checkout</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/button[contains(.,'View Basket &amp; Checkout')]</value>
+      <value>id(&quot;navbar-main&quot;)/div[@class=&quot;container&quot;]/bigbasket-cart-template[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;col-md-2 col-sm-2 col-xs-2 mb-pos mb-pad-0 mw-header-icons&quot;]/div[@class=&quot;dropdown checkout-section hvr-drop hidden-xs hidden-sm&quot;]/ul[@class=&quot;cart-dropdown hidden-xs hidden-sm&quot;]/li[@class=&quot;clearfix ng-scope&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row bb-chkout-btn&quot;]/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

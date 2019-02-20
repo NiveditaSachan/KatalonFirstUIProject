@@ -35,9 +35,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Online Grocery Sho
 
 WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/button_LOGIN'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'),
-	15)
-/*
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'), 
     15)
 
@@ -80,73 +77,4 @@ WebElement ele1 = WebUiCommonHelper.findWebElement(findTestObject('Object Reposi
 
 ele1.click()
 
-*/
-
-WebUI.setText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 'Daal')
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/SearchIcon'), 10)
-
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/SearchIcon'))
-
-WebUI.waitForPageLoad(10)
-
-WebUI.scrollToElement(findTestObject('Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item'), 10)
-
-'This is ADD button in Key word search results to add product to basket'
-WebElement ele = driver.findElement(By.xpath("(//button[@class='btn btn-add col-xs-9'][contains(text(),'Add')])[1]"))
-
-// Using JavaScript Executer to clickon an element whichis not clickable
-JavascriptExecutor jse = ((driver) as JavascriptExecutor)
-
-jse.executeScript('arguments[0].click()', ele)
-
-Thread.sleep(3000)
-
-WebElement bigBasketLogo = driver.findElement(By.xpath("//div[@id='st-trigger-effects']/a[@title='Bigbasket']"))
-
-jse.executeScript('arguments[0].click()', bigBasketLogo)
-
-WebUI.waitForElementClickable(findTestObject('Basket/BigBasketLogo'), 15)
-
-WebUI.click(findTestObject('Object Repository/Page_Best Online Grocery Store in I/noOfItemInBasket'))
-
-noOfItemInBasket = WebUI.getText(findTestObject('Object Repository/Page_Best Online Grocery Store in I/noOfItemInBasket'))
-
-println('no Of Item In Basket ...' + noOfItemInBasket)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Best Online Grocery Store in I/div_ QuantityAddRemove'), 
-    10)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Best Online Grocery Store in I/div_ProductPriceRs'), 10)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Best Online Grocery Store in I/SubTotalInRs'), 10)
-
-price = WebUI.getText(findTestObject('Object Repository/Page_Best Online Grocery Store in I/SubTotalInRs'))
-
-println('Price is : ' + price)
-
-///
-///
-// not clicking on viewbasket and checkout button
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'))
-
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items'))
-
-WebUI.scrollToElement(findTestObject('BigBasket/Basket/CHECKOUT'), 15)
-
-WebUiCommonHelper.findWebElement(findTestObject('Page_Online Grocery Shopping and On/button_View Basket  Checkout'), 15).click()
-
-//WebUI.scrollToElement(findTestObject('Page_Online Grocery Shopping and On/button_View Basket  Checkout'), 15)
-//WebUI.click(findTestObject('Object Repository/Page_Best Online Grocery Store in I/Basket_Checkout'))
-WebUI.click(findTestObject('Page_Online Grocery Shopping and On/button_View Basket  Checkout'))
-
-WebUI.verifyElementPresent(findTestObject('Page_Best Online Grocery Store in I/span_Default Address'), 10)
-
-WebUI.verifyElementPresent(findTestObject('Page_Best Online Grocery Store in I/div_Default Address    Home - '), 10)
-
-WebUI.verifyElementPresent(findTestObject('Page_Best Online Grocery Store in I/div_Default Delivery Option   '), 10)
-
-WebUI.click(findTestObject('Object Repository/Page_Best Online Grocery Store in I/span_Note Selecting the slot m'))
-
 WebUI.closeBrowser()
-

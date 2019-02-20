@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ItemCount</name>
+   <name>SearchIcon</name>
    <tag></tag>
-   <elementGuidId>84d1d872-2c47-4876-97ac-b8055543c6c6</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//p[@id='totalNumberOfCartItems']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>75257b9e-ef0e-45e3-a108-4006c335844f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,6 +11,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//p[@id='totalNumberOfCartItems']</value>
+      <value>//div[@class='input-group-btn']/button</value>
    </webElementProperties>
 </WebElementEntity>

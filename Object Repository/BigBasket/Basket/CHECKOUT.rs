@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ItemCount</name>
+   <name>CHECKOUT</name>
    <tag></tag>
-   <elementGuidId>84d1d872-2c47-4876-97ac-b8055543c6c6</elementGuidId>
+   <elementGuidId>9093014e-5ef2-414a-9c34-cefa56c55608</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//p[@id='totalNumberOfCartItems']</value>
+         <value>//*[@id = 'checkout_normal_button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>//p[@id='totalNumberOfCartItems']</value>
+      <value>checkout_normal_button</value>
    </webElementProperties>
 </WebElementEntity>

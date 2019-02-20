@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id=\'empty_message\']/div/a[contains(.,\'CONTINUE SHOPPING\')]</value>
+         <value>//div[@id='empty_message\]/div/a[contains(.,\'CONTINUE SHOPPING\')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id=\'empty_message\']/div/a[contains(.,\'CONTINUE SHOPPING\')]</value>
+      <value>//div[@id='empty_message']/div/a[contains(.,'CONTINUE SHOPPING')]</value>
    </webElementProperties>
 </WebElementEntity>

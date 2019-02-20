@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ItemCount</name>
+   <name>noOfItemInBasket</name>
    <tag></tag>
-   <elementGuidId>84d1d872-2c47-4876-97ac-b8055543c6c6</elementGuidId>
+   <elementGuidId>8d9c1557-ba3f-418e-b541-ff4cddbe8f1a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//p[@id='totalNumberOfCartItems']</value>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//p[@id='totalNumberOfCartItems']</value>
+      <value>//span[@id='totalNumberOfCartItems']</value>
    </webElementProperties>
 </WebElementEntity>

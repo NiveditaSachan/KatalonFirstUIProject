@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>(//button[@type='button'])[9]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='checkout']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -41,18 +45,18 @@
       <value>vm.goToBasketPage(vm.cart.cart_no_items);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>View Basket &amp; Checkout</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbar-main&quot;)/div[@class=&quot;container&quot;]/bigbasket-cart-template[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;col-md-2 col-sm-2 col-xs-2 mb-pos mb-pad-0 mw-header-icons&quot;]/div[@class=&quot;dropdown checkout-section hvr-drop hidden-xs hidden-sm&quot;]/ul[@class=&quot;cart-dropdown hidden-xs hidden-sm&quot;]/li[@class=&quot;clearfix ng-scope&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row bb-chkout-btn&quot;]/button[1]</value>
+      <value>//button[@id='checkout']/p</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
