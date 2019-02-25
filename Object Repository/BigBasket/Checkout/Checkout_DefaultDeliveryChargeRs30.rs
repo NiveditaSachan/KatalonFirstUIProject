@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CHECKOUT</name>
+   <name>Checkout_DefaultDeliveryChargeRs30</name>
    <tag></tag>
-   <elementGuidId>9093014e-5ef2-414a-9c34-cefa56c55608</elementGuidId>
+   <elementGuidId>a951b3b1-5e54-42b3-8f2a-6a60ca9a6f5d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@id='checkout']</value>
+         <value>//span[@class='text-muted']/span/span/span[contains(.,'30')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@id='checkout']</value>
+      <value>//span[@class='text-muted']/span/span/span[contains(.,'30')]</value>
    </webElementProperties>
 </WebElementEntity>

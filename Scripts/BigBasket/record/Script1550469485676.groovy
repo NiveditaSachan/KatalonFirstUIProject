@@ -10,81 +10,73 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.WebDriver as WebDriver
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.bigbasket.com/')
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Online Grocery Shopping and On/a_My Orders'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/a_Login'))
+WebElement deliveryStatusOfFirstElement= WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/OrderSummary/PastOrders_Header_DeliveryStatus') ,15).get(1)
+deliveryStatus= deliveryStatusOfFirstElement.getText()
 
-WebUI.doubleClick(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/div_LOGINSIGN UP OREmailPlease'))
+println("delivery Status is : " +deliveryStatus)
+assert deliveryStatus.equals("Delivered on")
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/label_Email'))
+WebElement deliveryDateAndTimeOfFirstElement= WebUiCommonHelper.findWebElements( findTestObject('Object Repository/BigBasket/OrderSummary/PastOrders_Header_DeliveryDateTime'), 15).get(1)
 
-WebUI.setText(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
+deliveryDateAndTime= deliveryDateAndTimeOfFirstElement.getText()
 
-WebUI.setEncryptedText(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
-    'LqVTzjb8H0GS29zWb5N07g==')
+println("Delivery date and time is : " +deliveryDateAndTime)
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/button_LOGIN'))
+WebUI.click( findTestObject('Object Repository/BigBasket/OrderSummary/PastOrders_Header_ViewNoItems'))
 
-WebUI.setText(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 
-    'daal')
+WebDriver driver= DriverFactory.getWebDriver()
+abc='MBO'
+driver.findElement(By.xpath("//div[contains(.,'Order ID: ')]/a[contains(@href,'${abc}')]"))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/i_Shop for Rs.or moreand get f'))
+WebUI.click(findTestObject('BigBasket/OrderSummary/PastOrders_Header_ViewNoItems'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/span_My Basket1 items'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/div_Your delivery addressNived'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/div_x'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/span_Your delivery address'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/button_Add'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/span_Your delivery slot'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/p_You are viewing our product'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/span_Amount to Pay'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/div_x'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/span_Mon 18 Feb 2019 between 0'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/button_Add'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/span_Rs. 1182.00'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/button_'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/span_Mode of Payment'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/button_'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/span_Payment Gateway'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/div_CONTINUE SHOPPING'))
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/div_INVOICE LIST Order Stateme'))
 
-WebUI.navigateToUrl('https://www.bigbasket.com/')
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/li_'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/a_Login'))
+WebUI.click(findTestObject('BigBasket/OrderSummary/PastOrders_Header_DeliveryDateTime'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/label_Email'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/div_Delivery Address'))
 
-WebUI.setText(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/div_Delivery AddressNivedita S'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
-    'LqVTzjb8H0GS29zWb5N07g==')
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/div_Payment Information'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/button_LOGIN'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/div_Payment InformationPayment'))
 
-WebUI.click(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/div_x'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/div_Order Summary'))
 
-WebUI.setText(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 
-    'daal')
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/div_Order SummaryDelivery Char'))
 
-WebUI.sendKeys(findTestObject('Object Repository/BB/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/button_Add'))
-
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/a_Continue'))
-
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/button_Add_btn lt'))
-
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/button_Add'))
-
-WebUI.click(findTestObject('Object Repository/BB/Page_Best Online Grocery Store in I/div_Successfully added Organic'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/span_View more details'))
 
 WebUI.closeBrowser()
 

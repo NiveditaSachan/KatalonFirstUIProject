@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CHECKOUT</name>
+   <name>Checkout_DefaultDeliveryOptionHeading</name>
    <tag></tag>
-   <elementGuidId>9093014e-5ef2-414a-9c34-cefa56c55608</elementGuidId>
+   <elementGuidId>3ca655f4-7869-45f8-a16c-1b0a3cc99f0b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@id='checkout']</value>
+         <value>//strong[@class='ng-scope']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@id='checkout']</value>
+      <value>//strong[@class='ng-scope']/span</value>
    </webElementProperties>
 </WebElementEntity>

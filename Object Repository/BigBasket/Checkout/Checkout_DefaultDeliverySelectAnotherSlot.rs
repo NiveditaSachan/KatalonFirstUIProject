@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CHECKOUT</name>
+   <name>Checkout_DefaultDeliverySelectAnotherSlot</name>
    <tag></tag>
-   <elementGuidId>9093014e-5ef2-414a-9c34-cefa56c55608</elementGuidId>
+   <elementGuidId>2dde2fbe-dd46-4caf-bdb2-302defb0e769</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@id='checkout']</value>
+         <value>//div[@class='ng-scope']/h5[contains(.,'Select a delivery Slot')]/following::div/div/button[@class='btn btn-outline-primary']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@id='checkout']</value>
+      <value>//div[@class='ng-scope']/h5[contains(.,'Select a delivery Slot')]/following::div/div/button[@class='btn btn-outline-primary']</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CHECKOUT</name>
+   <name>Checkout_Button_Change</name>
    <tag></tag>
-   <elementGuidId>9093014e-5ef2-414a-9c34-cefa56c55608</elementGuidId>
+   <elementGuidId>7b9e1914-ffcf-406a-93ac-269bc9bb48b3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@id='checkout']</value>
+         <value>//button[@qa='changeAddressCKO']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@id='checkout']</value>
+      <value>//button[@qa='changeAddressCKO']</value>
    </webElementProperties>
 </WebElementEntity>

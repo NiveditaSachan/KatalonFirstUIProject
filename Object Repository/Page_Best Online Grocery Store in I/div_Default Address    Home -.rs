@@ -9,8 +9,34 @@
          <key>XPATH</key>
          <value>//div/div/div/div/div/div/div/div/div[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '
+            
+    Default Address: 
+   Home - 
+   9980921105,
+   house no2, 3rd floor, kaveri colony,
+   near wipro park, koramngala 1st block
+   kaveri colony,
+   Bangalore,
+   560034
+
+        ' or . = '
+            
+    Default Address: 
+   Home - 
+   9980921105,
+   house no2, 3rd floor, kaveri colony,
+   near wipro park, koramngala 1st block
+   kaveri colony,
+   Bangalore,
+   560034
+
+        ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

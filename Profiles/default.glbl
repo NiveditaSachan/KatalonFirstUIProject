@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('BigBasket/Checkout/Checkout_OrderSummary_TotalAmountPayable')</initValue>
+      <name>TotalPayableAmount</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

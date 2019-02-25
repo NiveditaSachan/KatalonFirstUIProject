@@ -37,50 +37,6 @@ WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and O
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'),
 	15)
-/*
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'), 
-    15)
-
-items = WebUI.getText(findTestObject('Object Repository/BigBasket/Page_Online Grocery Shopping and On/span_0 items'))
-
-count = Integer.parseInt(items.replace(' items', '').trim())
-
-println('Count is : ' + count)
-
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'))
-
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items'))
-
-WebUI.waitForPageLoad(15)
-
-//Thread.sleep(5000)
-WebDriver driver = DriverFactory.getWebDriver()
-
-//   driver.findElement(By.xpath("//a[@id[contains(.,'remove')]]"))
-if (count > 0) {
-    Removebutton = driver.findElements(By.xpath('//a[@id[contains(.,\'remove\')]]'))
-
-    int noOfRemoveButton = Removebutton.size()
-
-    println('no of items with remove buttons.. ' + noOfRemoveButton)
-
-    for (i = 0; i < noOfRemoveButton; i++) {
-        Removebutton[i].click()
-
-        println((('Element Remove button : ' + i) + ': ') + (Removebutton[i]))
-
-        WebUI.waitForPageLoad(15) //WebUI.waitForElementClickable(findTestObject('Basket/button_CONTINUE SHOPPING'), 15)
-    }
-}
-
-Thread.sleep(5000)
-
-WebElement ele1 = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/BigBasket/Basket/button_CONTINUE SHOPPING'), 
-    15)
-
-ele1.click()
-
-*/
 
 WebUI.setText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 'Daal')
 
@@ -91,6 +47,8 @@ WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and O
 WebUI.waitForPageLoad(10)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item'), 10)
+
+WebDriver driver = DriverFactory.getWebDriver()
 
 'This is ADD button in Key word search results to add product to basket'
 WebElement ele = driver.findElement(By.xpath("(//button[@class='btn btn-add col-xs-9'][contains(text(),'Add')])[1]"))
@@ -106,7 +64,10 @@ WebElement bigBasketLogo = driver.findElement(By.xpath("//div[@id='st-trigger-ef
 
 jse.executeScript('arguments[0].click()', bigBasketLogo)
 
-WebUI.waitForElementClickable(findTestObject('Basket/BigBasketLogo'), 15)
+WebUI.waitForPageLoad(15)
+Thread.sleep(1000)
+
+///WebUI.waitForElementClickable(findTestObject('Basket/BigBasketLogo'), 15)
 
 WebUI.click(findTestObject('Object Repository/Page_Best Online Grocery Store in I/noOfItemInBasket'))
 
@@ -125,28 +86,4 @@ price = WebUI.getText(findTestObject('Object Repository/Page_Best Online Grocery
 
 println('Price is : ' + price)
 
-///
-///
-// not clicking on viewbasket and checkout button
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'))
-
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items'))
-
-WebUI.scrollToElement(findTestObject('BigBasket/Basket/CHECKOUT'), 15)
-
-WebUiCommonHelper.findWebElement(findTestObject('Page_Online Grocery Shopping and On/button_View Basket  Checkout'), 15).click()
-
-//WebUI.scrollToElement(findTestObject('Page_Online Grocery Shopping and On/button_View Basket  Checkout'), 15)
-//WebUI.click(findTestObject('Object Repository/Page_Best Online Grocery Store in I/Basket_Checkout'))
-WebUI.click(findTestObject('Page_Online Grocery Shopping and On/button_View Basket  Checkout'))
-
-WebUI.verifyElementPresent(findTestObject('Page_Best Online Grocery Store in I/span_Default Address'), 10)
-
-WebUI.verifyElementPresent(findTestObject('Page_Best Online Grocery Store in I/div_Default Address    Home - '), 10)
-
-WebUI.verifyElementPresent(findTestObject('Page_Best Online Grocery Store in I/div_Default Delivery Option   '), 10)
-
-WebUI.click(findTestObject('Object Repository/Page_Best Online Grocery Store in I/span_Note Selecting the slot m'))
-
 WebUI.closeBrowser()
-

@@ -38,43 +38,43 @@ WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and O
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'), 
     15)
 
-items = WebUI.getText(findTestObject('Object Repository/BigBasket/Page_Online Grocery Shopping and On/span_0 items'))
-
-count = Integer.parseInt(items.replace(' items', '').trim())
-
-println('Count is : ' + count)
-
 WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'))
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items'))
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders'))
 
 WebUI.waitForPageLoad(15)
 
-//Thread.sleep(5000)
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders'))
+
+WebElement deliveryStatusOfFirstElement = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/OrderSummary/PastOrders_Header_DeliveryStatus'), 
+    15).get(1)
+
+deliveryStatus = deliveryStatusOfFirstElement.getText()
+
+println('delivery Status is : ' + deliveryStatus)
+
+assert deliveryStatus.equals('Delivered on')
+
+WebElement deliveryDateAndTimeOfFirstElement = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/OrderSummary/PastOrders_Header_DeliveryDateTime'), 
+    15).get(1)
+
+deliveryDateAndTime = deliveryDateAndTimeOfFirstElement.getText()
+
+println('Delivery date and time is : ' + deliveryDateAndTime)
+
 WebDriver driver = DriverFactory.getWebDriver()
 
-//   driver.findElement(By.xpath("//a[@id[contains(.,'remove')]]"))
-if (count > 0) {
-    Removebutton = driver.findElements(By.xpath('//a[@id[contains(.,\'remove\')]]'))
+//This is to give Variable XPATH Where I could give order ID as Variable
+driver.findElement(By.xpath("//div[contains(.,'Order ID: ')]/a[contains(@href,'$var1')]")).isDisplayed()
 
-    int noOfRemoveButton = Removebutton.size()
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/PastOrders_Header_ViewNoItems'))
 
-    println('no of items with remove buttons.. ' + noOfRemoveButton)
+WebUI.waitForPageLoad(15)
 
-    for (i = 0; i < noOfRemoveButton; i++) {
-        Removebutton[i].click()
+OrderAmount=Integer.parseInt(WebUI.getText(findTestObject('Object Repository/BigBasket/OrderSummary/PastOrders_Header_OrderSummary_OrderAmount'))) 
 
-        println((('Element Remove button : ' + i) + ': ') + (Removebutton[i]))
-
-        WebUI.waitForPageLoad(15) //WebUI.waitForElementClickable(findTestObject('Basket/button_CONTINUE SHOPPING'), 15)
-    }
-}
-
-Thread.sleep(1000)
-
-//WebElement ele1 = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/BigBasket/Basket/button_CONTINUE SHOPPING'), 
-//    15)
-//
-//ele1.click()
+assert OrderAmount==GlobalVariable.TotalPayableAmount
+Thread.sleep(3000)
 
 WebUI.closeBrowser()
+
