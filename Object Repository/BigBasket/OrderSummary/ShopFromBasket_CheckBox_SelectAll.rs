@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>BigBasketLogo</name>
+   <name>ShopFromBasket_CheckBox_SelectAll</name>
    <tag></tag>
-   <elementGuidId>957fa163-3693-42ec-9de0-52325e7be854</elementGuidId>
+   <elementGuidId>a8a0914e-31d0-4ed2-b3af-d62fb5c19c2f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='st-trigger-effects']/a[@title='Bigbasket']</value>
+         <value>//div[@id='sl-items']/div/span/label[contains(.,'Select all')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='st-trigger-effects']/a[@title='Bigbasket']</value>
+      <value>//div[@id='sl-items']/div/span/label[contains(.,'Select all')]</value>
    </webElementProperties>
 </WebElementEntity>

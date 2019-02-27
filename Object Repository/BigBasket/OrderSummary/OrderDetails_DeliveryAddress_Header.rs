@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PastOrders_Header_ViewNoItems</name>
+   <name>OrderDetails_DeliveryAddress_Header</name>
    <tag></tag>
-   <elementGuidId>43a4e129-f0c8-4128-99a7-7f41ade9c557</elementGuidId>
+   <elementGuidId>19f857b8-04d4-4851-bbc9-d251b7415011</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='dynamicDirective']/information/section/my-order-list/div/section/div[2]/div/div/div/my-order/div/div/a/span[contains(text(),'View ')][contains(text(),'Items')]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW DETAILS'])[1]/following::span[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//my-order/div/div/a</value>
+         <value>//span[(text() = 'Your delivery address' or . = 'Your delivery address')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -28,56 +28,50 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>clr-666666 font12 ng-binding</value>
+      <value>uiv2-div100 sub-2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>View 12 Items</value>
+      <value>Your delivery address</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//my-order/div/div/a</value>
+      <value>/html[@class=&quot;dk_fouc&quot;]/body[@class=&quot;js&quot;]/div[@class=&quot;uiv2-navigation-slider&quot;]/div[@class=&quot;uiv2-div100&quot;]/div[@class=&quot;uiv2-mar-l-5&quot;]/div[@class=&quot;uiv2-div100 uiv2-white&quot;]/div[@class=&quot;uiv2-div962px uiv2-clear-b&quot;]/div[@class=&quot;uiv2-title-basketwrap-custom&quot;]/div[@class=&quot;uiv2-address-box-full&quot;]/div[@class=&quot;uiv2-div50&quot;]/div[@class=&quot;uiv2-div50 uiv2-bor-right uiv2-heightauto&quot;]/div[@class=&quot;uiv2-title-basketwrap-new&quot;]/span[@class=&quot;uiv2-div100 sub-2&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='dynamicDirective']/information/section/my-order-list/div/section/div[2]/div/div[3]/div/my-order/div/div/a/span</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW DETAILS'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Amount: Rs 1360.18'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spend Trends'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delivered on'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nivedita Singh'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipment Type:'])[1]/preceding::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Standard Delivery'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='house no2, 3rd floor, kaveri colony'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//my-order/div/div/a/span</value>
+      <value>//div[4]/div/div/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

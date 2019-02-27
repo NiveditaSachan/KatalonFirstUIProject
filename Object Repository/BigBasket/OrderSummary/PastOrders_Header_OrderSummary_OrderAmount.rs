@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class,'order-summary')]/div/div/div[contains(.,'Order Amount')]/following::div</value>
+         <value>//div[contains(@class,'order-summary')]/div/div[@class='flex flex-responsive jc-between'][3]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@class,'order-summary')]/div/div/div[contains(.,'Order Amount')]/following::div</value>
+      <value>//div[contains(@class,'order-summary')]/div/div[@class='flex flex-responsive jc-between'][3]/div[2]</value>
    </webElementProperties>
 </WebElementEntity>

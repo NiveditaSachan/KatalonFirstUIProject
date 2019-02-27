@@ -6,17 +6,10 @@
    <comment></comment>
    <testCaseGuid>57355b11-9080-46ef-b1bc-287cd043b541</testCaseGuid>
    <variable>
-      <defaultValue>'180219'</defaultValue>
+      <defaultValue>'260219'</defaultValue>
       <description></description>
       <id>302e46e2-e026-417d-899e-c804b4de10fc</id>
       <masked>false</masked>
       <name>var1</name>
-   </variable>
-   <variable>
-      <defaultValue>'0'</defaultValue>
-      <description></description>
-      <id>5cb412bd-7b31-4c01-9bd8-40739e012339</id>
-      <masked>false</masked>
-      <name>var2</name>
    </variable>
 </TestCaseEntity>

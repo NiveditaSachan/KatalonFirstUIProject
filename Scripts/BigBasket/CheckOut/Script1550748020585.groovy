@@ -67,7 +67,7 @@ import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 		
 		Thread.sleep(3000)
 		
-		WebElement bigBasketLogo = driver.findElement(By.xpath('//div[@id=\'st-trigger-effects\']/a[@title=\'Bigbasket\']'))
+		WebElement bigBasketLogo = driver.findElement(By.xpath("//div[@id='st-trigger-effects']/a[@title='Bigbasket']"))
 		
 		jse.executeScript('arguments[0].click()', bigBasketLogo)
 		
@@ -150,9 +150,12 @@ import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 		
 		CalculatedTotalPayableAmount= BasketValue+ DeliveryChargesApplied+SettleBBBalance
 		
-		TotalPayableAmount= Integer.parseInt (WebUI.getText(findTestObject('Object Repository/BigBasket/Checkout/Checkout_OrderSummary_TotalAmountPayable') ))
-		assert TotalPayableAmount==CalculatedTotalPayableAmount
+	GlobalVariable.TotalPayableAmount= Integer.parseInt (WebUI.getText(findTestObject('Object Repository/BigBasket/Checkout/Checkout_OrderSummary_TotalAmountPayable') ))
+		
+	println("GlobalVariable.TotalPayableAmount" +GlobalVariable.TotalPayableAmount)
+	
+	assert GlobalVariable.TotalPayableAmount==CalculatedTotalPayableAmount
+	
 		
 		WebUI.closeBrowser()
-
 

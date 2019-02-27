@@ -5,11 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d7b90a8d-00e1-4725-9914-d2b99c238346</testCaseGuid>
-   <variable>
-      <defaultValue>GlobalVariable.null</defaultValue>
-      <description></description>
-      <id>ae0efd27-d7eb-4c17-83b4-4f9378d60f76</id>
-      <masked>false</masked>
-      <name>TotalPayableAmount</name>
-   </variable>
 </TestCaseEntity>

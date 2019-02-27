@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Your delivery address</name>
+   <name>label_Password</name>
    <tag></tag>
-   <elementGuidId>19f857b8-04d4-4851-bbc9-d251b7415011</elementGuidId>
+   <elementGuidId>b885d54f-3ce2-458d-aa44-e23f8bc1fe73</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW DETAILS'])[1]/following::span[1]</value>
+         <value>//div[@id='login']/login/div/form/div/div[2]/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,57 +17,70 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>uiv2-div100 sub-2</value>
+      <value>form-control-placeholder</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Your delivery address</value>
+      <value>Password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;dk_fouc&quot;]/body[@class=&quot;js&quot;]/div[@class=&quot;uiv2-navigation-slider&quot;]/div[@class=&quot;uiv2-div100&quot;]/div[@class=&quot;uiv2-mar-l-5&quot;]/div[@class=&quot;uiv2-div100 uiv2-white&quot;]/div[@class=&quot;uiv2-div962px uiv2-clear-b&quot;]/div[@class=&quot;uiv2-title-basketwrap-custom&quot;]/div[@class=&quot;uiv2-address-box-full&quot;]/div[@class=&quot;uiv2-div50&quot;]/div[@class=&quot;uiv2-div50 uiv2-bor-right uiv2-heightauto&quot;]/div[@class=&quot;uiv2-title-basketwrap-new&quot;]/span[@class=&quot;uiv2-div100 sub-2&quot;]</value>
+      <value>id(&quot;login&quot;)/login[@class=&quot;ng-isolate-scope&quot;]/div[1]/form[@class=&quot;loginSignupform ng-invalid ng-invalid-required ng-dirty ng-valid-email ng-valid-pattern&quot;]/div[1]/div[@class=&quot;form-group&quot;]/label[@class=&quot;form-control-placeholder&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW DETAILS'])[1]/following::span[1]</value>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='login']/login/div/form/div/div[2]/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spend Trends'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter valid email'])[1]/following::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nivedita Singh'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter email'])[1]/following::label[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='house no2, 3rd floor, kaveri colony'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter password'])[1]/preceding::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/preceding::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[4]/div/div/div/span</value>
+      <value>//div[2]/label</value>
    </webElementXpaths>
 </WebElementEntity>

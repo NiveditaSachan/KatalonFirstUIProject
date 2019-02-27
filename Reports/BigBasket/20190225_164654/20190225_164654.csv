@@ -1,0 +1,86 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BigBasket,Chrome 72.0.3626.109,,2019-02-25 16:46:58,2019-02-25 16:49:01,2m - 3.685s,ERROR
+,,,,,,
+Test Cases/BigBasket/CheckOut,Chrome 72.0.3626.109,,2019-02-25 16:46:58,2019-02-25 16:48:04,1m - 5.551s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.109,,2019-02-25 16:46:58,2019-02-25 16:46:58,0.012s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.109,,2019-02-25 16:46:59,2019-02-25 16:47:03,3.860s,PASSED
+"navigateToUrl(""https://www.bigbasket.com/"")",Chrome 72.0.3626.109,,2019-02-25 16:47:03,2019-02-25 16:47:18,15.168s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/a_Login""))",Chrome 72.0.3626.109,,2019-02-25 16:47:18,2019-02-25 16:47:19,0.404s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/input_OR_email""), ""nivedita.hbti@gmail.com"")",Chrome 72.0.3626.109,,2019-02-25 16:47:19,2019-02-25 16:47:20,1.140s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email""), ""LqVTzjb8H0GS29zWb5N07g=="")",Chrome 72.0.3626.109,,2019-02-25 16:47:20,2019-02-25 16:47:20,0.565s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/button_LOGIN""))",Chrome 72.0.3626.109,,2019-02-25 16:47:20,2019-02-25 16:47:20,0.184s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/span_UserAccount""), 15)",Chrome 72.0.3626.109,,2019-02-25 16:47:20,2019-02-25 16:47:25,4.603s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g""), ""Daal"")",Chrome 72.0.3626.109,,2019-02-25 16:47:25,2019-02-25 16:47:25,0.284s,PASSED
+Thread.sleep(1000),Chrome 72.0.3626.109,,2019-02-25 16:47:25,2019-02-25 16:47:26,1.009s,PASSED
+waitForPageLoad(15),Chrome 72.0.3626.109,,2019-02-25 16:47:26,2019-02-25 16:47:26,0.053s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/SearchIcon""))",Chrome 72.0.3626.109,,2019-02-25 16:47:26,2019-02-25 16:47:30,3.196s,PASSED
+waitForPageLoad(10),Chrome 72.0.3626.109,,2019-02-25 16:47:30,2019-02-25 16:47:32,2.760s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item""), 10)",Chrome 72.0.3626.109,,2019-02-25 16:47:32,2019-02-25 16:47:32,0.082s,PASSED
+"ele = findWebElements(findTestObject(""Object Repository/BigBasket/Basket/ADD button""), 15).get(1)",Chrome 72.0.3626.109,This is ADD button in Key word search results to add product to basket,2019-02-25 16:47:32,2019-02-25 16:47:33,0.048s,PASSED
+"println(""ele............."" + ele)",Chrome 72.0.3626.109,,2019-02-25 16:47:33,2019-02-25 16:47:33,0.007s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.109,,2019-02-25 16:47:33,2019-02-25 16:47:33,0.010s,PASSED
+jse = driver,Chrome 72.0.3626.109,,2019-02-25 16:47:33,2019-02-25 16:47:33,0.002s,PASSED
+"jse.executeScript(""arguments[0].click()"", ele)",Chrome 72.0.3626.109,,2019-02-25 16:47:33,2019-02-25 16:47:33,0.299s,PASSED
+Thread.sleep(3000),Chrome 72.0.3626.109,,2019-02-25 16:47:33,2019-02-25 16:47:36,3.007s,PASSED
+"bigBasketLogo = driver.findElement(By.xpath(""//div[@id='st-trigger-effects']/a[@title='Bigbasket']""))",Chrome 72.0.3626.109,,2019-02-25 16:47:36,2019-02-25 16:47:36,0.032s,PASSED
+"jse.executeScript(""arguments[0].click()"", bigBasketLogo)",Chrome 72.0.3626.109,,2019-02-25 16:47:36,2019-02-25 16:47:38,2.302s,PASSED
+waitForPageLoad(15),Chrome 72.0.3626.109,,2019-02-25 16:47:38,2019-02-25 16:47:38,0.043s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/span_UserAccount""))",Chrome 72.0.3626.109,,2019-02-25 16:47:38,2019-02-25 16:47:39,0.983s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items""))",Chrome 72.0.3626.109,,2019-02-25 16:47:39,2019-02-25 16:47:51,12.029s,PASSED
+waitForPageLoad(15),Chrome 72.0.3626.109,,2019-02-25 16:47:51,2019-02-25 16:47:51,0.011s,PASSED
+"scrollToElement(findTestObject(""BigBasket/Basket/CHECKOUT""), 15)",Chrome 72.0.3626.109,,2019-02-25 16:47:51,2019-02-25 16:47:51,0.053s,PASSED
+"findWebElement(findTestObject(""BigBasket/Basket/CHECKOUT""), 15).click()",Chrome 72.0.3626.109,,2019-02-25 16:47:51,2019-02-25 16:47:51,0.192s,PASSED
+waitForPageLoad(15),Chrome 72.0.3626.109,,2019-02-25 16:47:51,2019-02-25 16:47:52,0.017s,PASSED
+"verifyElementPresent(findTestObject(""BigBasket/Checkout/Checkout_DeliveryAddressIcon""), 15)",Chrome 72.0.3626.109,,2019-02-25 16:47:52,2019-02-25 16:47:58,6.686s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressHeading""), 15)",Chrome 72.0.3626.109,,2019-02-25 16:47:58,2019-02-25 16:47:58,0.063s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/BigBasket/Checkout/Checkout_DeliveryAddress""), 15)",Chrome 72.0.3626.109,,2019-02-25 16:47:58,2019-02-25 16:47:58,0.043s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/BigBasket/Checkout/Checkout_Button_Change""), 15)",Chrome 72.0.3626.109,,2019-02-25 16:47:58,2019-02-25 16:47:58,0.031s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/BigBasket/Checkout/Checkout_DeliveryOptionsHeading""), 0)",Chrome 72.0.3626.109,,2019-02-25 16:47:58,2019-02-25 16:47:58,0.030s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryOptionHeading""), 0)",Chrome 72.0.3626.109,,2019-02-25 16:47:58,2019-02-25 16:48:00,2.096s,PASSED
+"verifyElementPresent(findTestObject(""BigBasket/Checkout/Checkout_ShipmentDeliveryCharge""), 0)",Chrome 72.0.3626.109,,2019-02-25 16:48:00,2019-02-25 16:48:00,0.022s,PASSED
+"BasketValue = Integer.parseInt(getText(findTestObject(""Object Repository/BigBasket/Checkout/Checkout_BasketValue"")))",Chrome 72.0.3626.109,,2019-02-25 16:48:00,2019-02-25 16:48:01,0.058s,PASSED
+"println(""BasketValue ... "" + BasketValue)",Chrome 72.0.3626.109,,2019-02-25 16:48:01,2019-02-25 16:48:01,0.002s,PASSED
+if (BasketValue < 1000),Chrome 72.0.3626.109,,2019-02-25 16:48:01,2019-02-25 16:48:01,0.023s,PASSED
+waitForPageLoad(15),Chrome 72.0.3626.109,,2019-02-25 16:48:01,2019-02-25 16:48:01,0.009s,PASSED
+"click(findTestObject(""BigBasket/Checkout/Checkout_DefaultDeliverySlotDropDown""))",Chrome 72.0.3626.109,,2019-02-25 16:48:01,2019-02-25 16:48:01,0.074s,PASSED
+Thread.sleep(2000),Chrome 72.0.3626.109,,2019-02-25 16:48:01,2019-02-25 16:48:03,2.005s,PASSED
+"selectAnotherSlot = findWebElements(findTestObject(""Object Repository/BigBasket/Checkout/Checkout_DefaultDeliverySelectAnotherSlot""), 15).get(1)",Chrome 72.0.3626.109,,2019-02-25 16:48:03,2019-02-25 16:48:03,0.029s,PASSED
+selectAnotherSlot.click(),Chrome 72.0.3626.109,,2019-02-25 16:48:03,2019-02-25 16:48:03,0.055s,PASSED
+Thread.sleep(1000),Chrome 72.0.3626.109,,2019-02-25 16:48:03,2019-02-25 16:48:04,1.006s,PASSED
+"DeliveryCharges = getText(findTestObject(""Object Repository/BigBasket/Checkout/Checkout_OrderSummary_DeliveryCharge""))",Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:04,0.039s,PASSED
+DeliveryChargesApplied = 0,Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:04,0.001s,PASSED
+if (BasketValue >= 1000),Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:04,0.001s,PASSED
+else,Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:04,0.003s,PASSED
+"println(""DeliveryChargesApplied... "" + DeliveryChargesApplied)",Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:04,0.001s,PASSED
+"SettleBBBalance = Integer.parseInt(replace(""Rs "", """").trim())",Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:04,0.040s,PASSED
+"println(""SettleBBBalance.... "" + SettleBBBalance)",Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:04,0.001s,PASSED
+CalculatedTotalPayableAmount = BasketValue + DeliveryChargesApplied + SettleBBBalance,Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:04,0.001s,PASSED
+"TotalPayableAmount = Integer.parseInt(getText(findTestObject(""Object Repository/BigBasket/Checkout/Checkout_OrderSummary_TotalAmountPayable"")))",Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:04,0.040s,PASSED
+return TotalPayableAmount,Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:04,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:04,0.003s,PASSED
+,,,,,,
+Test Cases/BigBasket/OrderSummary,Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:49:01,57.258s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:04,0.004s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.109,,2019-02-25 16:48:04,2019-02-25 16:48:06,1.728s,PASSED
+"navigateToUrl(""https://www.bigbasket.com/"")",Chrome 72.0.3626.109,,2019-02-25 16:48:06,2019-02-25 16:48:13,6.465s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/a_Login""))",Chrome 72.0.3626.109,,2019-02-25 16:48:13,2019-02-25 16:48:51,38.377s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/input_OR_email""), ""nivedita.hbti@gmail.com"")",Chrome 72.0.3626.109,,2019-02-25 16:48:51,2019-02-25 16:48:52,0.825s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email""), ""LqVTzjb8H0GS29zWb5N07g=="")",Chrome 72.0.3626.109,,2019-02-25 16:48:52,2019-02-25 16:48:52,0.366s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/button_LOGIN""))",Chrome 72.0.3626.109,,2019-02-25 16:48:52,2019-02-25 16:48:52,0.170s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/span_UserAccount""), 15)",Chrome 72.0.3626.109,,2019-02-25 16:48:52,2019-02-25 16:48:57,4.758s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Grocery Shopping and On/span_UserAccount""))",Chrome 72.0.3626.109,,2019-02-25 16:48:57,2019-02-25 16:48:58,0.683s,PASSED
+"click(findTestObject(""Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders""))",Chrome 72.0.3626.109,,2019-02-25 16:48:58,2019-02-25 16:49:00,1.995s,PASSED
+waitForPageLoad(15),Chrome 72.0.3626.109,,2019-02-25 16:49:00,2019-02-25 16:49:00,0.058s,PASSED
+"click(findTestObject(""Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders""))",Chrome 72.0.3626.109,,2019-02-25 16:49:00,2019-02-25 16:49:01,0.762s,PASSED
+"deliveryStatusOfFirstElement = findWebElements(findTestObject(""Object Repository/BigBasket/OrderSummary/PastOrders_Header_DeliveryStatus""), 15).get(1)",Chrome 72.0.3626.109,,2019-02-25 16:49:01,2019-02-25 16:49:01,0.081s,PASSED
+deliveryStatus = deliveryStatusOfFirstElement.getText(),Chrome 72.0.3626.109,,2019-02-25 16:49:01,2019-02-25 16:49:01,0.073s,PASSED
+"println(""delivery Status is : "" + deliveryStatus)",Chrome 72.0.3626.109,,2019-02-25 16:49:01,2019-02-25 16:49:01,0.001s,PASSED
+"assert deliveryStatus.equals(""Delivered on"")",Chrome 72.0.3626.109,,2019-02-25 16:49:01,2019-02-25 16:49:01,0.002s,PASSED
+"deliveryDateAndTimeOfFirstElement = findWebElements(findTestObject(""Object Repository/BigBasket/OrderSummary/PastOrders_Header_DeliveryDateTime""), 15).get(1)",Chrome 72.0.3626.109,,2019-02-25 16:49:01,2019-02-25 16:49:01,0.074s,PASSED
+deliveryDateAndTime = deliveryDateAndTimeOfFirstElement.getText(),Chrome 72.0.3626.109,,2019-02-25 16:49:01,2019-02-25 16:49:01,0.087s,PASSED
+"println(""Delivery date and time is : "" + deliveryDateAndTime)",Chrome 72.0.3626.109,,2019-02-25 16:49:01,2019-02-25 16:49:01,0.001s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.109,,2019-02-25 16:49:01,2019-02-25 16:49:01,0.001s,PASSED
+",'Order ID: ')]/a[contains(@href,'$var1')])).isDisplayed()",Chrome 72.0.3626.109,,2019-02-25 16:49:01,2019-02-25 16:49:01,0.104s,PASSED
+"OrderAmount = Double.parseDouble(replace(""Rs "", """").trim())",Chrome 72.0.3626.109,,2019-02-25 16:49:01,2019-02-25 16:49:01,0.134s,PASSED
+assert OrderAmount == TotalPayableAmount,Chrome 72.0.3626.109,,2019-02-25 16:49:01,2019-02-25 16:49:01,0.026s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.109,,2019-02-25 16:49:01,2019-02-25 16:49:01,0.005s,PASSED

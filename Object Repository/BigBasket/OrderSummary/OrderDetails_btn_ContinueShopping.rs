@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_CONTINUE SHOPPING</name>
+   <name>OrderDetails_btn_ContinueShopping</name>
    <tag></tag>
    <elementGuidId>a39c3812-eebc-48e5-965f-ea88db4234f5</elementGuidId>
    <selectorCollection>
@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Gateway'])[1]/following::div[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[2]/div[5]/div/a[contains(.,'CONTINUE SHOPPING')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +31,7 @@
       <value>uiv2-div20</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -36,11 +40,11 @@
                     SAVE THIS ORDER AS LIST</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;dk_fouc&quot;]/body[@class=&quot;js&quot;]/div[@class=&quot;uiv2-navigation-slider&quot;]/div[@class=&quot;uiv2-div100&quot;]/div[@class=&quot;uiv2-mar-l-5&quot;]/div[@class=&quot;uiv2-div100 uiv2-white&quot;]/div[@class=&quot;uiv2-div962px uiv2-clear-b&quot;]/div[@class=&quot;uiv2-title-basketwrap-custom&quot;]/div[@class=&quot;uiv2-div100 uiv2-mar-b-20&quot;]/div[@class=&quot;uiv2-div20&quot;]</value>
+      <value>//div[2]/div[5]/div/a[contains(.,'CONTINUE SHOPPING')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

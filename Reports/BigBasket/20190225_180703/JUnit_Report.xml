@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BigBasket" time="73" tests="0" failures="2" errors="0">
+   <testsuite name="BigBasket" tests="0" failures="2" errors="0" time="73" timestamp="2019-02-25 18:07:07" hostname="nivedita - 192.168.0.110" id="Test Suites/BigBasket">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/BigBasket/20190225_180703"/>
+         <property name="logFiles" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/BigBasket/20190225_180703/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nivedita - 192.168.0.110"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="c69c1be30568469baaa749dd397d1486"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/BigBasket/CheckOut" classname="Test Cases/BigBasket/CheckOut" status="FAILED">
+         <failure type="FAILED" message="Test Cases/BigBasket/CheckOut FAILED.
+Reason:
+Assertion failed: 
+
+assert GlobalVariable.TotalPayableAmount==CalculatedTotalPayableAmount
+                      |                 | |
+                      470               | 500
+                                        false
+
+	at CheckOut.run(CheckOut:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551098223374.run(TempTestSuite1551098223374.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-25 18:07:07 - [TEST_CASE][FAILED] - Test Cases/BigBasket/CheckOut: Test Cases/BigBasket/CheckOut FAILED.
+Reason:
+Assertion failed: 
+
+assert GlobalVariable.TotalPayableAmount==CalculatedTotalPayableAmount
+                      |                 | |
+                      470               | 500
+                                        false
+
+	at CheckOut.run(CheckOut:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551098223374.run(TempTestSuite1551098223374.groovy:36)
+
+
+2019-02-25 18:07:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-25 18:07:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-25 18:07:07 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-02-25 18:07:07 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-02-25 18:07:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 18:07:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 18:07:09 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-25 18:07:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 18:07:12 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigbasket.com/"): Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-02-25 18:07:17 - [MESSAGE][PASSED] - Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-02-25 18:07:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_Login")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-02-25 18:07:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-02-25 18:07:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_OR_email"), "nivedita.hbti@gmail.com"): Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-02-25 18:07:19 - [MESSAGE][PASSED] - Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-02-25 18:07:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email"), "LqVTzjb8H0GS29zWb5N07g=="): Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-02-25 18:07:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-02-25 18:07:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/button_LOGIN")): Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-02-25 18:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-02-25 18:07:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount"), 15): Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-02-25 18:07:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-02-25 18:07:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g"), "Daal"): Text 'Daal' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'
+
+2019-02-25 18:07:26 - [MESSAGE][PASSED] - Text 'Daal' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'
+
+2019-02-25 18:07:26 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-02-25 18:07:27 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-02-25 18:07:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-25 18:07:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/SearchIcon")): Object: 'Object Repository/Page_Online Grocery Shopping and On/SearchIcon' is clicked on
+
+2019-02-25 18:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/SearchIcon' is clicked on
+
+2019-02-25 18:07:32 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-02-25 18:07:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-25 18:07:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item"), 10): Scroll to object 'Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item' successfully
+
+2019-02-25 18:07:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item' successfully
+
+2019-02-25 18:07:32 - [TEST_STEP][PASSED] - ele = findWebElements(findTestObject("Object Repository/BigBasket/Basket/ADD button"), 15).get(1): null
+
+2019-02-25 18:07:32 - [TEST_STEP][PASSED] - println("ele............." + ele): null
+
+2019-02-25 18:07:32 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-02-25 18:07:32 - [TEST_STEP][PASSED] - jse = driver: null
+
+2019-02-25 18:07:32 - [TEST_STEP][PASSED] - jse.executeScript("arguments[0].click()", ele): null
+
+2019-02-25 18:07:33 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-02-25 18:07:36 - [TEST_STEP][PASSED] - bigBasketLogo = driver.findElement(By.xpath("//div[@id='st-trigger-effects']/a[@title='Bigbasket']")): null
+
+2019-02-25 18:07:36 - [TEST_STEP][PASSED] - jse.executeScript("arguments[0].click()", bigBasketLogo): null
+
+2019-02-25 18:07:38 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-02-25 18:07:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-25 18:07:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount")): Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-02-25 18:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-02-25 18:07:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items' is clicked on
+
+2019-02-25 18:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items' is clicked on
+
+2019-02-25 18:07:50 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-02-25 18:07:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-25 18:07:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BigBasket/Basket/CHECKOUT"), 15): Scroll to object 'Object Repository/BigBasket/Basket/CHECKOUT' successfully
+
+2019-02-25 18:07:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BigBasket/Basket/CHECKOUT' successfully
+
+2019-02-25 18:07:50 - [TEST_STEP][PASSED] - findWebElement(findTestObject("BigBasket/Basket/CHECKOUT"), 15).click(): null
+
+2019-02-25 18:07:50 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-02-25 18:07:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-25 18:07:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BigBasket/Checkout/Checkout_DeliveryAddressIcon"), 15): Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressIcon' is present
+
+2019-02-25 18:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressIcon' is present
+
+2019-02-25 18:07:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressHeading"), 15): Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressHeading' is present
+
+2019-02-25 18:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressHeading' is present
+
+2019-02-25 18:07:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/Checkout/Checkout_DeliveryAddress"), 15): Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryAddress' is present
+
+2019-02-25 18:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryAddress' is present
+
+2019-02-25 18:07:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/Checkout/Checkout_Button_Change"), 15): Object 'Object Repository/BigBasket/Checkout/Checkout_Button_Change' is present
+
+2019-02-25 18:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_Button_Change' is present
+
+2019-02-25 18:07:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/Checkout/Checkout_DeliveryOptionsHeading"), 0): Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryOptionsHeading' is present
+
+2019-02-25 18:07:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-02-25 18:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryOptionsHeading' is present
+
+2019-02-25 18:07:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryOptionHeading"), 0): Object 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryOptionHeading' is present
+
+2019-02-25 18:07:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-02-25 18:07:55 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryOptionHeading' is present
+
+2019-02-25 18:07:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BigBasket/Checkout/Checkout_ShipmentDeliveryCharge"), 0): Object 'Object Repository/BigBasket/Checkout/Checkout_ShipmentDeliveryCharge' is present
+
+2019-02-25 18:07:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-02-25 18:07:55 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_ShipmentDeliveryCharge' is present
+
+2019-02-25 18:07:55 - [TEST_STEP][PASSED] - BasketValue = Integer.parseInt(getText(findTestObject("Object Repository/BigBasket/Checkout/Checkout_BasketValue"))): Text of object 'Object Repository/BigBasket/Checkout/Checkout_BasketValue' is: '448'
+
+2019-02-25 18:07:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/BigBasket/Checkout/Checkout_BasketValue' is: '448'
+
+2019-02-25 18:07:55 - [TEST_STEP][PASSED] - println("BasketValue ... " + BasketValue): null
+
+2019-02-25 18:07:55 - [TEST_STEP][PASSED] - if (BasketValue < 1000): Object 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30' is present
+
+2019-02-25 18:07:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30"), 15): Object 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30' is present
+
+2019-02-25 18:07:55 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30' is present
+
+2019-02-25 18:07:55 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-02-25 18:07:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-25 18:07:55 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/Checkout/Checkout_DefaultDeliverySlotDropDown")): Object: 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliverySlotDropDown' is clicked on
+
+2019-02-25 18:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliverySlotDropDown' is clicked on
+
+2019-02-25 18:07:55 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-02-25 18:07:57 - [TEST_STEP][PASSED] - selectAnotherSlot = findWebElements(findTestObject("Object Repository/BigBasket/Checkout/Checkout_DefaultDeliverySelectAnotherSlot"), 15).get(1): null
+
+2019-02-25 18:07:57 - [TEST_STEP][PASSED] - selectAnotherSlot.click(): null
+
+2019-02-25 18:07:58 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - DeliveryCharges = getText(findTestObject("Object Repository/BigBasket/Checkout/Checkout_OrderSummary_DeliveryCharge")): Text of object 'Object Repository/BigBasket/Checkout/Checkout_OrderSummary_DeliveryCharge' is: 'Rs 30'
+
+2019-02-25 18:07:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/BigBasket/Checkout/Checkout_OrderSummary_DeliveryCharge' is: 'Rs 30'
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - DeliveryChargesApplied = 0: null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - if (BasketValue >= 1000): null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - else: null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - DeliveryChargesApplied = Integer.parseInt(replace("Rs ", "").trim()): null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - println("DeliveryChargesApplied... " + DeliveryChargesApplied): null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - SettleBBBalance = Integer.parseInt(replace("Rs ", "").trim()): Text of object 'Object Repository/BigBasket/Checkout/Checkout_OrderSummary_SettleBigBasketBalance' is: 'Rs 22'
+
+2019-02-25 18:07:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/BigBasket/Checkout/Checkout_OrderSummary_SettleBigBasketBalance' is: 'Rs 22'
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - println("SettleBBBalance.... " + SettleBBBalance): null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - CalculatedTotalPayableAmount = BasketValue + DeliveryChargesApplied + SettleBBBalance: null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - TotalPayableAmount = Integer.parseInt(getText(findTestObject("Object Repository/BigBasket/Checkout/Checkout_OrderSummary_TotalAmountPayable"))): Text of object 'Object Repository/BigBasket/Checkout/Checkout_OrderSummary_TotalAmountPayable' is: '470'
+
+2019-02-25 18:07:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/BigBasket/Checkout/Checkout_OrderSummary_TotalAmountPayable' is: '470'
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - println("GlobalVariable.TotalPayableAmount" + TotalPayableAmount): null
+
+2019-02-25 18:07:59 - [TEST_STEP][FAILED] - assert TotalPayableAmount == CalculatedTotalPayableAmount: assert TotalPayableAmount == CalculatedTotalPayableAmount FAILED.
+Reason:
+Assertion failed: 
+
+assert GlobalVariable.TotalPayableAmount==CalculatedTotalPayableAmount
+                      |                 | |
+                      470               | 500
+                                        false
+
+	at CheckOut.run(CheckOut:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551098223374.run(TempTestSuite1551098223374.groovy:36)
+
+
+2019-02-25 18:07:59 - [MESSAGE][FAILED] - assert TotalPayableAmount == CalculatedTotalPayableAmount FAILED.
+Reason:
+Assertion failed: 
+
+assert GlobalVariable.TotalPayableAmount==CalculatedTotalPayableAmount
+                      |                 | |
+                      470               | 500
+                                        false
+
+	at CheckOut.run(CheckOut:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551098223374.run(TempTestSuite1551098223374.groovy:36)
+
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-02-25 18:07:07 - [TEST_CASE][FAILED] - Test Cases/BigBasket/CheckOut: Test Cases/BigBasket/CheckOut FAILED.
+Reason:
+Assertion failed: 
+
+assert GlobalVariable.TotalPayableAmount==CalculatedTotalPayableAmount
+                      |                 | |
+                      470               | 500
+                                        false
+
+	at CheckOut.run(CheckOut:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551098223374.run(TempTestSuite1551098223374.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BigBasket/OrderSummary" classname="Test Cases/BigBasket/OrderSummary" status="FAILED">
+         <failure type="FAILED" message="Test Cases/BigBasket/OrderSummary FAILED.
+Reason:
+Assertion failed: 
+
+assert OrderAmount==GlobalVariable.TotalPayableAmount
+       |          |                |
+       1360.18    false            470
+
+	at OrderSummary.run(OrderSummary:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551098223374.run(TempTestSuite1551098223374.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-25 18:07:59 - [TEST_CASE][FAILED] - Test Cases/BigBasket/OrderSummary: Test Cases/BigBasket/OrderSummary FAILED.
+Reason:
+Assertion failed: 
+
+assert OrderAmount==GlobalVariable.TotalPayableAmount
+       |          |                |
+       1360.18    false            470
+
+	at OrderSummary.run(OrderSummary:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551098223374.run(TempTestSuite1551098223374.groovy:36)
+
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-02-25 18:07:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 18:07:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-25 18:07:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 18:08:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 18:08:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigbasket.com/"): Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-02-25 18:08:08 - [MESSAGE][PASSED] - Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-02-25 18:08:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_Login")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-02-25 18:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-02-25 18:08:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_OR_email"), "nivedita.hbti@gmail.com"): Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-02-25 18:08:10 - [MESSAGE][PASSED] - Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-02-25 18:08:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email"), "LqVTzjb8H0GS29zWb5N07g=="): Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-02-25 18:08:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-02-25 18:08:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/button_LOGIN")): Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-02-25 18:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-02-25 18:08:10 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount"), 15): Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-02-25 18:08:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-02-25 18:08:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount")): Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-02-25 18:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-02-25 18:08:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders")): Object: 'Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders' is clicked on
+
+2019-02-25 18:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders' is clicked on
+
+2019-02-25 18:08:19 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-02-25 18:08:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-25 18:08:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders")): Object: 'Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders' is clicked on
+
+2019-02-25 18:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders' is clicked on
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - deliveryStatusOfFirstElement = findWebElements(findTestObject("Object Repository/BigBasket/OrderSummary/PastOrders_Header_DeliveryStatus"), 15).get(1): null
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - deliveryStatus = deliveryStatusOfFirstElement.getText(): null
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - println("delivery Status is : " + deliveryStatus): null
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - assert deliveryStatus.equals("Delivered on"): null
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - deliveryDateAndTimeOfFirstElement = findWebElements(findTestObject("Object Repository/BigBasket/OrderSummary/PastOrders_Header_DeliveryDateTime"), 15).get(1): null
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - deliveryDateAndTime = deliveryDateAndTimeOfFirstElement.getText(): null
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - println("Delivery date and time is : " + deliveryDateAndTime): null
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - ,'Order ID: ')]/a[contains(@href,'$var1')])).isDisplayed(): null
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - OrderAmount = Double.parseDouble(replace("Rs ", "").trim()): Text of object 'Object Repository/BigBasket/OrderSummary/PastOrders_Header_OrderSummary_OrderAmount' is: 'Rs 1360.18'
+
+2019-02-25 18:08:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/BigBasket/OrderSummary/PastOrders_Header_OrderSummary_OrderAmount' is: 'Rs 1360.18'
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - println("Order Amount " + OrderAmount): null
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - println("GlobalVariable.TotalPayableAmount : ...  " + TotalPayableAmount): null
+
+2019-02-25 18:08:20 - [TEST_STEP][FAILED] - assert OrderAmount == TotalPayableAmount: assert OrderAmount == TotalPayableAmount FAILED.
+Reason:
+Assertion failed: 
+
+assert OrderAmount==GlobalVariable.TotalPayableAmount
+       |          |                |
+       1360.18    false            470
+
+	at OrderSummary.run(OrderSummary:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551098223374.run(TempTestSuite1551098223374.groovy:36)
+
+
+2019-02-25 18:08:20 - [MESSAGE][FAILED] - assert OrderAmount == TotalPayableAmount FAILED.
+Reason:
+Assertion failed: 
+
+assert OrderAmount==GlobalVariable.TotalPayableAmount
+       |          |                |
+       1360.18    false            470
+
+	at OrderSummary.run(OrderSummary:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551098223374.run(TempTestSuite1551098223374.groovy:36)
+
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-25 18:08:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-02-25 18:07:59 - [TEST_CASE][FAILED] - Test Cases/BigBasket/OrderSummary: Test Cases/BigBasket/OrderSummary FAILED.
+Reason:
+Assertion failed: 
+
+assert OrderAmount==GlobalVariable.TotalPayableAmount
+       |          |                |
+       1360.18    false            470
+
+	at OrderSummary.run(OrderSummary:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551098223374.run(TempTestSuite1551098223374.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-25 18:07:07 - [TEST_SUITE][FAILED] - BigBasket: Test Cases/BigBasket/CheckOut FAILED.
+Reason:
+Assertion failed: 
+
+assert GlobalVariable.TotalPayableAmount==CalculatedTotalPayableAmount
+                      |                 | |
+                      470               | 500
+                                        false
+
+	at CheckOut.run(CheckOut:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551098223374.run(TempTestSuite1551098223374.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-25 18:07:07 - [TEST_SUITE][FAILED] - BigBasket: Test Cases/BigBasket/CheckOut FAILED.
+Reason:
+Assertion failed: 
+
+assert GlobalVariable.TotalPayableAmount==CalculatedTotalPayableAmount
+                      |                 | |
+                      470               | 500
+                                        false
+
+	at CheckOut.run(CheckOut:157)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551098223374.run(TempTestSuite1551098223374.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

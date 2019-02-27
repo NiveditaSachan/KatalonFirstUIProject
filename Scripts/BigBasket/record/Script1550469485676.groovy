@@ -40,9 +40,9 @@ driver.findElement(By.xpath("//div[contains(.,'Order ID: ')]/a[contains(@href,'$
 
 WebUI.click(findTestObject('BigBasket/OrderSummary/PastOrders_Header_ViewNoItems'))
 
-WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/div_Your delivery addressNived'))
+WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails_UsersDeliveryAddress'))
 
-WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/span_Your delivery address'))
+WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails_DeliveryAddress_Header'))
 
 WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/span_Your delivery slot'))
 
@@ -56,7 +56,7 @@ WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best O
 
 WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/span_Payment Gateway'))
 
-WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/div_CONTINUE SHOPPING'))
+WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails_btn_ContinueShopping'))
 
 WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/Page_Best Online Grocery Store in I/div_INVOICE LIST Order Stateme'))
 

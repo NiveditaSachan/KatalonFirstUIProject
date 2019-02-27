@@ -1,0 +1,4249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-25T16:33:16</date>
+  <millis>1551092596922</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/BigBasket</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">BigBasket</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/BigBasket</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:16</date>
+  <millis>1551092596949</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = nivedita - 192.168.0.110</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">nivedita - 192.168.0.110</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:16</date>
+  <millis>1551092596952</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:16</date>
+  <millis>1551092596953</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.110</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.110</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:16</date>
+  <millis>1551092596957</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597324</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597342</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testSuiteContext.getTestSuiteId())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597352</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testSuiteContext.getTestSuiteId())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597353</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597504</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/BigBasket/BasketToCheckout</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/BigBasket/BasketToCheckout</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/BigBasket/BasketToCheckout</property>
+  <property name="source">\\Users\\nivedita\\git\\KatalonFirstUIProject\\Test Cases\\BigBasket\\BasketToCheckout.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597589</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597596</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597603</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597603</millis>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testCaseContext.getTestCaseVariables())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597605</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testCaseContext.getTestCaseVariables())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597606</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot; This is before test\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597609</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot; This is before test\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:17</date>
+  <millis>1551092597609</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:18</date>
+  <millis>1551092598161</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:19</date>
+  <millis>1551092599068</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:19</date>
+  <millis>1551092599110</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:21</date>
+  <millis>1551092601786</millis>
+  <sequence>28</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 26c9d8368ef309b4500ba00dc2ee8666</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">26c9d8368ef309b4500ba00dc2ee8666</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:21</date>
+  <millis>1551092601808</millis>
+  <sequence>29</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 72.0.3626.109</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 72.0.3626.109</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:21</date>
+  <millis>1551092601811</millis>
+  <sequence>30</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:21</date>
+  <millis>1551092601815</millis>
+  <sequence>31</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:21</date>
+  <millis>1551092601816</millis>
+  <sequence>32</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:21</date>
+  <millis>1551092601820</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:21</date>
+  <millis>1551092601822</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:21</date>
+  <millis>1551092601822</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://www.bigbasket.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:30</date>
+  <millis>1551092610019</millis>
+  <sequence>38</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.bigbasket.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:30</date>
+  <millis>1551092610024</millis>
+  <sequence>39</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://www.bigbasket.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:30</date>
+  <millis>1551092610025</millis>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/a_Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:30</date>
+  <millis>1551092610356</millis>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Online Grocery Shopping and On/a_Login&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:30</date>
+  <millis>1551092610357</millis>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/a_Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:30</date>
+  <millis>1551092610359</millis>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/input_OR_email\&amp;quot;), \&amp;quot;nivedita.hbti@gmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:31</date>
+  <millis>1551092611639</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;nivedita.hbti@gmail.com&amp;apos; is set on object &amp;apos;Object Repository/Page_Online Grocery Shopping and On/input_OR_email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:31</date>
+  <millis>1551092611640</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/input_OR_email\&amp;quot;), \&amp;quot;nivedita.hbti@gmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:31</date>
+  <millis>1551092611640</millis>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email\&amp;quot;), \&amp;quot;LqVTzjb8H0GS29zWb5N07g==\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:32</date>
+  <millis>1551092612108</millis>
+  <sequence>72</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:32</date>
+  <millis>1551092612108</millis>
+  <sequence>73</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email\&amp;quot;), \&amp;quot;LqVTzjb8H0GS29zWb5N07g==\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:32</date>
+  <millis>1551092612109</millis>
+  <sequence>74</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/button_LOGIN\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:32</date>
+  <millis>1551092612246</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Online Grocery Shopping and On/button_LOGIN&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:32</date>
+  <millis>1551092612253</millis>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/button_LOGIN\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:32</date>
+  <millis>1551092612256</millis>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementClickable(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/span_UserAccount\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:36</date>
+  <millis>1551092616033</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Online Grocery Shopping and On/span_UserAccount&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:36</date>
+  <millis>1551092616036</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementClickable(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/span_UserAccount\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:36</date>
+  <millis>1551092616036</millis>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g\&amp;quot;), \&amp;quot;Daal\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:36</date>
+  <millis>1551092616681</millis>
+  <sequence>104</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Daal&amp;apos; is set on object &amp;apos;Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:36</date>
+  <millis>1551092616684</millis>
+  <sequence>105</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g\&amp;quot;), \&amp;quot;Daal\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:36</date>
+  <millis>1551092616684</millis>
+  <sequence>106</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(1000)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:37</date>
+  <millis>1551092617699</millis>
+  <sequence>107</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(1000)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:37</date>
+  <millis>1551092617699</millis>
+  <sequence>108</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:37</date>
+  <millis>1551092617877</millis>
+  <sequence>110</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:37</date>
+  <millis>1551092617878</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:37</date>
+  <millis>1551092617878</millis>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/SearchIcon\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624233</millis>
+  <sequence>119</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Online Grocery Shopping and On/SearchIcon&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624236</millis>
+  <sequence>120</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/SearchIcon\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624236</millis>
+  <sequence>121</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624274</millis>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624275</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624275</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(\&amp;quot;Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624351</millis>
+  <sequence>133</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624353</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(\&amp;quot;Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624353</millis>
+  <sequence>135</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ele = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket/ADD button\&amp;quot;), 15).get(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">14</property>
+  <property name="description">This is ADD button in Key word search results to add product to basket</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624564</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ele = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket/ADD button\&amp;quot;), 15).get(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624565</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;ele.............\&amp;quot; + ele)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624569</millis>
+  <sequence>142</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;ele.............\&amp;quot; + ele)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624570</millis>
+  <sequence>143</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624576</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624577</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jse = driver</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624578</millis>
+  <sequence>146</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jse = driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624579</millis>
+  <sequence>147</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jse.executeScript(\&amp;quot;arguments[0].click()\&amp;quot;, ele)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624621</millis>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jse.executeScript(\&amp;quot;arguments[0].click()\&amp;quot;, ele)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:44</date>
+  <millis>1551092624621</millis>
+  <sequence>149</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(3000)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">68</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:47</date>
+  <millis>1551092627624</millis>
+  <sequence>150</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(3000)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:47</date>
+  <millis>1551092627624</millis>
+  <sequence>151</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : bigBasketLogo = driver.findElement(By.xpath(\&amp;quot;//div[@id=&amp;apos;st-trigger-effects&amp;apos;]/a[@title=&amp;apos;Bigbasket&amp;apos;]\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:47</date>
+  <millis>1551092627660</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : bigBasketLogo = driver.findElement(By.xpath(\&amp;quot;//div[@id=&amp;apos;st-trigger-effects&amp;apos;]/a[@title=&amp;apos;Bigbasket&amp;apos;]\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:47</date>
+  <millis>1551092627660</millis>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jse.executeScript(\&amp;quot;arguments[0].click()\&amp;quot;, bigBasketLogo)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:50</date>
+  <millis>1551092630717</millis>
+  <sequence>154</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jse.executeScript(\&amp;quot;arguments[0].click()\&amp;quot;, bigBasketLogo)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:50</date>
+  <millis>1551092630718</millis>
+  <sequence>155</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:50</date>
+  <millis>1551092630778</millis>
+  <sequence>157</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:50</date>
+  <millis>1551092630779</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:50</date>
+  <millis>1551092630780</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/span_UserAccount\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">78</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2019-02-25T16:33:50</date>
+  <millis>1551092630940</millis>
+  <sequence>166</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Online Grocery Shopping and On/span_UserAccount&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:50</date>
+  <millis>1551092630942</millis>
+  <sequence>167</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/span_UserAccount\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:33:50</date>
+  <millis>1551092630943</millis>
+  <sequence>168</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">80</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641319</millis>
+  <sequence>175</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641320</millis>
+  <sequence>176</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641321</millis>
+  <sequence>177</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">82</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641332</millis>
+  <sequence>179</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641333</millis>
+  <sequence>180</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641334</millis>
+  <sequence>181</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : items = getText(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_CountNumberOfItemsinBasket\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">85</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641389</millis>
+  <sequence>188</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_CountNumberOfItemsinBasket&amp;apos; is: &amp;apos;02&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641390</millis>
+  <sequence>189</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : items = getText(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_CountNumberOfItemsinBasket\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641390</millis>
+  <sequence>190</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : count = Integer.parseInt(items.trim())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">87</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641394</millis>
+  <sequence>191</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : count = Integer.parseInt(items.trim())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641395</millis>
+  <sequence>192</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;Count is : \&amp;quot; + count)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">89</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641396</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;Count is : \&amp;quot; + count)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641397</millis>
+  <sequence>194</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : SubTotal_Calculated = 0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">91</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641398</millis>
+  <sequence>195</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : SubTotal_Calculated = 0</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641398</millis>
+  <sequence>196</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([i = 0, i &amp;lt; count, (i++)])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">93</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641400</millis>
+  <sequence>197</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : title_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_ItemsInBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">94</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641434</millis>
+  <sequence>202</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : title_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_ItemsInBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641435</millis>
+  <sequence>203</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;title_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + title_Product.getText())</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">97</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641454</millis>
+  <sequence>204</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;title_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + title_Product.getText())</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641455</millis>
+  <sequence>205</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : unitPrice_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_UnitPriceperProductinBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">99</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641484</millis>
+  <sequence>210</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : unitPrice_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_UnitPriceperProductinBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641484</millis>
+  <sequence>211</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;unitPrice_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + unitPrice_Product.getAttribute(\&amp;quot;value\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">102</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641501</millis>
+  <sequence>212</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;unitPrice_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + unitPrice_Product.getAttribute(\&amp;quot;value\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641501</millis>
+  <sequence>213</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : quantity_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_QuantityPerProductInBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">104</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641534</millis>
+  <sequence>218</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : quantity_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_QuantityPerProductInBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641535</millis>
+  <sequence>219</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;quantity_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + quantity_Product.getAttribute(\&amp;quot;value\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">107</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641547</millis>
+  <sequence>220</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;quantity_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + quantity_Product.getAttribute(\&amp;quot;value\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641547</millis>
+  <sequence>221</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : subTotal_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalPerProductInBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">109</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641583</millis>
+  <sequence>226</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : subTotal_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalPerProductInBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641583</millis>
+  <sequence>227</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;subTotal_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + subTotal_Product.getText())</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">112</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641613</millis>
+  <sequence>228</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;subTotal_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + subTotal_Product.getText())</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641613</millis>
+  <sequence>229</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : SubTotal = Double.parseDouble(subTotal_Product.getText())</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">114</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641634</millis>
+  <sequence>230</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : SubTotal = Double.parseDouble(subTotal_Product.getText())</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641634</millis>
+  <sequence>231</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : assert SubTotal == Double.parseDouble(quantity_Product.getAttribute(\&amp;quot;value\&amp;quot;)) * Double.parseDouble(unitPrice_Product.getAttribute(\&amp;quot;value\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">116</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641656</millis>
+  <sequence>232</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : assert SubTotal == Double.parseDouble(quantity_Product.getAttribute(\&amp;quot;value\&amp;quot;)) * Double.parseDouble(unitPrice_Product.getAttribute(\&amp;quot;value\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641656</millis>
+  <sequence>233</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : SubTotal_Calculated = SubTotal_Calculated + SubTotal</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">119</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641661</millis>
+  <sequence>234</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : SubTotal_Calculated = SubTotal_Calculated + SubTotal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641661</millis>
+  <sequence>235</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : title_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_ItemsInBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">94</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641680</millis>
+  <sequence>240</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : title_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_ItemsInBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641680</millis>
+  <sequence>241</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;title_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + title_Product.getText())</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">97</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641699</millis>
+  <sequence>242</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;title_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + title_Product.getText())</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641699</millis>
+  <sequence>243</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : unitPrice_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_UnitPriceperProductinBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">99</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641721</millis>
+  <sequence>248</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : unitPrice_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_UnitPriceperProductinBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641721</millis>
+  <sequence>249</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;unitPrice_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + unitPrice_Product.getAttribute(\&amp;quot;value\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">102</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641730</millis>
+  <sequence>250</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;unitPrice_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + unitPrice_Product.getAttribute(\&amp;quot;value\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641731</millis>
+  <sequence>251</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : quantity_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_QuantityPerProductInBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">104</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641750</millis>
+  <sequence>256</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : quantity_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_QuantityPerProductInBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641751</millis>
+  <sequence>257</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;quantity_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + quantity_Product.getAttribute(\&amp;quot;value\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">107</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641761</millis>
+  <sequence>258</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;quantity_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + quantity_Product.getAttribute(\&amp;quot;value\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641761</millis>
+  <sequence>259</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : subTotal_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalPerProductInBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">109</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641781</millis>
+  <sequence>264</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : subTotal_Product = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalPerProductInBasket\&amp;quot;), 15).get(i)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641781</millis>
+  <sequence>265</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;subTotal_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + subTotal_Product.getText())</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">112</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641799</millis>
+  <sequence>266</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;subTotal_Product for product \&amp;quot; + i + \&amp;quot; is : \&amp;quot; + subTotal_Product.getText())</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641800</millis>
+  <sequence>267</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : SubTotal = Double.parseDouble(subTotal_Product.getText())</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">114</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641811</millis>
+  <sequence>268</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : SubTotal = Double.parseDouble(subTotal_Product.getText())</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641811</millis>
+  <sequence>269</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : assert SubTotal == Double.parseDouble(quantity_Product.getAttribute(\&amp;quot;value\&amp;quot;)) * Double.parseDouble(unitPrice_Product.getAttribute(\&amp;quot;value\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">116</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641826</millis>
+  <sequence>270</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : assert SubTotal == Double.parseDouble(quantity_Product.getAttribute(\&amp;quot;value\&amp;quot;)) * Double.parseDouble(unitPrice_Product.getAttribute(\&amp;quot;value\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641826</millis>
+  <sequence>271</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : SubTotal_Calculated = SubTotal_Calculated + SubTotal</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">119</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641828</millis>
+  <sequence>272</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : SubTotal_Calculated = SubTotal_Calculated + SubTotal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641828</millis>
+  <sequence>273</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([i = 0, i &amp;lt; count, (i++)])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641829</millis>
+  <sequence>274</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;calculated Subtotal is .....\&amp;quot; + SubTotal_Calculated)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">122</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641829</millis>
+  <sequence>275</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;calculated Subtotal is .....\&amp;quot; + SubTotal_Calculated)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641830</millis>
+  <sequence>276</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Subtotal = Double.parseDouble(\&amp;quot;, \&amp;quot;\&amp;quot;).trim())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">124</property>
+  <property name="stepIndex">32</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641875</millis>
+  <sequence>283</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalFinal&amp;apos; is: &amp;apos;Rs. 448.00&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641877</millis>
+  <sequence>284</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Subtotal = Double.parseDouble(\&amp;quot;, \&amp;quot;\&amp;quot;).trim())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641878</millis>
+  <sequence>285</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : assert Subtotal == SubTotal_Calculated</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">126</property>
+  <property name="stepIndex">33</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641878</millis>
+  <sequence>286</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : assert Subtotal == SubTotal_Calculated</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641879</millis>
+  <sequence>287</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(\&amp;quot;BigBasket/Basket/CHECKOUT\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">128</property>
+  <property name="stepIndex">34</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641928</millis>
+  <sequence>295</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/BigBasket/Basket/CHECKOUT&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641929</millis>
+  <sequence>296</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(\&amp;quot;BigBasket/Basket/CHECKOUT\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:01</date>
+  <millis>1551092641930</millis>
+  <sequence>297</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findWebElement(findTestObject(\&amp;quot;BigBasket/Basket/CHECKOUT\&amp;quot;), 15).click()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">131</property>
+  <property name="stepIndex">35</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642167</millis>
+  <sequence>302</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findWebElement(findTestObject(\&amp;quot;BigBasket/Basket/CHECKOUT\&amp;quot;), 15).click()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642168</millis>
+  <sequence>303</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">133</property>
+  <property name="stepIndex">36</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642414</millis>
+  <sequence>305</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642415</millis>
+  <sequence>306</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642415</millis>
+  <sequence>307</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/BigBasket/BasketToCheckout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642415</millis>
+  <sequence>308</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642416</millis>
+  <sequence>310</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642417</millis>
+  <sequence>311</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642418</millis>
+  <sequence>312</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testCaseContext.getTestCaseStatus())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642419</millis>
+  <sequence>314</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testCaseContext.getTestCaseStatus())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642420</millis>
+  <sequence>315</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642420</millis>
+  <sequence>316</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/BigBasket/BasketToCheckout</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642432</millis>
+  <sequence>317</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/BigBasket/CheckOut</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/BigBasket/CheckOut</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/BigBasket/CheckOut</property>
+  <property name="source">\\Users\\nivedita\\git\\KatalonFirstUIProject\\Test Cases\\BigBasket\\CheckOut.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642566</millis>
+  <sequence>319</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to set variable &amp;apos;TotalPayableAmount&amp;apos; for test case because (of) No such property: null for class: internal.GlobalVariable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642567</millis>
+  <sequence>320</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642568</millis>
+  <sequence>322</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642569</millis>
+  <sequence>323</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642569</millis>
+  <sequence>324</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testCaseContext.getTestCaseVariables())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642570</millis>
+  <sequence>325</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testCaseContext.getTestCaseVariables())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642574</millis>
+  <sequence>326</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot; This is before test\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642575</millis>
+  <sequence>328</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot; This is before test\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:02</date>
+  <millis>1551092642575</millis>
+  <sequence>329</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:03</date>
+  <millis>1551092643096</millis>
+  <sequence>330</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:03</date>
+  <millis>1551092643097</millis>
+  <sequence>332</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:04</date>
+  <millis>1551092644504</millis>
+  <sequence>334</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 0dfc20d9967e942ccf4875b13de576c3</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">0dfc20d9967e942ccf4875b13de576c3</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:04</date>
+  <millis>1551092644542</millis>
+  <sequence>335</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 72.0.3626.109</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 72.0.3626.109</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:04</date>
+  <millis>1551092644543</millis>
+  <sequence>336</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:04</date>
+  <millis>1551092644543</millis>
+  <sequence>337</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:04</date>
+  <millis>1551092644544</millis>
+  <sequence>338</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:04</date>
+  <millis>1551092644545</millis>
+  <sequence>339</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:04</date>
+  <millis>1551092644545</millis>
+  <sequence>340</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:04</date>
+  <millis>1551092644546</millis>
+  <sequence>341</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://www.bigbasket.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:11</date>
+  <millis>1551092651364</millis>
+  <sequence>344</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.bigbasket.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:11</date>
+  <millis>1551092651368</millis>
+  <sequence>345</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://www.bigbasket.com/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:11</date>
+  <millis>1551092651368</millis>
+  <sequence>346</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/a_Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:11</date>
+  <millis>1551092651643</millis>
+  <sequence>353</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Online Grocery Shopping and On/a_Login&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:11</date>
+  <millis>1551092651644</millis>
+  <sequence>354</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/a_Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:11</date>
+  <millis>1551092651644</millis>
+  <sequence>355</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/input_OR_email\&amp;quot;), \&amp;quot;nivedita.hbti@gmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:12</date>
+  <millis>1551092652748</millis>
+  <sequence>367</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;nivedita.hbti@gmail.com&amp;apos; is set on object &amp;apos;Object Repository/Page_Online Grocery Shopping and On/input_OR_email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:12</date>
+  <millis>1551092652748</millis>
+  <sequence>368</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/input_OR_email\&amp;quot;), \&amp;quot;nivedita.hbti@gmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:12</date>
+  <millis>1551092652749</millis>
+  <sequence>369</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email\&amp;quot;), \&amp;quot;LqVTzjb8H0GS29zWb5N07g==\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:13</date>
+  <millis>1551092653115</millis>
+  <sequence>378</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:13</date>
+  <millis>1551092653117</millis>
+  <sequence>379</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email\&amp;quot;), \&amp;quot;LqVTzjb8H0GS29zWb5N07g==\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:13</date>
+  <millis>1551092653117</millis>
+  <sequence>380</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/button_LOGIN\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:13</date>
+  <millis>1551092653237</millis>
+  <sequence>387</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Online Grocery Shopping and On/button_LOGIN&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:13</date>
+  <millis>1551092653238</millis>
+  <sequence>388</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/button_LOGIN\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:13</date>
+  <millis>1551092653238</millis>
+  <sequence>389</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementClickable(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/span_UserAccount\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:16</date>
+  <millis>1551092656905</millis>
+  <sequence>396</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Online Grocery Shopping and On/span_UserAccount&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:16</date>
+  <millis>1551092656905</millis>
+  <sequence>397</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementClickable(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/span_UserAccount\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:16</date>
+  <millis>1551092656905</millis>
+  <sequence>398</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g\&amp;quot;), \&amp;quot;Daal\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:17</date>
+  <millis>1551092657497</millis>
+  <sequence>410</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Daal&amp;apos; is set on object &amp;apos;Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:17</date>
+  <millis>1551092657498</millis>
+  <sequence>411</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g\&amp;quot;), \&amp;quot;Daal\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:17</date>
+  <millis>1551092657499</millis>
+  <sequence>412</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(1000)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:18</date>
+  <millis>1551092658502</millis>
+  <sequence>413</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(1000)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:18</date>
+  <millis>1551092658502</millis>
+  <sequence>414</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:19</date>
+  <millis>1551092659156</millis>
+  <sequence>416</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:19</date>
+  <millis>1551092659156</millis>
+  <sequence>417</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:19</date>
+  <millis>1551092659157</millis>
+  <sequence>418</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/SearchIcon\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664806</millis>
+  <sequence>425</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Online Grocery Shopping and On/SearchIcon&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664807</millis>
+  <sequence>426</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/SearchIcon\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664808</millis>
+  <sequence>427</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664831</millis>
+  <sequence>429</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664832</millis>
+  <sequence>430</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664832</millis>
+  <sequence>431</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(\&amp;quot;Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664872</millis>
+  <sequence>439</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664873</millis>
+  <sequence>440</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(\&amp;quot;Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664873</millis>
+  <sequence>441</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ele = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket/ADD button\&amp;quot;), 15).get(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">14</property>
+  <property name="description">This is ADD button in Key word search results to add product to basket</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664914</millis>
+  <sequence>446</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ele = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Basket/ADD button\&amp;quot;), 15).get(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664914</millis>
+  <sequence>447</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;ele.............\&amp;quot; + ele)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664916</millis>
+  <sequence>448</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;ele.............\&amp;quot; + ele)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664916</millis>
+  <sequence>449</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664917</millis>
+  <sequence>450</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664917</millis>
+  <sequence>451</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jse = driver</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664918</millis>
+  <sequence>452</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jse = driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:24</date>
+  <millis>1551092664918</millis>
+  <sequence>453</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jse.executeScript(\&amp;quot;arguments[0].click()\&amp;quot;, ele)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:25</date>
+  <millis>1551092665115</millis>
+  <sequence>454</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jse.executeScript(\&amp;quot;arguments[0].click()\&amp;quot;, ele)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:25</date>
+  <millis>1551092665115</millis>
+  <sequence>455</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(3000)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">68</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:28</date>
+  <millis>1551092668120</millis>
+  <sequence>456</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(3000)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:28</date>
+  <millis>1551092668121</millis>
+  <sequence>457</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : bigBasketLogo = driver.findElement(By.xpath(\&amp;quot;//div[@id=&amp;apos;st-trigger-effects&amp;apos;]/a[@title=&amp;apos;Bigbasket&amp;apos;]\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:28</date>
+  <millis>1551092668151</millis>
+  <sequence>458</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : bigBasketLogo = driver.findElement(By.xpath(\&amp;quot;//div[@id=&amp;apos;st-trigger-effects&amp;apos;]/a[@title=&amp;apos;Bigbasket&amp;apos;]\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:28</date>
+  <millis>1551092668151</millis>
+  <sequence>459</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jse.executeScript(\&amp;quot;arguments[0].click()\&amp;quot;, bigBasketLogo)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:31</date>
+  <millis>1551092671802</millis>
+  <sequence>460</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jse.executeScript(\&amp;quot;arguments[0].click()\&amp;quot;, bigBasketLogo)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:31</date>
+  <millis>1551092671803</millis>
+  <sequence>461</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:31</date>
+  <millis>1551092671865</millis>
+  <sequence>463</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:31</date>
+  <millis>1551092671866</millis>
+  <sequence>464</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:31</date>
+  <millis>1551092671866</millis>
+  <sequence>465</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/span_UserAccount\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">76</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:32</date>
+  <millis>1551092672648</millis>
+  <sequence>472</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Online Grocery Shopping and On/span_UserAccount&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:32</date>
+  <millis>1551092672648</millis>
+  <sequence>473</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/span_UserAccount\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:32</date>
+  <millis>1551092672649</millis>
+  <sequence>474</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">78</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:42</date>
+  <millis>1551092682835</millis>
+  <sequence>481</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:42</date>
+  <millis>1551092682836</millis>
+  <sequence>482</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:42</date>
+  <millis>1551092682837</millis>
+  <sequence>483</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">80</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:42</date>
+  <millis>1551092682844</millis>
+  <sequence>485</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:42</date>
+  <millis>1551092682845</millis>
+  <sequence>486</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:42</date>
+  <millis>1551092682845</millis>
+  <sequence>487</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(\&amp;quot;BigBasket/Basket/CHECKOUT\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">82</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:42</date>
+  <millis>1551092682897</millis>
+  <sequence>495</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/BigBasket/Basket/CHECKOUT&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:42</date>
+  <millis>1551092682898</millis>
+  <sequence>496</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(\&amp;quot;BigBasket/Basket/CHECKOUT\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:42</date>
+  <millis>1551092682898</millis>
+  <sequence>497</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findWebElement(findTestObject(\&amp;quot;BigBasket/Basket/CHECKOUT\&amp;quot;), 15).click()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">85</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:43</date>
+  <millis>1551092683056</millis>
+  <sequence>502</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findWebElement(findTestObject(\&amp;quot;BigBasket/Basket/CHECKOUT\&amp;quot;), 15).click()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:43</date>
+  <millis>1551092683056</millis>
+  <sequence>503</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">87</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:43</date>
+  <millis>1551092683075</millis>
+  <sequence>505</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:43</date>
+  <millis>1551092683076</millis>
+  <sequence>506</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:43</date>
+  <millis>1551092683076</millis>
+  <sequence>507</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;BigBasket/Checkout/Checkout_DeliveryAddressIcon\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">89</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688086</millis>
+  <sequence>513</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressIcon&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688087</millis>
+  <sequence>514</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;BigBasket/Checkout/Checkout_DeliveryAddressIcon\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688087</millis>
+  <sequence>515</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressHeading\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">91</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688143</millis>
+  <sequence>521</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressHeading&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688144</millis>
+  <sequence>522</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressHeading\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688144</millis>
+  <sequence>523</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_DeliveryAddress\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">93</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688173</millis>
+  <sequence>529</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/BigBasket/Checkout/Checkout_DeliveryAddress&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688174</millis>
+  <sequence>530</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_DeliveryAddress\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688174</millis>
+  <sequence>531</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_Button_Change\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">95</property>
+  <property name="stepIndex">32</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688205</millis>
+  <sequence>537</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/BigBasket/Checkout/Checkout_Button_Change&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688206</millis>
+  <sequence>538</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_Button_Change\&amp;quot;), 15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688206</millis>
+  <sequence>539</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_DeliveryOptionsHeading\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">97</property>
+  <property name="stepIndex">33</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688211</millis>
+  <sequence>543</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;60&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688233</millis>
+  <sequence>546</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/BigBasket/Checkout/Checkout_DeliveryOptionsHeading&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688234</millis>
+  <sequence>547</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_DeliveryOptionsHeading\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688234</millis>
+  <sequence>548</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryOptionHeading\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">99</property>
+  <property name="stepIndex">34</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:48</date>
+  <millis>1551092688239</millis>
+  <sequence>552</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;60&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690312</millis>
+  <sequence>555</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryOptionHeading&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690313</millis>
+  <sequence>556</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryOptionHeading\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690314</millis>
+  <sequence>557</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;BigBasket/Checkout/Checkout_ShipmentDeliveryCharge\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">101</property>
+  <property name="stepIndex">35</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690318</millis>
+  <sequence>561</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;60&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690333</millis>
+  <sequence>564</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/BigBasket/Checkout/Checkout_ShipmentDeliveryCharge&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690334</millis>
+  <sequence>565</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;BigBasket/Checkout/Checkout_ShipmentDeliveryCharge\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690334</millis>
+  <sequence>566</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : BasketValue = Integer.parseInt(getText(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_BasketValue\&amp;quot;)))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">104</property>
+  <property name="stepIndex">36</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690377</millis>
+  <sequence>573</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/BigBasket/Checkout/Checkout_BasketValue&amp;apos; is: &amp;apos;448&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690377</millis>
+  <sequence>574</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : BasketValue = Integer.parseInt(getText(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_BasketValue\&amp;quot;)))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690378</millis>
+  <sequence>575</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;BasketValue ... \&amp;quot; + BasketValue)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">106</property>
+  <property name="stepIndex">37</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690378</millis>
+  <sequence>576</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;BasketValue ... \&amp;quot; + BasketValue)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690379</millis>
+  <sequence>577</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (BasketValue &amp;lt; 1000)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">108</property>
+  <property name="stepIndex">38</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690379</millis>
+  <sequence>578</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30\&amp;quot;), 15)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">110</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690406</millis>
+  <sequence>584</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690406</millis>
+  <sequence>585</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30\&amp;quot;), 15)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690407</millis>
+  <sequence>586</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (BasketValue &amp;lt; 1000)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690407</millis>
+  <sequence>587</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">120</property>
+  <property name="stepIndex">40</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690415</millis>
+  <sequence>589</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690416</millis>
+  <sequence>590</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690416</millis>
+  <sequence>591</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;BigBasket/Checkout/Checkout_DefaultDeliverySlotDropDown\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">122</property>
+  <property name="stepIndex">41</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690492</millis>
+  <sequence>598</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/BigBasket/Checkout/Checkout_DefaultDeliverySlotDropDown&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690493</millis>
+  <sequence>599</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;BigBasket/Checkout/Checkout_DefaultDeliverySlotDropDown\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:50</date>
+  <millis>1551092690493</millis>
+  <sequence>600</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(2000)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">124</property>
+  <property name="stepIndex">42</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:52</date>
+  <millis>1551092692498</millis>
+  <sequence>601</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(2000)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:52</date>
+  <millis>1551092692498</millis>
+  <sequence>602</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectAnotherSlot = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_DefaultDeliverySelectAnotherSlot\&amp;quot;), 15).get(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">126</property>
+  <property name="stepIndex">43</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:52</date>
+  <millis>1551092692523</millis>
+  <sequence>607</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectAnotherSlot = findWebElements(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_DefaultDeliverySelectAnotherSlot\&amp;quot;), 15).get(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:52</date>
+  <millis>1551092692523</millis>
+  <sequence>608</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectAnotherSlot.click()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">128</property>
+  <property name="stepIndex">44</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:52</date>
+  <millis>1551092692603</millis>
+  <sequence>609</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectAnotherSlot.click()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:52</date>
+  <millis>1551092692603</millis>
+  <sequence>610</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(1000)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">130</property>
+  <property name="stepIndex">45</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693606</millis>
+  <sequence>611</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(1000)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693606</millis>
+  <sequence>612</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : DeliveryCharges = getText(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_OrderSummary_DeliveryCharge\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">132</property>
+  <property name="stepIndex">46</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693643</millis>
+  <sequence>619</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/BigBasket/Checkout/Checkout_OrderSummary_DeliveryCharge&amp;apos; is: &amp;apos;Rs 30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693643</millis>
+  <sequence>620</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : DeliveryCharges = getText(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_OrderSummary_DeliveryCharge\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693643</millis>
+  <sequence>621</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : DeliveryChargesApplied = 0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">134</property>
+  <property name="stepIndex">47</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693644</millis>
+  <sequence>622</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : DeliveryChargesApplied = 0</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693644</millis>
+  <sequence>623</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (BasketValue &amp;gt;= 1000)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">136</property>
+  <property name="stepIndex">48</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693644</millis>
+  <sequence>624</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (BasketValue &amp;gt;= 1000)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693645</millis>
+  <sequence>625</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">140</property>
+  <property name="stepIndex">49</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693645</millis>
+  <sequence>626</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : DeliveryChargesApplied = Integer.parseInt(replace(\&amp;quot;Rs \&amp;quot;, \&amp;quot;\&amp;quot;).trim())</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">142</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693646</millis>
+  <sequence>627</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : DeliveryChargesApplied = Integer.parseInt(replace(\&amp;quot;Rs \&amp;quot;, \&amp;quot;\&amp;quot;).trim())</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693646</millis>
+  <sequence>628</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693646</millis>
+  <sequence>629</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;DeliveryChargesApplied... \&amp;quot; + DeliveryChargesApplied)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">145</property>
+  <property name="stepIndex">50</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693647</millis>
+  <sequence>630</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;DeliveryChargesApplied... \&amp;quot; + DeliveryChargesApplied)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693647</millis>
+  <sequence>631</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : SettleBBBalance = Integer.parseInt(replace(\&amp;quot;Rs \&amp;quot;, \&amp;quot;\&amp;quot;).trim())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">147</property>
+  <property name="stepIndex">51</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693682</millis>
+  <sequence>638</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/BigBasket/Checkout/Checkout_OrderSummary_SettleBigBasketBalance&amp;apos; is: &amp;apos;Rs 22&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693683</millis>
+  <sequence>639</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : SettleBBBalance = Integer.parseInt(replace(\&amp;quot;Rs \&amp;quot;, \&amp;quot;\&amp;quot;).trim())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693683</millis>
+  <sequence>640</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;SettleBBBalance.... \&amp;quot; + SettleBBBalance)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">149</property>
+  <property name="stepIndex">52</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693684</millis>
+  <sequence>641</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;SettleBBBalance.... \&amp;quot; + SettleBBBalance)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693684</millis>
+  <sequence>642</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : CalculatedTotalPayableAmount = BasketValue + DeliveryChargesApplied + SettleBBBalance</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">151</property>
+  <property name="stepIndex">53</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693685</millis>
+  <sequence>643</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : CalculatedTotalPayableAmount = BasketValue + DeliveryChargesApplied + SettleBBBalance</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693685</millis>
+  <sequence>644</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : TotalPayableAmount = Integer.parseInt(getText(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_OrderSummary_TotalAmountPayable\&amp;quot;)))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">153</property>
+  <property name="stepIndex">54</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693723</millis>
+  <sequence>651</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/BigBasket/Checkout/Checkout_OrderSummary_TotalAmountPayable&amp;apos; is: &amp;apos;470&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693723</millis>
+  <sequence>652</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : TotalPayableAmount = Integer.parseInt(getText(findTestObject(\&amp;quot;Object Repository/BigBasket/Checkout/Checkout_OrderSummary_TotalAmountPayable\&amp;quot;)))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693723</millis>
+  <sequence>653</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : assert TotalPayableAmount == CalculatedTotalPayableAmount</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">154</property>
+  <property name="stepIndex">55</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693734</millis>
+  <sequence>655</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>assert TotalPayableAmount == CalculatedTotalPayableAmount FAILED.\nReason:\nAssertion failed: \n\nassert TotalPayableAmount==CalculatedTotalPayableAmount\n       |                 | |\n       470               | 500\n                         false\n\n\tat CheckOut.run(CheckOut:154)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1551092593427.run(TempTestSuite1551092593427.groovy:36)\n</message>
+  <exception>
+    <message>Assertion failed: 
+
+assert TotalPayableAmount==CalculatedTotalPayableAmount
+       |                 | |
+       470               | 500
+                         false
+</message>
+    <frame>
+      <class>CheckOut</class>
+      <method>run</method>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1551092593427</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693735</millis>
+  <sequence>656</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : assert TotalPayableAmount == CalculatedTotalPayableAmount</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693735</millis>
+  <sequence>658</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/BigBasket/CheckOut FAILED.\nReason:\nAssertion failed: \n\nassert TotalPayableAmount==CalculatedTotalPayableAmount\n       |                 | |\n       470               | 500\n                         false\n\n\tat CheckOut.run(CheckOut:154)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1551092593427.run(TempTestSuite1551092593427.groovy:36)\n</message>
+  <exception>
+    <message>Assertion failed: 
+
+assert TotalPayableAmount==CalculatedTotalPayableAmount
+       |                 | |
+       470               | 500
+                         false
+</message>
+    <frame>
+      <class>CheckOut</class>
+      <method>run</method>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1551092593427</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693736</millis>
+  <sequence>659</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693737</millis>
+  <sequence>661</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693737</millis>
+  <sequence>662</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testCaseContext.getTestCaseId())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693737</millis>
+  <sequence>663</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testCaseContext.getTestCaseStatus())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693738</millis>
+  <sequence>665</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testCaseContext.getTestCaseStatus())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693738</millis>
+  <sequence>666</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693738</millis>
+  <sequence>667</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/BigBasket/CheckOut</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693739</millis>
+  <sequence>668</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693739</millis>
+  <sequence>670</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(testSuiteContext.getTestSuiteId())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693739</millis>
+  <sequence>672</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(testSuiteContext.getTestSuiteId())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693740</millis>
+  <sequence>673</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-25T16:34:53</date>
+  <millis>1551092693985</millis>
+  <sequence>674</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/BigBasket</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

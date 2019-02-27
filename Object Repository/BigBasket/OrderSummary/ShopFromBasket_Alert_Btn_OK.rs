@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>BigBasketLogo</name>
+   <name>ShopFromBasket_Alert_Btn_OK</name>
    <tag></tag>
-   <elementGuidId>957fa163-3693-42ec-9de0-52325e7be854</elementGuidId>
+   <elementGuidId>1b7fd47b-0587-432e-a8c7-2268b78564bf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='st-trigger-effects']/a[@title='Bigbasket']</value>
+         <value>//a[@id='alert_ok']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='st-trigger-effects']/a[@title='Bigbasket']</value>
+      <value>//a[@id='alert_ok']</value>
    </webElementProperties>
 </WebElementEntity>
