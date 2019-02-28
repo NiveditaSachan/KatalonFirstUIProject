@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OrderDetails_btn_ShopFromThisOrder</name>
+   <name>MyOrders_SHOP FROM_ShoppingList</name>
    <tag></tag>
-   <elementGuidId>71232000-2330-4ebb-bde0-4028d02b2d2c</elementGuidId>
+   <elementGuidId>a97cf783-89a9-49bf-8410-6ea5a53d8e31</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div/div/a[contains(text(),'                   SHOP FROM THIS ORDER')]</value>
+         <value>//section[@id='filterbar'][2]/div/div/div/a[contains(.,'Shopping List')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/div/a[contains(text(),'                   SHOP FROM THIS ORDER')]</value>
+      <value>//section[@id='filterbar'][2]/div/div/div/a[contains(.,'Shopping List')]</value>
    </webElementProperties>
 </WebElementEntity>

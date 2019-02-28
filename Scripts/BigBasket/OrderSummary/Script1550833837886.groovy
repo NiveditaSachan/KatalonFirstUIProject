@@ -120,7 +120,7 @@ WebUI.openBrowser('')
 	
 	println(" Address is : " + UserName + "\n" +phoneNumber+ "\n" +AddressLine1+ "\n" +AddressLine2+ "\n" +AddressLine3+ "\n" +AddressLine4) 
 	
-	WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/OrderDetails_btn_ContinueShopping') )
+	WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails_Btn_CONTINUE SHOPPING') )
 	
 	WebUI.waitForPageLoad(15)
 	
@@ -149,7 +149,7 @@ WebUI.openBrowser('')
 	
 	WebUI.waitForPageLoad(15)
 	
-	WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/OrderDetails_btn_ShopFromThisOrder') )
+	WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails_Btn_SHOP FROM THIS OREDR') )
 	
 	WebUI.waitForPageLoad(15)
 	

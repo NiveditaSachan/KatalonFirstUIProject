@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OrderDetails_btn_ContinueShopping</name>
+   <name>OrderDetails_Btn_CONTINUE SHOPPING</name>
    <tag></tag>
    <elementGuidId>a39c3812-eebc-48e5-965f-ea88db4234f5</elementGuidId>
    <selectorCollection>

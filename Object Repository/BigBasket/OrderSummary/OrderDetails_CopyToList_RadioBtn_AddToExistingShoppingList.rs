@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OrderDetails_CopyToList_RadioBtn_AddToExistingShoppingList</name>
+   <tag></tag>
+   <elementGuidId>67d9d3e1-9057-448c-aef3-b5f1167e6f0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@qa='addToExistingListSL']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@qa='addToExistingListSL']</value>
+   </webElementProperties>
+</WebElementEntity>

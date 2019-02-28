@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OrderSummary_CopyToList</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>709bf46b-5861-4683-8d28-0933e644787d</testCaseGuid>
+   <variable>
+      <defaultValue>'//div[@class=\'uiv2-shopping-lis-sku-cards\']/ul/li[@qa=\'product\']'</defaultValue>
+      <description></description>
+      <id>c094280d-46de-4c51-9acd-9dad66eb428b</id>
+      <masked>false</masked>
+      <name>xpathOfItemInBasket</name>
+   </variable>
+</TestCaseEntity>
