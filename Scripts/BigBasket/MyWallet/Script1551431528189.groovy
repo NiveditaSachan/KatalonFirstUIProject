@@ -48,3 +48,36 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Groc
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'))
+
+WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders'))
+
+WebUI.waitForElementPresent( findTestObject('BigBasket/MyWallet/LeftMenu_My Wallet'), 15)
+
+WebUI.click( findTestObject('BigBasket/MyWallet/LeftMenu_My Wallet'))
+
+WebUI.waitForElementPresent( findTestObject('Object Repository/BigBasket/MyWallet/MyWallet_Btn_ FUND WALLET'), 15)
+
+WebUI.click( findTestObject('Object Repository/BigBasket/MyWallet/MyWallet_Btn_ FUND WALLET'))
+
+WebUI.waitForElementPresent( findTestObject('Object Repository/BigBasket/MyWallet/FundTheWallet_ChooseYourPaymentOptions'), 15)
+
+WebUI.sendKeys( findTestObject('Object Repository/BigBasket/MyWallet/FundTheWallet_AmountToFund'), "100")
+
+WebUI.click( findTestObject('BigBasket/MyWallet/FundThewallet_Btn_SUBMIT'))
+
+WebUI.waitForElementPresent( findTestObject('Object Repository/BigBasket/MyWallet/PayUbiz_Net banking'), 15)
+
+WebUI.click (findTestObject('Object Repository/BigBasket/MyWallet/PayUbiz_Net banking'))
+
+WebUI.click( findTestObject('Object Repository/BigBasket/MyWallet/PayUbiz_NetBanking_SelectBankDropDown'))
+
+WebUI.click( findTestObject('Object Repository/BigBasket/MyWallet/PayUbiz_NetBanking_ICICI'))
+
+WebUI.click(findTestObject('Object Repository/BigBasket/MyWallet/PayUbiz_NetBanking_Btn_PAY NOW') )
+
+Thread.sleep(4000)
+
+WebUI.closeBrowser()
+
+
+

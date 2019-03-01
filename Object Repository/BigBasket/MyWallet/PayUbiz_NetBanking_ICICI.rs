@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PayUbiz_NetBanking_ICICI</name>
+   <tag></tag>
+   <elementGuidId>833fcce7-8568-4101-8789-7505b1859924</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='netbanking_select']/option[@value='ICIB']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id='netbanking_select']/option[@value='ICIB']</value>
+   </webElementProperties>
+</WebElementEntity>
