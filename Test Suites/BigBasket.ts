@@ -86,7 +86,7 @@
       <guid>bae44ff5-63d7-49ea-b8cb-5ae175efc460</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BigBasket/OrderSummary</testCaseId>
+      <testCaseId>Test Cases/BigBasket/Order Summary/OrderSummary</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

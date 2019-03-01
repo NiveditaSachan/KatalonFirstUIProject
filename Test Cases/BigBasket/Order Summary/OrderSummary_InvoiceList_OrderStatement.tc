@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OrderSummary_InvoiceList_OrderStatement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b43a8815-853d-4642-9ba4-d8f303f5e561</testCaseGuid>
+</TestCaseEntity>

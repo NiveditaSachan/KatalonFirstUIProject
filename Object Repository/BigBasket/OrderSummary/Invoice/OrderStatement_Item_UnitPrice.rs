@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OrderStatement_Item_UnitPrice</name>
+   <tag></tag>
+   <elementGuidId>f96ffad0-94ec-447d-9c41-b6334aa6c2f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[@class='order-invoice-items']/tbody/tr/td[3][@qa='unitPriceINVOICE']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[@class='order-invoice-items']/tbody/tr/td[3][@qa='unitPriceINVOICE']</value>
+   </webElementProperties>
+</WebElementEntity>

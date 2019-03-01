@@ -64,7 +64,7 @@ WebUI.waitForPageLoad(15)
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails_Btn_SHOP FROM THIS OREDR'))
+WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR'))
 
 WebUI.waitForPageLoad(15)
 
@@ -96,20 +96,20 @@ WebUI.waitForPageLoad(15)
 ///////////////////////////////	IMP : DYNAMICALLY CHANGE XPATH
 //	abc = WebUI.getText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount', [("xpath"): "//div[@class='uiv2-loggedin-user-link']/span[contains(.,'Nivedita')]"]))
 			
-WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/OrderDetails_Btn_COPY TO LIST'))
+WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_COPY TO LIST'))
 
 WebUI.waitForPageLoad(15)
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/OrderDetails_CopyToList_RadioBtn_AddToExistingShoppingList'))
+WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_RadioBtn_AddToExistingShoppingList'))
 
-WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/OrderDetails_CopyToList_AddTo ExistingShoppingList_ListName'))
+WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddTo ExistingShoppingList_ListName'))
 
 // Select List Name as List 2
-WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/OrderDetails_CopyToList_AddTo ExistingShoppingList_SelectListName'))
+WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddTo ExistingShoppingList_SelectListName'))
 
-WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/OrderDetails_CopyToList_AddToExistingShoppingList_Btn_COPY'))
+WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddToExistingShoppingList_Btn_COPY'))
 
 Thread.sleep(5000)
 

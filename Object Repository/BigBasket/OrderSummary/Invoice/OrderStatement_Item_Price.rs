@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OrderStatement_Item_Price</name>
+   <tag></tag>
+   <elementGuidId>d1ba045f-0dbf-473c-a22c-b0ee097b2e1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[@class='order-invoice-items']/tbody/tr/td[5][@qa='priceINVOICE']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[@class='order-invoice-items']/tbody/tr/td[5][@qa='priceINVOICE']</value>
+   </webElementProperties>
+</WebElementEntity>

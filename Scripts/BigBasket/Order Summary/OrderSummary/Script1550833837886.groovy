@@ -105,9 +105,9 @@ WebUI.openBrowser('')
 	
 	Thread.sleep(3000)
 	
-	WebUI.verifyElementPresent(findTestObject('Object Repository/BigBasket/OrderSummary/OrderDetails_DeliveryAddress_Header') , 15)
+	WebUI.verifyElementPresent(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_DeliveryAddress_Header') , 15)
 	
-	List<WebElement> deliveryAddress= WebUiCommonHelper.findWebElements( findTestObject('Object Repository/BigBasket/OrderSummary/OrderDetails_UsersDeliveryAddress') , 15)
+	List<WebElement> deliveryAddress= WebUiCommonHelper.findWebElements( findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_UsersDeliveryAddress') , 15)
 	
 	println("deliveryAddress "+ deliveryAddress)
 	
@@ -120,7 +120,7 @@ WebUI.openBrowser('')
 	
 	println(" Address is : " + UserName + "\n" +phoneNumber+ "\n" +AddressLine1+ "\n" +AddressLine2+ "\n" +AddressLine3+ "\n" +AddressLine4) 
 	
-	WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails_Btn_CONTINUE SHOPPING') )
+	WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_CONTINUE SHOPPING') )
 	
 	WebUI.waitForPageLoad(15)
 	
@@ -149,7 +149,7 @@ WebUI.openBrowser('')
 	
 	WebUI.waitForPageLoad(15)
 	
-	WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails_Btn_SHOP FROM THIS OREDR') )
+	WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR') )
 	
 	WebUI.waitForPageLoad(15)
 	
