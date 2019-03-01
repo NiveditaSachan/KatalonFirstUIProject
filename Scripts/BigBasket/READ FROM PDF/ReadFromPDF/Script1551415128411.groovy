@@ -18,7 +18,6 @@ import org.testng.Assert
 import com.kms.katalon.core.annotation.Keyword
 import com.Lemoney.ReadFromPDFFile  as ReadFromPDFFile
 
-
 	WebUI.openBrowser('')
 	
 	WebUI.navigateToUrl('https://www.bigbasket.com/')
