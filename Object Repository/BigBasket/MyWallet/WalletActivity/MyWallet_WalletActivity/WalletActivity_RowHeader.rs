@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>WalletActivity_RowHeader</name>
+   <tag></tag>
+   <elementGuidId>882aff61-2592-4f6a-bceb-2ac9d527e5ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[@class='uiv2-table']/thead/tr[1]/th</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[@class='uiv2-table']/thead/tr[1]/th</value>
+   </webElementProperties>
+</WebElementEntity>
