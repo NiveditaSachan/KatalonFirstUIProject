@@ -57,14 +57,7 @@ WebUI.openBrowser('')
 	WebUI.click(findTestObject('Object Repository/BigBasket/SpendTrend/LeftMenu_SpendTrends') )
 	
 	Thread.sleep(2000)
-//	String categoryName= WebUI.getText(findTestObject('BigBasket/SpendTrend/SpentMoneyOnCategory') )
-//	
-//	println("categoryName : " + categoryName)
-//	
-//	List<WebElement> Categories= WebUiCommonHelper.findWebElements( findTestObject('Object Repository/BigBasket/SpendTrend/SpentMoneyOnCategory'), 15)
-//	
-//	println("Name of Categories are : " + Categories.get(1).getText())
-//	
+
 	// Read From Bar Chart How much did I spend on orders?
 	List<WebElement> ExpenditureOnOrdersMonthName=WebUiCommonHelper.findWebElements( findTestObject('BigBasket/SpendTrend/Order_ExpenditureChart_Month'), 15)
 	List<WebElement> ExpenditureOnOrdersAmountPerMonth=WebUiCommonHelper.findWebElements(findTestObject('BigBasket/SpendTrend/Order_ExpenditureChart_Amount') , 15)
@@ -86,9 +79,20 @@ WebUI.openBrowser('')
 	println("    noOfMonths_Saving : " + noOfMonths_Saving)
 
 	for(i=0;i<noOfMonths_Saving;i++){
-		println("Expenditure on orders Per month is, \n" +"                                    " +SavingOnOrdersMonthName.get(i).getAttribute("innerHTML") + ": "+ SavingOnOrdersAmountPerMonth.get(i).getAttribute("innerHTML"))
+		println("Savings on orders Per month is, \n" +"                                    " +SavingOnOrdersMonthName.get(i).getAttribute("innerHTML") + ": "+ SavingOnOrdersAmountPerMonth.get(i).getAttribute("innerHTML"))
 	}
 	
+	// What categories did I spend money on?
+	List<WebElement> Expenditure_CategoryName=WebUiCommonHelper.findWebElements( findTestObject('Object Repository/BigBasket/SpendTrend/Order_CategoryExpenditure_CategoryName'), 15)
+	List<WebElement> Expenditure_Amount=WebUiCommonHelper.findWebElements( findTestObject('Object Repository/BigBasket/SpendTrend/Order_CategoryExpenditure_Amount'), 15)
+	
+	noOfCategory=Expenditure_CategoryName.size()
+	
+	println("    no Of Categories : " + noOfCategory)
+
+	for(i=0;i<noOfCategory;i++){
+		println("Expenditure on Categories Per month is, \n" +"                                    " +Expenditure_CategoryName.get(i).getAttribute("innerHTML") + ": "+ Expenditure_Amount.get(i).getAttribute("innerHTML"))
+	}
 	
 	WebUI.closeBrowser()
 	
