@@ -35,6 +35,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Online Grocery Sho
 
 WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/button_LOGIN'))
 
+WebUI.waitForPageLoad(10)
+
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'), 
     15)
 
@@ -71,10 +73,5 @@ if (count > 0) {
 }
 
 Thread.sleep(1000)
-
-//WebElement ele1 = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/BigBasket/Basket/button_CONTINUE SHOPPING'), 
-//    15)
-//
-//ele1.click()
 
 WebUI.closeBrowser()
