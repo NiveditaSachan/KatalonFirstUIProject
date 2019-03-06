@@ -65,6 +65,10 @@ WebUI.openBrowser('')
 	WebUI.waitForPageLoad(15)
 	
 	WebUI.waitForElementPresent(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR'), 15)
+	
+	orderNumber=WebUI.getText(findTestObject('Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_OrderNumber')).trim()
+	
+	println("orderNumber is "+ orderNumber)
 	WebUI.scrollToElement(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR') , 15)
 	
 		List<WebElement> NameofItemsInOrderDetail= WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_Item_ItemName'), 15)
@@ -86,7 +90,9 @@ WebUI.openBrowser('')
 	
 	println("Window 1: " + WebUI.getWindowTitle())
 	
-	WebUI.switchToWindowUrl("https://www.bigbasket.com/order/MBO-71816640-260219/invoice/")
+	Thread.sleep(3000)
+	
+	WebUI.switchToWindowUrl("https://www.bigbasket.com/order/$orderNumber/invoice/")
 	
 	println("Window 2: " + WebUI.getWindowTitle())
 	
@@ -143,8 +149,7 @@ WebUI.openBrowser('')
 		for(i=0;i<ItemName_OrderDetail.size();i++){
 			assert (ItemName.get(i)).contains(ItemName_OrderDetail.get(i).replace("...", "").trim())
 		}
-		//assert ItemName_OrderDetail.containsAll(ItemName)		
-		
+						
 WebUI.closeBrowser()
 
 

@@ -1,0 +1,2249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BigBasket" time="401" tests="6" failures="1" errors="2">
+   <testsuite name="BigBasket" tests="6" failures="1" errors="2" time="401" timestamp="2019-03-06 12:18:25" hostname="nivedita - 192.168.0.110" id="Test Suites/BigBasket">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/BigBasket/20190306_121819"/>
+         <property name="logFiles" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/BigBasket/20190306_121819/execution0.log"/>
+         <property name="attachments" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/BigBasket/20190306_121819/1551855238351.png"/>
+         <property name="hostName" value="nivedita - 192.168.0.110"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="83a364aa1a6d19d801e56a61c4935e48"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/BigBasket/RemoveItemFromBasket" classname="Test Cases/BigBasket/RemoveItemFromBasket" status="PASSED">
+         <system-out><![CDATA[2019-03-06 12:18:25 - [TEST_CASE][PASSED] - Test Cases/BigBasket/RemoveItemFromBasket: Test Cases/BigBasket/RemoveItemFromBasket
+
+2019-03-06 12:18:25 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-03-06 12:18:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:18:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-03-06 12:18:25 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-03-06 12:18:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-06 12:18:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-06 12:18:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-06 12:18:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-06 12:18:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigbasket.com/"): Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:18:38 - [MESSAGE][PASSED] - Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:18:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_Login")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:18:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_OR_email"), "nivedita.hbti@gmail.com"): Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:18:40 - [MESSAGE][PASSED] - Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:18:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email"), "LqVTzjb8H0GS29zWb5N07g=="): Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:18:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:18:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/button_LOGIN")): Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:18:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount"), 15): Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:18:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:18:44 - [TEST_STEP][PASSED] - items = getText(findTestObject("Object Repository/BigBasket/Page_Online Grocery Shopping and On/span_0 items")): Text of object 'Object Repository/BigBasket/Page_Online Grocery Shopping and On/span_0 items' is: '0 items'
+
+2019-03-06 12:18:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/BigBasket/Page_Online Grocery Shopping and On/span_0 items' is: '0 items'
+
+2019-03-06 12:18:44 - [TEST_STEP][PASSED] - count = Integer.parseInt(replace(" items", "").trim()): null
+
+2019-03-06 12:18:44 - [TEST_STEP][PASSED] - println("Count is : " + count): null
+
+2019-03-06 12:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount")): Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items' is clicked on
+
+2019-03-06 12:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items' is clicked on
+
+2019-03-06 12:18:54 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:18:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:18:54 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-06 12:18:54 - [TEST_STEP][PASSED] - if (count > 0): null
+
+2019-03-06 12:18:54 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-03-06 12:18:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-06 12:18:55 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-06 12:18:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-06 12:18:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:18:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BigBasket/LoginAndAddToCart" classname="Test Cases/BigBasket/LoginAndAddToCart" status="PASSED">
+         <system-out><![CDATA[2019-03-06 12:18:56 - [TEST_CASE][PASSED] - Test Cases/BigBasket/LoginAndAddToCart: Test Cases/BigBasket/LoginAndAddToCart
+
+2019-03-06 12:18:56 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-03-06 12:18:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:18:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-03-06 12:18:56 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-03-06 12:18:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-06 12:18:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-06 12:18:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-06 12:18:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigbasket.com/"): Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:19:02 - [MESSAGE][PASSED] - Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:19:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_Login")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:19:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_OR_email"), "nivedita.hbti@gmail.com"): Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:19:03 - [MESSAGE][PASSED] - Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:19:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email"), "LqVTzjb8H0GS29zWb5N07g=="): Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:19:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:19:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/button_LOGIN")): Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:19:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount"), 15): Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:19:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:19:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g"), "Daal"): Text 'Daal' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'
+
+2019-03-06 12:19:07 - [MESSAGE][PASSED] - Text 'Daal' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'
+
+2019-03-06 12:19:07 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Online Grocery Shopping and On/SearchIcon"), 10): Object 'Object Repository/Page_Online Grocery Shopping and On/SearchIcon' is clickable
+
+2019-03-06 12:19:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Online Grocery Shopping and On/SearchIcon' is clickable
+
+2019-03-06 12:19:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/SearchIcon")): Object: 'Object Repository/Page_Online Grocery Shopping and On/SearchIcon' is clicked on
+
+2019-03-06 12:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/SearchIcon' is clicked on
+
+2019-03-06 12:19:12 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-03-06 12:19:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:19:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item"), 10): Scroll to object 'Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item' successfully
+
+2019-03-06 12:19:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item' successfully
+
+2019-03-06 12:19:15 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-06 12:19:15 - [TEST_STEP][PASSED] - ele = driver.findElement(By.xpath("(//button[@class='btn btn-add col-xs-9'][contains(text(),'Add')])[1]")): null
+
+2019-03-06 12:19:15 - [TEST_STEP][PASSED] - jse = driver: null
+
+2019-03-06 12:19:15 - [TEST_STEP][PASSED] - jse.executeScript("arguments[0].click()", ele): null
+
+2019-03-06 12:19:15 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-03-06 12:19:18 - [TEST_STEP][PASSED] - bigBasketLogo = driver.findElement(By.xpath("//div[@id='st-trigger-effects']/a[@title='Bigbasket']")): null
+
+2019-03-06 12:19:18 - [TEST_STEP][PASSED] - jse.executeScript("arguments[0].click()", bigBasketLogo): null
+
+2019-03-06 12:19:21 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:19:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:19:21 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-03-06 12:19:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Best Online Grocery Store in I/noOfItemInBasket")): Object: 'Object Repository/Page_Best Online Grocery Store in I/noOfItemInBasket' is clicked on
+
+2019-03-06 12:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Online Grocery Store in I/noOfItemInBasket' is clicked on
+
+2019-03-06 12:19:22 - [TEST_STEP][PASSED] - noOfItemInBasket = getText(findTestObject("Object Repository/Page_Best Online Grocery Store in I/noOfItemInBasket")): Text of object 'Object Repository/Page_Best Online Grocery Store in I/noOfItemInBasket' is: '1 items'
+
+2019-03-06 12:19:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Best Online Grocery Store in I/noOfItemInBasket' is: '1 items'
+
+2019-03-06 12:19:22 - [TEST_STEP][PASSED] - println("no Of Item In Basket ..." + noOfItemInBasket): null
+
+2019-03-06 12:19:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Best Online Grocery Store in I/div_ QuantityAddRemove"), 10): Object 'Object Repository/Page_Best Online Grocery Store in I/div_ QuantityAddRemove' is present
+
+2019-03-06 12:19:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Best Online Grocery Store in I/div_ QuantityAddRemove' is present
+
+2019-03-06 12:19:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Best Online Grocery Store in I/div_ProductPriceRs"), 10): Object 'Object Repository/Page_Best Online Grocery Store in I/div_ProductPriceRs' is present
+
+2019-03-06 12:19:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Best Online Grocery Store in I/div_ProductPriceRs' is present
+
+2019-03-06 12:19:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Best Online Grocery Store in I/SubTotalInRs"), 10): Object 'Object Repository/Page_Best Online Grocery Store in I/SubTotalInRs' is present
+
+2019-03-06 12:19:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Best Online Grocery Store in I/SubTotalInRs' is present
+
+2019-03-06 12:19:23 - [TEST_STEP][PASSED] - price = getText(findTestObject("Object Repository/Page_Best Online Grocery Store in I/SubTotalInRs")): Text of object 'Object Repository/Page_Best Online Grocery Store in I/SubTotalInRs' is: '229.00'
+
+2019-03-06 12:19:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Best Online Grocery Store in I/SubTotalInRs' is: '229.00'
+
+2019-03-06 12:19:24 - [TEST_STEP][PASSED] - println("Price is : " + price): null
+
+2019-03-06 12:19:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-06 12:19:24 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-06 12:19:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-06 12:19:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:19:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BigBasket/BasketToCheckout" classname="Test Cases/BigBasket/BasketToCheckout" status="PASSED">
+         <system-out><![CDATA[2019-03-06 12:19:24 - [TEST_CASE][PASSED] - Test Cases/BigBasket/BasketToCheckout: Test Cases/BigBasket/BasketToCheckout
+
+2019-03-06 12:19:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-03-06 12:19:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:19:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-03-06 12:19:24 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-03-06 12:19:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-06 12:19:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-06 12:19:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-06 12:19:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigbasket.com/"): Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:19:31 - [MESSAGE][PASSED] - Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:19:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_Login")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:19:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_OR_email"), "nivedita.hbti@gmail.com"): Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:19:32 - [MESSAGE][PASSED] - Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:19:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email"), "LqVTzjb8H0GS29zWb5N07g=="): Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:19:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/button_LOGIN")): Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:19:32 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount"), 15): Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:19:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g"), "Daal"): Text 'Daal' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'
+
+2019-03-06 12:19:38 - [MESSAGE][PASSED] - Text 'Daal' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'
+
+2019-03-06 12:19:38 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-03-06 12:19:40 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:19:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:19:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/SearchIcon")): Object: 'Object Repository/Page_Online Grocery Shopping and On/SearchIcon' is clicked on
+
+2019-03-06 12:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/SearchIcon' is clicked on
+
+2019-03-06 12:19:42 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-03-06 12:19:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:19:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item"), 10): Scroll to object 'Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item' successfully
+
+2019-03-06 12:19:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item' successfully
+
+2019-03-06 12:19:48 - [TEST_STEP][PASSED] - ele = findWebElements(findTestObject("Object Repository/BigBasket/Basket/ADD button"), 15).get(1): null
+
+2019-03-06 12:19:48 - [TEST_STEP][PASSED] - println("ele............." + ele): null
+
+2019-03-06 12:19:48 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-06 12:19:48 - [TEST_STEP][PASSED] - jse = driver: null
+
+2019-03-06 12:19:48 - [TEST_STEP][PASSED] - jse.executeScript("arguments[0].click()", ele): null
+
+2019-03-06 12:19:48 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-03-06 12:19:51 - [TEST_STEP][PASSED] - bigBasketLogo = driver.findElement(By.xpath("//div[@id='st-trigger-effects']/a[@title='Bigbasket']")): null
+
+2019-03-06 12:19:51 - [TEST_STEP][PASSED] - jse.executeScript("arguments[0].click()", bigBasketLogo): null
+
+2019-03-06 12:19:53 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:19:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:19:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount")): Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:19:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items' is clicked on
+
+2019-03-06 12:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items' is clicked on
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:20:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - items = getText(findTestObject("Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_CountNumberOfItemsinBasket")): Text of object 'Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_CountNumberOfItemsinBasket' is: '02'
+
+2019-03-06 12:20:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_CountNumberOfItemsinBasket' is: '02'
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - count = Integer.parseInt(items.trim()): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - println("Count is : " + count): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - SubTotal_Calculated = 0: null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - for ([i = 0, i < count, (i++)]): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - title_Product = findWebElements(findTestObject("Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_ItemsInBasket"), 15).get(i): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - println("title_Product for product " + i + " is : " + title_Product.getText()): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - unitPrice_Product = findWebElements(findTestObject("Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_UnitPriceperProductinBasket"), 15).get(i): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - println("unitPrice_Product for product " + i + " is : " + unitPrice_Product.getAttribute("value")): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - quantity_Product = findWebElements(findTestObject("Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_QuantityPerProductInBasket"), 15).get(i): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - println("quantity_Product for product " + i + " is : " + quantity_Product.getAttribute("value")): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - subTotal_Product = findWebElements(findTestObject("Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalPerProductInBasket"), 15).get(i): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - println("subTotal_Product for product " + i + " is : " + subTotal_Product.getText()): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - SubTotal = Double.parseDouble(subTotal_Product.getText()): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - assert SubTotal == Double.parseDouble(quantity_Product.getAttribute("value")) * Double.parseDouble(unitPrice_Product.getAttribute("value")): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - SubTotal_Calculated = SubTotal_Calculated + SubTotal: null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - title_Product = findWebElements(findTestObject("Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_ItemsInBasket"), 15).get(i): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - println("title_Product for product " + i + " is : " + title_Product.getText()): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - unitPrice_Product = findWebElements(findTestObject("Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_UnitPriceperProductinBasket"), 15).get(i): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - println("unitPrice_Product for product " + i + " is : " + unitPrice_Product.getAttribute("value")): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - quantity_Product = findWebElements(findTestObject("Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_QuantityPerProductInBasket"), 15).get(i): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - println("quantity_Product for product " + i + " is : " + quantity_Product.getAttribute("value")): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - subTotal_Product = findWebElements(findTestObject("Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalPerProductInBasket"), 15).get(i): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - println("subTotal_Product for product " + i + " is : " + subTotal_Product.getText()): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - SubTotal = Double.parseDouble(subTotal_Product.getText()): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - assert SubTotal == Double.parseDouble(quantity_Product.getAttribute("value")) * Double.parseDouble(unitPrice_Product.getAttribute("value")): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - SubTotal_Calculated = SubTotal_Calculated + SubTotal: null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - println("calculated Subtotal is ....." + SubTotal_Calculated): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - Subtotal = Double.parseDouble(", "").trim()): Text of object 'Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalFinal' is: 'Rs. 458.00'
+
+2019-03-06 12:20:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalFinal' is: 'Rs. 458.00'
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - assert Subtotal == SubTotal_Calculated: null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BigBasket/Basket/CHECKOUT"), 15): Scroll to object 'Object Repository/BigBasket/Basket/CHECKOUT' successfully
+
+2019-03-06 12:20:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BigBasket/Basket/CHECKOUT' successfully
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - findWebElement(findTestObject("BigBasket/Basket/CHECKOUT"), 15).click(): null
+
+2019-03-06 12:20:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-06 12:20:05 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-06 12:20:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-06 12:20:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:20:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BigBasket/CheckOut" classname="Test Cases/BigBasket/CheckOut" status="ERROR">
+         <error type="ERROR" message="Test Cases/BigBasket/CheckOut FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: &quot;- 100&quot;
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at CheckOut.run(CheckOut:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-06 12:20:05 - [TEST_CASE][ERROR] - Test Cases/BigBasket/CheckOut: Test Cases/BigBasket/CheckOut FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "- 100"
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at CheckOut.run(CheckOut:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+
+
+2019-03-06 12:20:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-03-06 12:20:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:20:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-03-06 12:20:05 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-03-06 12:20:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-06 12:20:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-06 12:20:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-06 12:20:07 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigbasket.com/"): Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:20:11 - [MESSAGE][PASSED] - Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_Login")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:20:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_OR_email"), "nivedita.hbti@gmail.com"): Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:20:12 - [MESSAGE][PASSED] - Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:20:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email"), "LqVTzjb8H0GS29zWb5N07g=="): Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:20:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:20:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/button_LOGIN")): Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:20:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount"), 15): Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:20:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:20:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g"), "Daal"): Text 'Daal' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'
+
+2019-03-06 12:20:18 - [MESSAGE][PASSED] - Text 'Daal' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'
+
+2019-03-06 12:20:18 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-03-06 12:20:19 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:20:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:20:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/SearchIcon")): Object: 'Object Repository/Page_Online Grocery Shopping and On/SearchIcon' is clicked on
+
+2019-03-06 12:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/SearchIcon' is clicked on
+
+2019-03-06 12:20:22 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-03-06 12:20:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:20:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item"), 10): Scroll to object 'Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item' successfully
+
+2019-03-06 12:20:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item' successfully
+
+2019-03-06 12:20:25 - [TEST_STEP][PASSED] - ele = findWebElements(findTestObject("Object Repository/BigBasket/Basket/ADD button"), 15).get(1): null
+
+2019-03-06 12:20:25 - [TEST_STEP][PASSED] - println("ele............." + ele): null
+
+2019-03-06 12:20:25 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-06 12:20:25 - [TEST_STEP][PASSED] - jse = driver: null
+
+2019-03-06 12:20:25 - [TEST_STEP][PASSED] - jse.executeScript("arguments[0].click()", ele): null
+
+2019-03-06 12:20:25 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-03-06 12:20:28 - [TEST_STEP][PASSED] - bigBasketLogo = driver.findElement(By.xpath("//div[@id='st-trigger-effects']/a[@title='Bigbasket']")): null
+
+2019-03-06 12:20:28 - [TEST_STEP][PASSED] - jse.executeScript("arguments[0].click()", bigBasketLogo): null
+
+2019-03-06 12:20:39 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:20:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:20:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount")): Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:20:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items' is clicked on
+
+2019-03-06 12:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items' is clicked on
+
+2019-03-06 12:20:47 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:20:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:20:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BigBasket/Basket/CHECKOUT"), 15): Scroll to object 'Object Repository/BigBasket/Basket/CHECKOUT' successfully
+
+2019-03-06 12:20:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BigBasket/Basket/CHECKOUT' successfully
+
+2019-03-06 12:20:47 - [TEST_STEP][PASSED] - findWebElement(findTestObject("BigBasket/Basket/CHECKOUT"), 15).click(): null
+
+2019-03-06 12:20:47 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:20:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:20:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BigBasket/Checkout/Checkout_DeliveryAddressIcon"), 15): Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressIcon' is present
+
+2019-03-06 12:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressIcon' is present
+
+2019-03-06 12:20:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressHeading"), 15): Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressHeading' is present
+
+2019-03-06 12:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressHeading' is present
+
+2019-03-06 12:20:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/Checkout/Checkout_DeliveryAddress"), 15): Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryAddress' is present
+
+2019-03-06 12:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryAddress' is present
+
+2019-03-06 12:20:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/Checkout/Checkout_Button_Change"), 15): Object 'Object Repository/BigBasket/Checkout/Checkout_Button_Change' is present
+
+2019-03-06 12:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_Button_Change' is present
+
+2019-03-06 12:20:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/Checkout/Checkout_DeliveryOptionsHeading"), 0): Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryOptionsHeading' is present
+
+2019-03-06 12:20:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-03-06 12:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_DeliveryOptionsHeading' is present
+
+2019-03-06 12:20:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryOptionHeading"), 0): Object 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryOptionHeading' is present
+
+2019-03-06 12:20:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-03-06 12:20:55 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryOptionHeading' is present
+
+2019-03-06 12:20:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BigBasket/Checkout/Checkout_ShipmentDeliveryCharge"), 0): Object 'Object Repository/BigBasket/Checkout/Checkout_ShipmentDeliveryCharge' is present
+
+2019-03-06 12:20:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-03-06 12:20:55 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_ShipmentDeliveryCharge' is present
+
+2019-03-06 12:20:55 - [TEST_STEP][PASSED] - BasketValue = Integer.parseInt(getText(findTestObject("Object Repository/BigBasket/Checkout/Checkout_BasketValue"))): Text of object 'Object Repository/BigBasket/Checkout/Checkout_BasketValue' is: '458'
+
+2019-03-06 12:20:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/BigBasket/Checkout/Checkout_BasketValue' is: '458'
+
+2019-03-06 12:20:55 - [TEST_STEP][PASSED] - println("BasketValue ... " + BasketValue): null
+
+2019-03-06 12:20:55 - [TEST_STEP][PASSED] - if (BasketValue < 1000): Object 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30' is present
+
+2019-03-06 12:20:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30"), 15): Object 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30' is present
+
+2019-03-06 12:20:55 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30' is present
+
+2019-03-06 12:20:55 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:20:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:20:55 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/Checkout/Checkout_DefaultDeliverySlotDropDown")): Object: 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliverySlotDropDown' is clicked on
+
+2019-03-06 12:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/Checkout/Checkout_DefaultDeliverySlotDropDown' is clicked on
+
+2019-03-06 12:20:55 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-06 12:20:57 - [TEST_STEP][PASSED] - selectAnotherSlot = findWebElements(findTestObject("Object Repository/BigBasket/Checkout/Checkout_DefaultDeliverySelectAnotherSlot"), 15).get(1): null
+
+2019-03-06 12:20:57 - [TEST_STEP][PASSED] - selectAnotherSlot.click(): null
+
+2019-03-06 12:20:57 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - DeliveryCharges = getText(findTestObject("Object Repository/BigBasket/Checkout/Checkout_OrderSummary_DeliveryCharge")): Text of object 'Object Repository/BigBasket/Checkout/Checkout_OrderSummary_DeliveryCharge' is: 'Rs 30'
+
+2019-03-06 12:20:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/BigBasket/Checkout/Checkout_OrderSummary_DeliveryCharge' is: 'Rs 30'
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - DeliveryChargesApplied = 0: null
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - if (BasketValue >= 1000): null
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - else: null
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - DeliveryChargesApplied = Integer.parseInt(replace("Rs ", "").trim()): null
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - println("DeliveryChargesApplied... " + DeliveryChargesApplied): null
+
+2019-03-06 12:20:58 - [TEST_STEP][ERROR] - SettleBBBalance = Integer.parseInt(replace("Rs ", "").trim()): SettleBBBalance = Integer.parseInt(replace("Rs ", "").trim()) FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "- 100"
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at CheckOut.run(CheckOut:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+
+
+2019-03-06 12:20:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/BigBasket/Checkout/Checkout_OrderSummary_SettleBigBasketBalance' is: '- Rs 100'
+
+2019-03-06 12:20:58 - [MESSAGE][ERROR] - SettleBBBalance = Integer.parseInt(replace("Rs ", "").trim()) FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "- 100"
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at CheckOut.run(CheckOut:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-03-06 12:20:05 - [TEST_CASE][ERROR] - Test Cases/BigBasket/CheckOut: Test Cases/BigBasket/CheckOut FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "- 100"
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at CheckOut.run(CheckOut:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BigBasket/Order Summary/OrderSummary" classname="Test Cases/BigBasket/Order Summary/OrderSummary" status="ERROR">
+         <error type="ERROR" message="Test Cases/BigBasket/Order Summary/OrderSummary FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(.,'Order ID: ')]/a[contains(@href,'260219')]&quot;}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:848:c8e3:a957:2764%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/1p/92gdr4951qs...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50218}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: bd97fef612fbe6a3eca151a5352d51b1
+*** Element info: {Using=xpath, value=//div[contains(.,'Order ID: ')]/a[contains(@href,'260219')]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at OrderSummary.run(OrderSummary:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-06 12:20:58 - [TEST_CASE][ERROR] - Test Cases/BigBasket/Order Summary/OrderSummary: Test Cases/BigBasket/Order Summary/OrderSummary FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(.,'Order ID: ')]/a[contains(@href,'260219')]"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:848:c8e3:a957:2764%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/1p/92gdr4951qs...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50218}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: bd97fef612fbe6a3eca151a5352d51b1
+*** Element info: {Using=xpath, value=//div[contains(.,'Order ID: ')]/a[contains(@href,'260219')]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at OrderSummary.run(OrderSummary:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-03-06 12:20:58 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-03-06 12:20:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-06 12:20:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-06 12:20:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-06 12:21:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-06 12:21:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigbasket.com/"): Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:21:05 - [MESSAGE][PASSED] - Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:21:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_Login")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:21:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_OR_email"), "nivedita.hbti@gmail.com"): Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:21:06 - [MESSAGE][PASSED] - Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:21:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email"), "LqVTzjb8H0GS29zWb5N07g=="): Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:21:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/button_LOGIN")): Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:21:07 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount"), 15): Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:21:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:21:11 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-06 12:21:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount")): Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:21:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders")): Object: 'Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders' is clicked on
+
+2019-03-06 12:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders' is clicked on
+
+2019-03-06 12:21:15 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:21:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:21:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders")): Object: 'Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders' is clicked on
+
+2019-03-06 12:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders' is clicked on
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - deliveryStatusOfFirstElement = findWebElements(findTestObject("Object Repository/BigBasket/OrderSummary/PastOrders_Header_DeliveryStatus"), 15).get(1): null
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - deliveryStatus = deliveryStatusOfFirstElement.getText(): null
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - println("delivery Status is : " + deliveryStatus): null
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - assert deliveryStatus.equals("Delivered on"): null
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - deliveryDateAndTimeOfFirstElement = findWebElements(findTestObject("Object Repository/BigBasket/OrderSummary/PastOrders_Header_DeliveryDateTime"), 15).get(1): null
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - deliveryDateAndTime = deliveryDateAndTimeOfFirstElement.getText(): null
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - println("Delivery date and time is : " + deliveryDateAndTime): null
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-06 12:21:16 - [TEST_STEP][ERROR] - ,'Order ID: ')]/a[contains(@href,'$var1')])).isDisplayed(): ,'Order ID: ')]/a[contains(@href,'$var1')])).isDisplayed() FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(.,'Order ID: ')]/a[contains(@href,'260219')]"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:848:c8e3:a957:2764%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/1p/92gdr4951qs...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50218}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: bd97fef612fbe6a3eca151a5352d51b1
+*** Element info: {Using=xpath, value=//div[contains(.,'Order ID: ')]/a[contains(@href,'260219')]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at OrderSummary.run(OrderSummary:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+
+
+2019-03-06 12:21:16 - [MESSAGE][ERROR] - ,'Order ID: ')]/a[contains(@href,'$var1')])).isDisplayed() FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(.,'Order ID: ')]/a[contains(@href,'260219')]"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:848:c8e3:a957:2764%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/1p/92gdr4951qs...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50218}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: bd97fef612fbe6a3eca151a5352d51b1
+*** Element info: {Using=xpath, value=//div[contains(.,'Order ID: ')]/a[contains(@href,'260219')]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at OrderSummary.run(OrderSummary:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-03-06 12:20:58 - [TEST_CASE][ERROR] - Test Cases/BigBasket/Order Summary/OrderSummary: Test Cases/BigBasket/Order Summary/OrderSummary FAILED.
+Reason:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(.,'Order ID: ')]/a[contains(@href,'260219')]"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Niveditas-MacBook-Air.local', ip: 'fe80:0:0:0:848:c8e3:a957:2764%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/1p/92gdr4951qs...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50218}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: bd97fef612fbe6a3eca151a5352d51b1
+*** Element info: {Using=xpath, value=//div[contains(.,'Order ID: ')]/a[contains(@href,'260219')]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.WebDriver$findElement.call(Unknown Source)
+	at OrderSummary.run(OrderSummary:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BigBasket/Order Summary/OrderSummary_CopyToList" classname="Test Cases/BigBasket/Order Summary/OrderSummary_CopyToList" status="PASSED">
+         <system-out><![CDATA[2019-03-06 12:21:16 - [TEST_CASE][PASSED] - Test Cases/BigBasket/Order Summary/OrderSummary_CopyToList: Test Cases/BigBasket/Order Summary/OrderSummary_CopyToList
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-03-06 12:21:16 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-03-06 12:21:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-06 12:21:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-06 12:21:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-06 12:21:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-06 12:21:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigbasket.com/"): Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:21:25 - [MESSAGE][PASSED] - Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:21:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_Login")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:21:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:21:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_OR_email"), "nivedita.hbti@gmail.com"): Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:21:26 - [MESSAGE][PASSED] - Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:21:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email"), "LqVTzjb8H0GS29zWb5N07g=="): Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:21:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:21:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/button_LOGIN")): Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:21:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount"), 15): Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:21:30 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-06 12:21:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount")): Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:21:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders")): Object: 'Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders' is clicked on
+
+2019-03-06 12:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders' is clicked on
+
+2019-03-06 12:21:34 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:21:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:21:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders")): Object: 'Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders' is clicked on
+
+2019-03-06 12:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders' is clicked on
+
+2019-03-06 12:21:34 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-06 12:21:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/PastOrders_Header_ViewNoItems")): Object: 'Object Repository/BigBasket/OrderSummary/PastOrders_Header_ViewNoItems' is clicked on
+
+2019-03-06 12:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/PastOrders_Header_ViewNoItems' is clicked on
+
+2019-03-06 12:21:42 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:21:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:21:42 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-06 12:21:44 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR")): Object: 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR' is clicked on
+
+2019-03-06 12:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR' is clicked on
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:21:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/BigBasket/OrderSummary/ShopFromThisOrder_OrderID_Header"), 15): Object 'Object Repository/BigBasket/OrderSummary/ShopFromThisOrder_OrderID_Header' is present
+
+2019-03-06 12:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/OrderSummary/ShopFromThisOrder_OrderID_Header' is present
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - FruitAndVegCheckboxesXpath = xpathOfItemInBasket + "/div[@class='sl-check']/label": null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - FruitAndVegProdTitleXpath = xpathOfItemInBasket + "/div[@qa='product_name']/span/a/span[2]": null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - FruitAndVegCheckboxes = driver.findElements(By.xpath(FruitAndVegCheckboxesXpath)): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - FruitAndVegProdTitles = driver.findElements(By.xpath(FruitAndVegProdTitleXpath)): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - FruitAndVegProdTitle = new java.util.ArrayList(): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - for ([i = 1, i <= 3, (i++)]): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - println("/////////////////////////////////////////////////////////////////////////////"): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - get(i).click(): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - FruitAndVegProdTitle.add(get(i).getText()): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - println("Product name which is checked is : " + FruitAndVegProdTitle.get(i - 1)): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - println("/////////////////////////////////////////////////////////////////////////////"): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - get(i).click(): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - FruitAndVegProdTitle.add(get(i).getText()): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - println("Product name which is checked is : " + FruitAndVegProdTitle.get(i - 1)): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - println("/////////////////////////////////////////////////////////////////////////////"): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - get(i).click(): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - FruitAndVegProdTitle.add(get(i).getText()): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - println("Product name which is checked is : " + FruitAndVegProdTitle.get(i - 1)): null
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_COPY TO LIST")): Object: 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_COPY TO LIST' is clicked on
+
+2019-03-06 12:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_COPY TO LIST' is clicked on
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:21:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:21:49 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-06 12:21:51 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_RadioBtn_AddToExistingShoppingList")): Object: 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_RadioBtn_AddToExistingShoppingList' is clicked on
+
+2019-03-06 12:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_RadioBtn_AddToExistingShoppingList' is clicked on
+
+2019-03-06 12:21:52 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddTo ExistingShoppingList_ListName")): Object: 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddTo ExistingShoppingList_ListName' is clicked on
+
+2019-03-06 12:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddTo ExistingShoppingList_ListName' is clicked on
+
+2019-03-06 12:21:52 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddTo ExistingShoppingList_SelectListName")): Object: 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddTo ExistingShoppingList_SelectListName' is clicked on
+
+2019-03-06 12:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddTo ExistingShoppingList_SelectListName' is clicked on
+
+2019-03-06 12:21:52 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddToExistingShoppingList_Btn_COPY")): Object: 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddToExistingShoppingList_Btn_COPY' is clicked on
+
+2019-03-06 12:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddToExistingShoppingList_Btn_COPY' is clicked on
+
+2019-03-06 12:21:52 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2019-03-06 12:21:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount")): Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:21:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders")): Object: 'Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders' is clicked on
+
+2019-03-06 12:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders' is clicked on
+
+2019-03-06 12:21:59 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:21:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:21:59 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/OrderSummary/MyOrders_SHOP FROM_ShoppingList")): Object: 'Object Repository/BigBasket/OrderSummary/MyOrders_SHOP FROM_ShoppingList' is clicked on
+
+2019-03-06 12:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/MyOrders_SHOP FROM_ShoppingList' is clicked on
+
+2019-03-06 12:22:02 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:22:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:22:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BigBasket/OrderSummary/MyShoppingLists_ShopFromYourList_ListName"), 15): Scroll to object 'Object Repository/BigBasket/OrderSummary/MyShoppingLists_ShopFromYourList_ListName' successfully
+
+2019-03-06 12:22:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BigBasket/OrderSummary/MyShoppingLists_ShopFromYourList_ListName' successfully
+
+2019-03-06 12:22:02 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/OrderSummary/MyShoppingLists_ShopFromYourList_ListName")): Object: 'Object Repository/BigBasket/OrderSummary/MyShoppingLists_ShopFromYourList_ListName' is clicked on
+
+2019-03-06 12:22:08 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/MyShoppingLists_ShopFromYourList_ListName' is clicked on
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - ProductNames = findWebElements(findTestObject("Object Repository/BigBasket/OrderSummary/List2_ProductName"), 15): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("ProductNames.size() : " + ProductNames.size()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - ProductName = new java.util.ArrayList(): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - for ([i = 0, i < ProductNames.size(), (i++)]): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("ProductNames.get(i).getText() : " + get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - ProductName.add(get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("Product: " + i + " in List of size " + ProductNames.size() + " is : " + ProductName.get(i) + "
+"): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("ProductNames.get(i).getText() : " + get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - ProductName.add(get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("Product: " + i + " in List of size " + ProductNames.size() + " is : " + ProductName.get(i) + "
+"): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("ProductNames.get(i).getText() : " + get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - ProductName.add(get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("Product: " + i + " in List of size " + ProductNames.size() + " is : " + ProductName.get(i) + "
+"): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("ProductNames.get(i).getText() : " + get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - ProductName.add(get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("Product: " + i + " in List of size " + ProductNames.size() + " is : " + ProductName.get(i) + "
+"): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("ProductNames.get(i).getText() : " + get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - ProductName.add(get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("Product: " + i + " in List of size " + ProductNames.size() + " is : " + ProductName.get(i) + "
+"): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("ProductNames.get(i).getText() : " + get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - ProductName.add(get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("Product: " + i + " in List of size " + ProductNames.size() + " is : " + ProductName.get(i) + "
+"): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("ProductNames.get(i).getText() : " + get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - ProductName.add(get(i).getText()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println("Product: " + i + " in List of size " + ProductNames.size() + " is : " + ProductName.get(i) + "
+"): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - assert ProductName.containsAll(FruitAndVegProdTitle): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-06 12:22:08 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BigBasket/Order Summary/OrderSummary_InvoiceList_OrderStatement" classname="Test Cases/BigBasket/Order Summary/OrderSummary_InvoiceList_OrderStatement" status="FAILED">
+         <failure type="FAILED" message="Test Cases/BigBasket/Order Summary/OrderSummary_InvoiceList_OrderStatement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://www.bigbasket.com/order/MBO-71816640-260219/invoice/'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1807)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$12.call(Unknown Source)
+	at OrderSummary_InvoiceList_OrderStatement.run(OrderSummary_InvoiceList_OrderStatement:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-06 12:22:08 - [TEST_CASE][FAILED] - Test Cases/BigBasket/Order Summary/OrderSummary_InvoiceList_OrderStatement: Test Cases/BigBasket/Order Summary/OrderSummary_InvoiceList_OrderStatement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://www.bigbasket.com/order/MBO-71816640-260219/invoice/'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1807)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$12.call(Unknown Source)
+	at OrderSummary_InvoiceList_OrderStatement.run(OrderSummary_InvoiceList_OrderStatement:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-03-06 12:22:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-06 12:22:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-06 12:22:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-06 12:22:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigbasket.com/"): Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:22:15 - [MESSAGE][PASSED] - Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:22:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_Login")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:22:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_OR_email"), "nivedita.hbti@gmail.com"): Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:22:16 - [MESSAGE][PASSED] - Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:22:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email"), "LqVTzjb8H0GS29zWb5N07g=="): Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:22:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:22:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/button_LOGIN")): Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:22:17 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:22:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:22:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount"), 15): Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:22:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:22:20 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-06 12:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount")): Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:22:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders")): Object: 'Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders' is clicked on
+
+2019-03-06 12:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders' is clicked on
+
+2019-03-06 12:22:24 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:22:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:22:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders")): Object: 'Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders' is clicked on
+
+2019-03-06 12:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders' is clicked on
+
+2019-03-06 12:22:25 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-06 12:22:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/PastOrders_Header_ViewNoItems")): Object: 'Object Repository/BigBasket/OrderSummary/PastOrders_Header_ViewNoItems' is clicked on
+
+2019-03-06 12:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/PastOrders_Header_ViewNoItems' is clicked on
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-03-06 12:22:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR"), 15): Object 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR' is present
+
+2019-03-06 12:22:33 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR' is present
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR"), 15): Scroll to object 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR' successfully
+
+2019-03-06 12:22:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR' successfully
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - NameofItemsInOrderDetail = findWebElements(findTestObject("Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_Item_ItemName"), 15): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPriceofItemsInOrderDetail = findWebElements(findTestObject("Object Repository/BigBasket/OrderSummary/OrderDetails/OrderDetails_Item_UnitPrice"), 15): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail = new java.util.ArrayList(): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail = new java.util.ArrayList(): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - for ([i = 0, i < NameofItemsInOrderDetail.size(), (i++)]): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:33 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - ItemName_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - UnitPrice_OrderDetail.add(getText().trim()): null
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - println("Item name and Unit Price in Oredr details Page is  " + ItemName_OrderDetail + "         " + UnitPrice_OrderDetail): null
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/Invoice/Btn_INVOICE LIST")): Object: 'Object Repository/BigBasket/OrderSummary/Invoice/Btn_INVOICE LIST' is clicked on
+
+2019-03-06 12:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/Invoice/Btn_INVOICE LIST' is clicked on
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/Invoice/DropDown_InvoiceList_OrderStatement")): Object: 'Object Repository/BigBasket/OrderSummary/Invoice/DropDown_InvoiceList_OrderStatement' is clicked on
+
+2019-03-06 12:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/Invoice/DropDown_InvoiceList_OrderStatement' is clicked on
+
+2019-03-06 12:22:34 - [TEST_STEP][PASSED] - println("Window 1: " + getWindowTitle()): Current window's title is: 'Best Online Grocery Store in India. Save Big on Grocery Shopping | bigbasket.com'
+
+2019-03-06 12:22:34 - [MESSAGE][PASSED] - Current window's title is: 'Best Online Grocery Store in India. Save Big on Grocery Shopping | bigbasket.com'
+
+2019-03-06 12:22:34 - [TEST_STEP][FAILED] - switchToWindowUrl("https://www.bigbasket.com/order/MBO-71816640-260219/invoice/"): Cannot find window with url: 'https://www.bigbasket.com/order/MBO-71816640-260219/invoice/'
+
+2019-03-06 12:23:58 - [MESSAGE][FAILED] - Cannot find window with url: 'https://www.bigbasket.com/order/MBO-71816640-260219/invoice/'
+[[ATTACHMENT|/Users/nivedita/git/KatalonFirstUIProject/Reports/BigBasket/20190306_121819/1551855238351.png]]
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - println("Window 2: " + getWindowTitle()): Current window's title is: 'Invoice #72233263 for Order # MBO-72530547-050319 : bigbasket.com'
+
+2019-03-06 12:23:58 - [MESSAGE][PASSED] - Current window's title is: 'Invoice #72233263 for Order # MBO-72530547-050319 : bigbasket.com'
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - TableMetacolms = findWebElements(findTestObject("Object Repository/BigBasket/OrderSummary/Invoice/OrderStatement_Tbl_IdentityMeta"), 15): null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - Colomn1PerRow = new java.util.ArrayList(): null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - Colomn2PerRow = new java.util.ArrayList(): null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - for ([i = 0, i < TableMetacolms.size(), (i++)]): null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - j = i / 2 + 1: null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - Colomn1PerRow.add(get(i).getText()): null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - Colomn2PerRow.add(get(i + 1).getText()): null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - println("
+   Row " + j + " is         " + get(i).getText() + " - " + get(i + 1).getText()): null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - j = i / 2 + 1: null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - Colomn1PerRow.add(get(i).getText()): null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - Colomn2PerRow.add(get(i + 1).getText()): null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - println("
+   Row " + j + " is         " + get(i).getText() + " - " + get(i + 1).getText()): null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - j = i / 2 + 1: null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - Colomn1PerRow.add(get(i).getText()): null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - Colomn2PerRow.add(get(i + 1).getText()): null
+
+2019-03-06 12:23:58 - [TEST_STEP][PASSED] - println("
+   Row " + j + " is         " + get(i).getText() + " - " + get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - j = i / 2 + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - Colomn1PerRow.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - Colomn2PerRow.add(get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - println("
+   Row " + j + " is         " + get(i).getText() + " - " + get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - j = i / 2 + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - Colomn1PerRow.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - Colomn2PerRow.add(get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - println("
+   Row " + j + " is         " + get(i).getText() + " - " + get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - j = i / 2 + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - Colomn1PerRow.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - Colomn2PerRow.add(get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - println("
+   Row " + j + " is         " + get(i).getText() + " - " + get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - j = i / 2 + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - Colomn1PerRow.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - Colomn2PerRow.add(get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - println("
+   Row " + j + " is         " + get(i).getText() + " - " + get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - j = i / 2 + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - Colomn1PerRow.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - Colomn2PerRow.add(get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - println("
+   Row " + j + " is         " + get(i).getText() + " - " + get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - j = i / 2 + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - Colomn1PerRow.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - Colomn2PerRow.add(get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - println("
+   Row " + j + " is         " + get(i).getText() + " - " + get(i + 1).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - for ([i = 0, i < Colomn2PerRow.size(), (i++)]): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - if (get(i).equals("MBO-71816640-260219")): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - if (get(i).equals("MBO-71816640-260219")): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - if (get(i).equals("MBO-71816640-260219")): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - if (get(i).equals("MBO-71816640-260219")): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - if (get(i).equals("MBO-71816640-260219")): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - if (get(i).equals("MBO-71816640-260219")): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - if (get(i).equals("MBO-71816640-260219")): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - if (get(i).equals("MBO-71816640-260219")): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - if (get(i).equals("MBO-71816640-260219")): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - NameofItems = findWebElements(findTestObject("Object Repository/BigBasket/OrderSummary/Invoice/OrderStatement_Item_ItemName"), 15): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - UnitCostofItems = findWebElements(findTestObject("Object Repository/BigBasket/OrderSummary/Invoice/OrderStatement_Item_UnitPrice"), 15): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - QuantityofItems = findWebElements(findTestObject("Object Repository/BigBasket/OrderSummary/Invoice/OrderStatement_Item_Quantity"), 15): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - PriceofItems = findWebElements(findTestObject("Object Repository/BigBasket/OrderSummary/Invoice/OrderStatement_Item_Price"), 15): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemName = new java.util.ArrayList(): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemUnitCost = new java.util.ArrayList(): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemQuantity = new java.util.ArrayList(): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemPrice = new java.util.ArrayList(): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - for ([i = 0, i < PriceofItems.size(), (i++)]): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:23:59 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:00 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - ItemName.add(get(i).getText()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - ItemUnitCost.add(get(i).getText()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - ItemQuantity.add(get(i).getText()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - ItemPrice.add(get(i).getText()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println(PriceofItems.size()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - for ([i = 0, i < PriceofItems.size(), (i++)]): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Name of Item is: " + ItemName.get(i)): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println("                 Item is: " + ItemName): null
+
+2019-03-06 12:24:01 - [TEST_STEP][FAILED] - for ([i = 0, i < ItemName_OrderDetail.size(), (i++)]): for ([i = 0, i < ItemName_OrderDetail.size(), (i++)]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://www.bigbasket.com/order/MBO-71816640-260219/invoice/'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1807)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$12.call(Unknown Source)
+	at OrderSummary_InvoiceList_OrderStatement.run(OrderSummary_InvoiceList_OrderStatement:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+
+
+2019-03-06 12:24:01 - [TEST_STEP][FAILED] - assert get(i).contains(", "").trim()): for ([i = 0, i < ItemName_OrderDetail.size(), (i++)]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://www.bigbasket.com/order/MBO-71816640-260219/invoice/'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1807)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$12.call(Unknown Source)
+	at OrderSummary_InvoiceList_OrderStatement.run(OrderSummary_InvoiceList_OrderStatement:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+
+
+2019-03-06 12:24:01 - [MESSAGE][FAILED] - for ([i = 0, i < ItemName_OrderDetail.size(), (i++)]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://www.bigbasket.com/order/MBO-71816640-260219/invoice/'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1807)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$12.call(Unknown Source)
+	at OrderSummary_InvoiceList_OrderStatement.run(OrderSummary_InvoiceList_OrderStatement:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)
+
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-03-06 12:22:08 - [TEST_CASE][FAILED] - Test Cases/BigBasket/Order Summary/OrderSummary_InvoiceList_OrderStatement: Test Cases/BigBasket/Order Summary/OrderSummary_InvoiceList_OrderStatement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://www.bigbasket.com/order/MBO-71816640-260219/invoice/'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1807)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$12.call(Unknown Source)
+	at OrderSummary_InvoiceList_OrderStatement.run(OrderSummary_InvoiceList_OrderStatement:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BigBasket/MyWallet" classname="Test Cases/BigBasket/MyWallet" status="PASSED">
+         <system-out><![CDATA[2019-03-06 12:24:01 - [TEST_CASE][PASSED] - Test Cases/BigBasket/MyWallet: Test Cases/BigBasket/MyWallet
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-03-06 12:24:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-06 12:24:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-06 12:24:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-06 12:24:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-06 12:24:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigbasket.com/"): Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:24:08 - [MESSAGE][PASSED] - Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:24:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_Login")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:24:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_OR_email"), "nivedita.hbti@gmail.com"): Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:24:09 - [MESSAGE][PASSED] - Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:24:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email"), "LqVTzjb8H0GS29zWb5N07g=="): Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:24:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:24:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/button_LOGIN")): Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:24:10 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount"), 15): Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:24:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:24:13 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-06 12:24:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount")): Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:24:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders")): Object: 'Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders' is clicked on
+
+2019-03-06 12:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders' is clicked on
+
+2019-03-06 12:24:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("BigBasket/MyWallet/LeftMenu_My Wallet"), 15): Object 'Object Repository/BigBasket/MyWallet/LeftMenu_My Wallet' is present
+
+2019-03-06 12:24:17 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/MyWallet/LeftMenu_My Wallet' is present
+
+2019-03-06 12:24:17 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/MyWallet/LeftMenu_My Wallet")): Object: 'Object Repository/BigBasket/MyWallet/LeftMenu_My Wallet' is clicked on
+
+2019-03-06 12:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/MyWallet/LeftMenu_My Wallet' is clicked on
+
+2019-03-06 12:24:21 - [TEST_STEP][PASSED] - FromDate = findWebElement(findTestObject("BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/input_From_datePicker"), 15).getAttribute("value"): null
+
+2019-03-06 12:24:21 - [TEST_STEP][PASSED] - println("FromDate is : " + FromDate): null
+
+2019-03-06 12:24:21 - [TEST_STEP][PASSED] - ToDate = findWebElement(findTestObject("BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/input_To_datePicker"), 15).getAttribute("value"): null
+
+2019-03-06 12:24:21 - [TEST_STEP][PASSED] - println("ToDate is : " + ToDate): null
+
+2019-03-06 12:24:21 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/input_From_datePicker")): Object: 'Object Repository/BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/input_From_datePicker' is clicked on
+
+2019-03-06 12:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/input_From_datePicker' is clicked on
+
+2019-03-06 12:24:21 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/a_PickDate_Row1_Colomn6_Fri1st")): Object: 'Object Repository/BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/a_PickDate_Row1_Colomn6_Fri1st' is clicked on
+
+2019-03-06 12:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/a_PickDate_Row1_Colomn6_Fri1st' is clicked on
+
+2019-03-06 12:24:22 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/btn_SHOW ACTIVITY")): Object: 'Object Repository/BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/btn_SHOW ACTIVITY' is clicked on
+
+2019-03-06 12:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/btn_SHOW ACTIVITY' is clicked on
+
+2019-03-06 12:24:25 - [TEST_STEP][PASSED] - HeaderRow = findWebElements(findTestObject("Object Repository/BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/WalletActivity_RowHeader"), 15): null
+
+2019-03-06 12:24:25 - [TEST_STEP][PASSED] - if (HeaderRow.size() > 0): null
+
+2019-03-06 12:24:25 - [TEST_STEP][PASSED] - Row1Data = findWebElements(findTestObject("BigBasket/MyWallet/WalletActivity/MyWallet_WalletActivity/WalletActivity_Row1Data"), 15): null
+
+2019-03-06 12:24:25 - [TEST_STEP][PASSED] - NoOfRowColomns = Row1Data.size(): null
+
+2019-03-06 12:24:25 - [TEST_STEP][PASSED] - for ([i = 0, i < NoOfRowColomns, (i++)]): null
+
+2019-03-06 12:24:25 - [TEST_STEP][PASSED] - println("DATA UNDER COLOMN: " + get(i).getText() + " IN ROW1 is : " + get(i).getText()): null
+
+2019-03-06 12:24:25 - [TEST_STEP][PASSED] - println("DATA UNDER COLOMN: " + get(i).getText() + " IN ROW1 is : " + get(i).getText()): null
+
+2019-03-06 12:24:25 - [TEST_STEP][PASSED] - println("DATA UNDER COLOMN: " + get(i).getText() + " IN ROW1 is : " + get(i).getText()): null
+
+2019-03-06 12:24:25 - [TEST_STEP][PASSED] - println("DATA UNDER COLOMN: " + get(i).getText() + " IN ROW1 is : " + get(i).getText()): null
+
+2019-03-06 12:24:25 - [TEST_STEP][PASSED] - println("DATA UNDER COLOMN: " + get(i).getText() + " IN ROW1 is : " + get(i).getText()): null
+
+2019-03-06 12:24:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/BigBasket/MyWallet/MyWallet_Btn_ FUND WALLET"), 15): Object 'Object Repository/BigBasket/MyWallet/MyWallet_Btn_ FUND WALLET' is present
+
+2019-03-06 12:24:25 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/MyWallet/MyWallet_Btn_ FUND WALLET' is present
+
+2019-03-06 12:24:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/MyWallet/MyWallet_Btn_ FUND WALLET")): Object: 'Object Repository/BigBasket/MyWallet/MyWallet_Btn_ FUND WALLET' is clicked on
+
+2019-03-06 12:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/MyWallet/MyWallet_Btn_ FUND WALLET' is clicked on
+
+2019-03-06 12:24:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/BigBasket/MyWallet/FundTheWallet_ChooseYourPaymentOptions"), 15): Object 'Object Repository/BigBasket/MyWallet/FundTheWallet_ChooseYourPaymentOptions' is present
+
+2019-03-06 12:24:28 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/MyWallet/FundTheWallet_ChooseYourPaymentOptions' is present
+
+2019-03-06 12:24:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/BigBasket/MyWallet/FundTheWallet_AmountToFund"), "100"): Keys '100' sent to object: 'Object Repository/BigBasket/MyWallet/FundTheWallet_AmountToFund'
+
+2019-03-06 12:24:28 - [MESSAGE][PASSED] - Keys '100' sent to object: 'Object Repository/BigBasket/MyWallet/FundTheWallet_AmountToFund'
+
+2019-03-06 12:24:28 - [TEST_STEP][PASSED] - click(findTestObject("BigBasket/MyWallet/FundThewallet_Btn_SUBMIT")): Object: 'Object Repository/BigBasket/MyWallet/FundThewallet_Btn_SUBMIT' is clicked on
+
+2019-03-06 12:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/MyWallet/FundThewallet_Btn_SUBMIT' is clicked on
+
+2019-03-06 12:24:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/BigBasket/MyWallet/PayUbiz_Net banking"), 15): Object 'Object Repository/BigBasket/MyWallet/PayUbiz_Net banking' is present
+
+2019-03-06 12:24:31 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/MyWallet/PayUbiz_Net banking' is present
+
+2019-03-06 12:24:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/MyWallet/PayUbiz_Net banking")): Object: 'Object Repository/BigBasket/MyWallet/PayUbiz_Net banking' is clicked on
+
+2019-03-06 12:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/MyWallet/PayUbiz_Net banking' is clicked on
+
+2019-03-06 12:24:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/MyWallet/PayUbiz_NetBanking_SelectBankDropDown")): Object: 'Object Repository/BigBasket/MyWallet/PayUbiz_NetBanking_SelectBankDropDown' is clicked on
+
+2019-03-06 12:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/MyWallet/PayUbiz_NetBanking_SelectBankDropDown' is clicked on
+
+2019-03-06 12:24:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/MyWallet/PayUbiz_NetBanking_ICICI")): Object: 'Object Repository/BigBasket/MyWallet/PayUbiz_NetBanking_ICICI' is clicked on
+
+2019-03-06 12:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/MyWallet/PayUbiz_NetBanking_ICICI' is clicked on
+
+2019-03-06 12:24:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/MyWallet/PayUbiz_NetBanking_Btn_PAY NOW")): Object: 'Object Repository/BigBasket/MyWallet/PayUbiz_NetBanking_Btn_PAY NOW' is clicked on
+
+2019-03-06 12:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/MyWallet/PayUbiz_NetBanking_Btn_PAY NOW' is clicked on
+
+2019-03-06 12:24:33 - [TEST_STEP][PASSED] - Thread.sleep(4000): null
+
+2019-03-06 12:24:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-06 12:24:37 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-06 12:24:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-06 12:24:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:24:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BigBasket/SpendTrend/SpendTrend" classname="Test Cases/BigBasket/SpendTrend/SpendTrend" status="PASSED">
+         <system-out><![CDATA[2019-03-06 12:24:37 - [TEST_CASE][PASSED] - Test Cases/BigBasket/SpendTrend/SpendTrend: Test Cases/BigBasket/SpendTrend/SpendTrend
+
+2019-03-06 12:24:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-03-06 12:24:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:24:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-03-06 12:24:37 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-03-06 12:24:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-06 12:24:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-06 12:24:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-06 12:24:39 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigbasket.com/"): Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:24:43 - [MESSAGE][PASSED] - Navigate to 'https://www.bigbasket.com/' successfully
+
+2019-03-06 12:24:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/a_Login")): Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/a_Login' is clicked on
+
+2019-03-06 12:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_OR_email"), "nivedita.hbti@gmail.com"): Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:24:45 - [MESSAGE][PASSED] - Text 'nivedita.hbti@gmail.com' is set on object 'Object Repository/Page_Online Grocery Shopping and On/input_OR_email'
+
+2019-03-06 12:24:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email"), "LqVTzjb8H0GS29zWb5N07g=="): Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:24:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'
+
+2019-03-06 12:24:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/button_LOGIN")): Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/button_LOGIN' is clicked on
+
+2019-03-06 12:24:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount"), 15): Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:24:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clickable
+
+2019-03-06 12:24:51 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-06 12:24:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Grocery Shopping and On/span_UserAccount")): Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Grocery Shopping and On/span_UserAccount' is clicked on
+
+2019-03-06 12:24:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/SpendTrend/Nivedita_MyAccount")): Object: 'Object Repository/BigBasket/SpendTrend/Nivedita_MyAccount' is clicked on
+
+2019-03-06 12:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/SpendTrend/Nivedita_MyAccount' is clicked on
+
+2019-03-06 12:24:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/BigBasket/SpendTrend/LeftMenu_SpendTrends"), 0): Object 'Object Repository/BigBasket/SpendTrend/LeftMenu_SpendTrends' is present
+
+2019-03-06 12:24:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-03-06 12:24:58 - [MESSAGE][PASSED] - Object 'Object Repository/BigBasket/SpendTrend/LeftMenu_SpendTrends' is present
+
+2019-03-06 12:24:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BigBasket/SpendTrend/LeftMenu_SpendTrends")): Object: 'Object Repository/BigBasket/SpendTrend/LeftMenu_SpendTrends' is clicked on
+
+2019-03-06 12:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/BigBasket/SpendTrend/LeftMenu_SpendTrends' is clicked on
+
+2019-03-06 12:25:03 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - ExpenditureOnOrdersMonthName = findWebElements(findTestObject("BigBasket/SpendTrend/Order_ExpenditureChart_Month"), 15): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - ExpenditureOnOrdersAmountPerMonth = findWebElements(findTestObject("BigBasket/SpendTrend/Order_ExpenditureChart_Amount"), 15): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - noOfMonths = ExpenditureOnOrdersMonthName.size(): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("    noOfMonths : " + noOfMonths): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - for ([i = 0, i < noOfMonths, (i++)]): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("Expenditure on orders Per month is, 
+" + "                                    " + get(i).getAttribute("innerHTML") + ": " + get(i).getAttribute("innerHTML")): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("Expenditure on orders Per month is, 
+" + "                                    " + get(i).getAttribute("innerHTML") + ": " + get(i).getAttribute("innerHTML")): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("Expenditure on orders Per month is, 
+" + "                                    " + get(i).getAttribute("innerHTML") + ": " + get(i).getAttribute("innerHTML")): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("Expenditure on orders Per month is, 
+" + "                                    " + get(i).getAttribute("innerHTML") + ": " + get(i).getAttribute("innerHTML")): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("Expenditure on orders Per month is, 
+" + "                                    " + get(i).getAttribute("innerHTML") + ": " + get(i).getAttribute("innerHTML")): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("Expenditure on orders Per month is, 
+" + "                                    " + get(i).getAttribute("innerHTML") + ": " + get(i).getAttribute("innerHTML")): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - SavingOnOrdersMonthName = findWebElements(findTestObject("Object Repository/BigBasket/SpendTrend/Order_SavingChart_month"), 15): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - SavingOnOrdersAmountPerMonth = findWebElements(findTestObject("Object Repository/BigBasket/SpendTrend/Order_SavingChart_Amount"), 15): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - noOfMonths_Saving = SavingOnOrdersMonthName.size(): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("    noOfMonths_Saving : " + noOfMonths_Saving): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - for ([i = 0, i < noOfMonths_Saving, (i++)]): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("Expenditure on orders Per month is, 
+" + "                                    " + get(i).getAttribute("innerHTML") + ": " + get(i).getAttribute("innerHTML")): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("Expenditure on orders Per month is, 
+" + "                                    " + get(i).getAttribute("innerHTML") + ": " + get(i).getAttribute("innerHTML")): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("Expenditure on orders Per month is, 
+" + "                                    " + get(i).getAttribute("innerHTML") + ": " + get(i).getAttribute("innerHTML")): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("Expenditure on orders Per month is, 
+" + "                                    " + get(i).getAttribute("innerHTML") + ": " + get(i).getAttribute("innerHTML")): null
+
+2019-03-06 12:25:05 - [TEST_STEP][PASSED] - println("Expenditure on orders Per month is, 
+" + "                                    " + get(i).getAttribute("innerHTML") + ": " + get(i).getAttribute("innerHTML")): null
+
+2019-03-06 12:25:06 - [TEST_STEP][PASSED] - println("Expenditure on orders Per month is, 
+" + "                                    " + get(i).getAttribute("innerHTML") + ": " + get(i).getAttribute("innerHTML")): null
+
+2019-03-06 12:25:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-06 12:25:06 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-06 12:25:06 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-06 12:25:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-06 12:25:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-06 12:18:25 - [TEST_SUITE][ERROR] - BigBasket: Test Cases/BigBasket/CheckOut FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "- 100"
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at CheckOut.run(CheckOut:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-03-06 12:18:25 - [TEST_SUITE][ERROR] - BigBasket: Test Cases/BigBasket/CheckOut FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "- 100"
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at CheckOut.run(CheckOut:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551854899908.run(TempTestSuite1551854899908.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

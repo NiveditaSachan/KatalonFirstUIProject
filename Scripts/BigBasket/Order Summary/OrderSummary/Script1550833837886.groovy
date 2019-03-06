@@ -82,21 +82,6 @@ WebUI.openBrowser('')
 	//This is to give Variable XPATH Where I could give order ID as Variable
 	// Value of var1 is 26-02-2019 . See Variables
 	driver.findElement(By.xpath("//div[contains(.,'Order ID: ')]/a[contains(@href,'$var1')]")).isDisplayed()
-	
-	/*
-	OrderAmountRs= WebUI.getText(findTestObject('Object Repository/BigBasket/OrderSummary/PastOrders_Header_OrderSummary_OrderAmount'))
-	
-	println("Order Amount Rs : " + OrderAmountRs)
-	
-	OrderAmount=Double.parseDouble(OrderAmountRs.replace("Rs ", "").trim())
-	
-	println("Order Amount " +OrderAmount)
-	
-	println("GlobalVariable.TotalPayableAmount : ...  " + GlobalVariable.TotalPayableAmount)
-	
-	//assert OrderAmount==GlobalVariable.TotalPayableAmount
-	 
-	 */
 		
 	WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/PastOrders_Header_ViewNoItems'))
 	

@@ -13,71 +13,23 @@
    <testCaseLink>
       <guid>ae466234-9bec-4c26-82fe-adbacacd3b51</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BigBasket/RemoveItemFromBasket</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f42e4782-bc08-4030-a509-13e70b55c616</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BigBasket/LoginAndAddToCart</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2ea1d07a-0f2c-448d-a878-ef0483c1d11f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BigBasket/BasketToCheckout</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6ea2f013-b8c0-406b-91a6-8d54371dec89</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/BigBasket/CheckOut</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d22f2ebd-fcdd-41e0-a95a-e1b576f023d8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/BigBasket/RemoveItemFromBasket</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>25595d03-1493-440a-87f0-0af686f93fba</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/BigBasket/LoginAndAddToCart</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1656f8e1-fb35-413b-9eda-55977e2f8592</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/BigBasket/BasketToCheckout</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>95f03a76-76a1-452f-83fe-751b4239ca51</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/BigBasket/CheckOut</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5042206e-0c33-46d1-9c60-7e0d4bd5c05a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/BigBasket/RemoveItemFromBasket</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>36fc968a-521d-4cb2-ba37-89909d4f1f1c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/BigBasket/LoginAndAddToCart</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0d8bf868-3188-4787-abb4-53d3ab4beebd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/BigBasket/BasketToCheckout</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>837e853f-f8c8-46d5-bc96-e536a87aad31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BigBasket/CheckOut</testCaseId>
@@ -93,5 +45,35 @@
          <value></value>
          <variableId>302e46e2-e026-417d-899e-c804b4de10fc</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d8fc089e-f1bf-48b9-a837-c2f7f802eaac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BigBasket/Order Summary/OrderSummary_CopyToList</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c094280d-46de-4c51-9acd-9dad66eb428b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dd20f113-fbbc-41bd-8359-4d567ce377af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BigBasket/Order Summary/OrderSummary_InvoiceList_OrderStatement</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21d19115-6abe-4964-a093-e66fb30db07f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BigBasket/MyWallet</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9665f55c-d310-49a1-9cbf-9e8b6664a466</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BigBasket/SpendTrend/SpendTrend</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
