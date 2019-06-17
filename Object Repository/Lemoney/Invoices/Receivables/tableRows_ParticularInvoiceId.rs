@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tableRows_ParticularInvoiceId</name>
+   <tag></tag>
+   <elementGuidId>052da34c-86b0-4f32-b256-2ced231c9f0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//tbody[@class='ant-table-tbody']/tr/td/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//tbody[@class='ant-table-tbody']/tr/td/a/span</value>
+   </webElementProperties>
+</WebElementEntity>

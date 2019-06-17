@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Table_invoiceListing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97320441-a276-42b6-bf16-aa5e6dba6506</testCaseGuid>
+   <variable>
+      <defaultValue>'INV_NBR_2'</defaultValue>
+      <description></description>
+      <id>d24f173f-89a8-4d75-85e6-f78447f2dc7a</id>
+      <masked>false</masked>
+      <name>Invoice_nbr</name>
+   </variable>
+</TestCaseEntity>

@@ -26,29 +26,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.bigbasket.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_Login'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
+WebUI.setText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
+WebUI.setEncryptedText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
     'LqVTzjb8H0GS29zWb5N07g==')
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/button_LOGIN'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/button_LOGIN'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'), 
+WebUI.waitForElementClickable(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount'), 
     15)
 
-items = WebUI.getText(findTestObject('Object Repository/BigBasket/Page_Online Grocery Shopping and On/span_0 items'))
+items = WebUI.getText(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Page_Online Grocery Shopping and On/span_0 items'))
 
 count = Integer.parseInt(items.replace(' items', '').trim())
 
 println('Count is : ' + count)
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount'))
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/a_My Basket No Items'))
 
 WebUI.waitForPageLoad(15)
 
@@ -75,3 +75,4 @@ if (count > 0) {
 Thread.sleep(1000)
 
 WebUI.closeBrowser()
+

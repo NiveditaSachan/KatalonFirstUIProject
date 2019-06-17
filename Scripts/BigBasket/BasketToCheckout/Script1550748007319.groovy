@@ -26,34 +26,34 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.bigbasket.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_Login'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
+WebUI.setText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
+WebUI.setEncryptedText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
     'LqVTzjb8H0GS29zWb5N07g==')
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/button_LOGIN'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/button_LOGIN'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'), 
+WebUI.waitForElementClickable(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount'), 
     15)
 
-WebUI.setText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 'Daal')
+WebUI.setText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 'Daal')
 
-//WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/SearchIcon'), 10)
+//WebUI.waitForElementClickable(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/SearchIcon'), 10)
 Thread.sleep(1000)
 
 WebUI.waitForPageLoad(15)
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/SearchIcon'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/SearchIcon'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item'), 10)
+WebUI.scrollToElement(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Best Online Grocery Store in I/btn_ADD_item'), 10)
 
 //WebElement ele = driver.findElement(By.xpath("(//button[@class='btn btn-add col-xs-9'][contains(text(),'Add')])[1]"))
 'This is ADD button in Key word search results to add product to basket'
-WebElement ele = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/Basket/ADD button'), 15).get(
+WebElement ele = WebUiCommonHelper.findWebElements(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket/ADD button'), 15).get(
     1)
 
 println('ele.............' + ele)
@@ -75,14 +75,14 @@ WebUI.waitForPageLoad(15)
 
 
 // not clicking on viewbasket and checkout button
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount'))
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/a_My Basket No Items'))
 
 WebUI.waitForPageLoad(15)
 
 // Count no of items in basket
-items = WebUI.getText(findTestObject('Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_CountNumberOfItemsinBasket'))
+items = WebUI.getText(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_CountNumberOfItemsinBasket'))
 
 count = Integer.parseInt(items.trim())
 
@@ -91,22 +91,22 @@ println('Count is : ' + count)
 SubTotal_Calculated = 0
 
 for (i = 0; i < count; i++) {
-    WebElement title_Product = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_ItemsInBasket'), 
+    WebElement title_Product = WebUiCommonHelper.findWebElements(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_ItemsInBasket'), 
         15).get(i)
 
     println((('title_Product for product ' + i) + ' is : ') + title_Product.getText())
 
-    WebElement unitPrice_Product = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_UnitPriceperProductinBasket'), 
+    WebElement unitPrice_Product = WebUiCommonHelper.findWebElements(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_UnitPriceperProductinBasket'), 
         15).get(i)
 
     println((('unitPrice_Product for product ' + i) + ' is : ') + unitPrice_Product.getAttribute('value'))
 
-    WebElement quantity_Product = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_QuantityPerProductInBasket'), 
+    WebElement quantity_Product = WebUiCommonHelper.findWebElements(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_QuantityPerProductInBasket'), 
         15).get(i)
 
     println((('quantity_Product for product ' + i) + ' is : ') + quantity_Product.getAttribute('value'))
 
-    WebElement subTotal_Product = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalPerProductInBasket'), 
+    WebElement subTotal_Product = WebUiCommonHelper.findWebElements(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalPerProductInBasket'), 
         15).get(i)
 
     println((('subTotal_Product for product ' + i) + ' is : ') + subTotal_Product.getText())
@@ -121,25 +121,25 @@ for (i = 0; i < count; i++) {
 
 println('calculated Subtotal is .....' + SubTotal_Calculated)
 
-Subtotal= Double.parseDouble(WebUI.getText( findTestObject('Object Repository/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalFinal')).replace("Rs.", "").trim())
+Subtotal= Double.parseDouble(WebUI.getText( findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket_CheckingOut/Page_Best Online Grocery Store in I/Basket_SubtotalFinal')).replace("Rs.", "").trim())
 
 assert Subtotal==SubTotal_Calculated
 
-WebUI.scrollToElement(findTestObject('BigBasket/Basket/CHECKOUT'), 15)
+WebUI.scrollToElement(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket/CHECKOUT'), 15)
 
-//WebUI.click(findTestObject('BigBasket/Basket/CHECKOUT'))
-WebUiCommonHelper.findWebElement(findTestObject('BigBasket/Basket/CHECKOUT'), 15).click()
+//WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket/CHECKOUT'))
+WebUiCommonHelper.findWebElement(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket/CHECKOUT'), 15).click()
 
 WebUI.closeBrowser()
 
 /*
-WebUI.verifyElementPresent(findTestObject('Page_Best Online Grocery Store in I/span_Default Address'), 10)
+WebUI.verifyElementPresent(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Best Online Grocery Store in I/span_Default Address'), 10)
 
 WebUI.verifyElementPresent(findTestObject('Page_Best Online Grocery Store in I/div_Default Address    Home - '), 10)
 
 WebUI.verifyElementPresent(findTestObject('Page_Best Online Grocery Store in I/div_Default Delivery Option   '), 10)
 
-WebUI.click(findTestObject('Object Repository/Page_Best Online Grocery Store in I/span_Note Selecting the slot m'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Best Online Grocery Store in I/span_Note Selecting the slot m'))
 
 WebUI.closeBrowser()
 */

@@ -18,27 +18,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.bigbasket.com/')
 
-WebUI.click(findTestObject('Object Repository/search/Page_Online Grocery Shopping and On/li'))
+WebUI.click(findTestObject('TestFolder/test/search/Page_Online Grocery Shopping and On/li'))
 
-WebUI.click(findTestObject('Object Repository/search/Page_Online Grocery Shopping and On/a_Login'))
+WebUI.click(findTestObject('TestFolder/test/search/Page_Online Grocery Shopping and On/a_Login'))
 
-WebUI.click(findTestObject('Object Repository/search/Page_Online Grocery Shopping and On/label_Email'))
+WebUI.click(findTestObject('TestFolder/test/search/Page_Online Grocery Shopping and On/label_Email'))
 
-WebUI.setText(findTestObject('Object Repository/search/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
+WebUI.setText(findTestObject('TestFolder/test/search/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/search/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
+WebUI.setEncryptedText(findTestObject('TestFolder/test/search/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
     'LqVTzjb8H0GS29zWb5N07g==')
 
-WebUI.click(findTestObject('Object Repository/search/Page_Online Grocery Shopping and On/button_LOGIN'))
+WebUI.click(findTestObject('TestFolder/test/search/Page_Online Grocery Shopping and On/button_LOGIN'))
 
-WebUI.setText(findTestObject('Object Repository/search/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 
+WebUI.setText(findTestObject('TestFolder/test/search/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 
     'daal')
 
-WebUI.click(findTestObject('Object Repository/search/Page_Online Grocery Shopping and On/i_Shop for Rs.or moreand get f'))
+WebUI.click(findTestObject('TestFolder/test/search/Page_Online Grocery Shopping and On/i_Shop for Rs.or moreand get f'))
 
-WebUI.click(findTestObject('Object Repository/search/Page_Best Online Grocery Store in I/i_Add_fa fa-minus'))
+WebUI.click(findTestObject('TestFolder/test/search/Page_Best Online Grocery Store in I/i_Add_fa fa-minus'))
 
-WebUI.click(findTestObject('Object Repository/search/Page_Best Online Grocery Store in I/button_Add'))
+WebUI.click(findTestObject('TestFolder/test/search/Page_Best Online Grocery Store in I/button_Add'))
 
 WebUI.closeBrowser()
 

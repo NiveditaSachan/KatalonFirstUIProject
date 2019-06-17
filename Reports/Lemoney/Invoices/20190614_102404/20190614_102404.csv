@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invoices,Chrome 74.0.3729.169,,2019-06-14 10:24:38,2019-06-14 10:24:56,17.953s,INCOMPLETE
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/Setup,Chrome 74.0.3729.169,,2019-06-14 10:24:39,2019-06-14 10:24:55,15.911s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 10:24:39,2019-06-14 10:24:39,0.012s,PASSED
+Start setup action : setUp,Chrome 74.0.3729.169,,2019-06-14 10:24:39,2019-06-14 10:24:55,15.778s,PASSED
+"waitForElementPresent(findTestObject(""Lemoney/Setup/Logout/img_profileImage""), 10)",Chrome 74.0.3729.169,,2019-06-14 10:24:55,2019-06-14 10:24:55,0.075s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 10:24:55,2019-06-14 10:24:55,0.007s,PASSED
+,,,,,,
+Test Cases/Lemoney/DataBase/DatabaseConnection,Chrome 74.0.3729.169,,2019-06-14 10:24:55,2019-06-14 10:24:56,1.396s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 10:24:55,2019-06-14 10:24:55,0.014s,PASSED
+"url = ""apiserver.cw1p29kfimzt.ap-south-1.rds.amazonaws.com""",Chrome 74.0.3729.169,,2019-06-14 10:24:55,2019-06-14 10:24:55,0.005s,PASSED
+"dbname = ""apiserver""",Chrome 74.0.3729.169,,2019-06-14 10:24:55,2019-06-14 10:24:55,0.003s,PASSED
+"port = ""5432""",Chrome 74.0.3729.169,,2019-06-14 10:24:55,2019-06-14 10:24:55,0.001s,PASSED
+"userName = ""apiserver""",Chrome 74.0.3729.169,,2019-06-14 10:24:55,2019-06-14 10:24:55,0.001s,PASSED
+"passWord = ""api-server-db-pwd""",Chrome 74.0.3729.169,,2019-06-14 10:24:55,2019-06-14 10:24:55,0.001s,PASSED
+"com.database.DemoSQLPro.connectDB(url, dbname, port, userName, passWord)",Chrome 74.0.3729.169,,2019-06-14 10:24:55,2019-06-14 10:24:56,0.851s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 10:24:56,2019-06-14 10:24:56,0.004s,PASSED
+,,,,,,
+Test Cases/Lemoney/DataBase/Table_invoiceListing,Chrome 74.0.3729.169,,2019-06-14 10:24:56,2019-06-14 10:24:56,0.018s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 10:24:56,2019-06-14 10:24:56,0.003s,PASSED

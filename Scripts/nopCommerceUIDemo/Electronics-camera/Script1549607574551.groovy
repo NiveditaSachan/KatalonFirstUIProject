@@ -17,20 +17,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://demo.nopcommerce.com/')
 
-WebUI.verifyElementVisible(findTestObject('nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics'))
+WebUI.verifyElementVisible(findTestObject('TestFolder/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics'))
 
-WebUI.verifyElementPresent(findTestObject('nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Camera  photo'), 
+WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Camera  photo'), 
     60)
 
-WebUI.verifyElementPresent(findTestObject('nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Cell phones'), 
+WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Cell phones'), 
     60)
 
-WebUI.verifyElementPresent(findTestObject('nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Others'), 
+WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Others'), 
     60)
 
-WebUI.mouseOver(findTestObject('nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics'))
+WebUI.mouseOver(findTestObject('TestFolder/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Electronics'))
 
-WebUI.click(findTestObject('nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Camera  photo'))
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store/a_Camera  photo'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store. Camera/h1_Camera  photo'))
+WebUI.verifyElementVisible(findTestObject('TestFolder/nopCommerce_OR/Electronics-Camera_OR/Page_nopCommerce demo store. Camera/h1_Camera  photo'))
 

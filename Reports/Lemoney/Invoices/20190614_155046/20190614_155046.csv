@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invoices,Chrome 74.0.3729.169,,2019-06-14 15:51:19,2019-06-14 15:52:35,1m - 15.448s,FAILED
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/Setup,Chrome 74.0.3729.169,,2019-06-14 15:51:20,2019-06-14 15:51:28,8.295s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 15:51:20,2019-06-14 15:51:20,0.018s,PASSED
+Start setup action : setUp,Chrome 74.0.3729.169,,2019-06-14 15:51:20,2019-06-14 15:51:28,8.016s,PASSED
+"waitForElementPresent(findTestObject(""Lemoney/Setup/Logout/img_profileImage""), 10)",Chrome 74.0.3729.169,,2019-06-14 15:51:28,2019-06-14 15:51:28,0.213s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 15:51:28,2019-06-14 15:51:28,0.009s,PASSED
+,,,,,,
+Test Cases/Lemoney/DataBase/DatabaseConnection,Chrome 74.0.3729.169,,2019-06-14 15:51:28,2019-06-14 15:51:29,0.829s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 15:51:28,2019-06-14 15:51:28,0.017s,PASSED
+"url = ""apiserver.cw1p29kfimzt.ap-south-1.rds.amazonaws.com""",Chrome 74.0.3729.169,,2019-06-14 15:51:29,2019-06-14 15:51:29,0.003s,PASSED
+"dbname = ""apiserver""",Chrome 74.0.3729.169,,2019-06-14 15:51:29,2019-06-14 15:51:29,0.002s,PASSED
+"port = ""5432""",Chrome 74.0.3729.169,,2019-06-14 15:51:29,2019-06-14 15:51:29,0.003s,PASSED
+"userName = ""apiserver""",Chrome 74.0.3729.169,,2019-06-14 15:51:29,2019-06-14 15:51:29,0.005s,PASSED
+"passWord = ""api-server-db-pwd""",Chrome 74.0.3729.169,,2019-06-14 15:51:29,2019-06-14 15:51:29,0.006s,PASSED
+"com.database.DemoSQLPro.connectDB(url, dbname, port, userName, passWord)",Chrome 74.0.3729.169,,2019-06-14 15:51:29,2019-06-14 15:51:29,0.517s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 15:51:29,2019-06-14 15:51:29,0.004s,PASSED
+,,,,,,
+Test Cases/Lemoney/DataBase/Table_invoiceListing,Chrome 74.0.3729.169,,2019-06-14 15:51:29,2019-06-14 15:51:30,1.001s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 15:51:29,2019-06-14 15:51:29,0.003s,PASSED
+"Invoice_nbr = ""INV_NBR_2""",Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.001s,PASSED
+"queryString = select invoice_nbr,id,bill_to,invoice_sent_at,payment_due_date,total_cost from invoice where invoice_nbr='$Invoice_nbr'",Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.013s,PASSED
+result = com.database.DemoSQLPro.executeQuery(queryString),Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.085s,PASSED
+while (result.next()),Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.040s,PASSED
+driver = getWebDriver(),Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.023s,PASSED
+RowDataPrecedingInvoice_nbr = driver.findElements(By.xpath(//span[(text() = '$Invoice_nbr' or . = '$Invoice_nbr')]/preceding::td[count(. | //td) = count(//td)])),Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.048s,PASSED
+println(get(0).getText()),Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.037s,PASSED
+RowDatafollowingInvoice_nbr = driver.findElements(By.xpath(//span[(text() = '$Invoice_nbr' or . = '$Invoice_nbr')]/following::td[count(. | //td) = count(//td)])),Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.024s,PASSED
+"println(""Size is : "" + RowDatafollowingInvoice_nbr.size())",Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.002s,PASSED
+"println("" Due Date is : "" + get(0).getText())",Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.026s,PASSED
+"println("" Status is : "" + get(1).getText())",Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.025s,PASSED
+"println("" Amount Due is : "" + get(2).getText())",Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.019s,PASSED
+"println("" Button is : "" + get(3).getText())",Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.027s,PASSED
+"RowsinTable = findWebElements(findTestObject(""Object Repository/Lemoney/Invoices/Receivables/tableRows_InvoiceDate""), 10)",Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.038s,PASSED
+RowsinTable.size(),Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.001s,PASSED
+j = 0,Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.001s,PASSED
+"for ([i = 0, i < RowsinTable.size(), (i++)])",Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.246s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.003s,PASSED
+,,,,,,
+Test Cases/Lemoney/Invoices/Receivables,Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:52:33,1m - 3.201s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 15:51:30,2019-06-14 15:51:30,0.007s,PASSED
+"getText(findTestObject(""Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Invoices"")).equalsIgnoreCase(""Invoice Date"")",Chrome 74.0.3729.169,,2019-06-14 15:51:31,2019-06-14 15:52:33,1m - 2.784s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 15:52:33,2019-06-14 15:52:33,0.003s,PASSED
+,,,,,,
+Test Cases/Lemoney/DataBase/CloseDBConnection,Chrome 74.0.3729.169,,2019-06-14 15:52:33,2019-06-14 15:52:34,0.247s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 15:52:33,2019-06-14 15:52:33,0.004s,PASSED
+com.database.DemoSQLPro.closeDatabaseConnection(),Chrome 74.0.3729.169,,2019-06-14 15:52:34,2019-06-14 15:52:34,0.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 15:52:34,2019-06-14 15:52:34,0.002s,PASSED
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/TearDown,Chrome 74.0.3729.169,,2019-06-14 15:52:34,2019-06-14 15:52:35,1.143s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 15:52:34,2019-06-14 15:52:34,0.003s,PASSED
+"mouseOver(findTestObject(""Lemoney/Setup/Logout/img_profileImage""))",Chrome 74.0.3729.169,,2019-06-14 15:52:34,2019-06-14 15:52:34,0.119s,PASSED
+"click(findTestObject(""Lemoney/Setup/Logout/Logout""))",Chrome 74.0.3729.169,,2019-06-14 15:52:34,2019-06-14 15:52:35,0.704s,PASSED
+closeBrowser(),Chrome 74.0.3729.169,,2019-06-14 15:52:35,2019-06-14 15:52:35,0.185s,PASSED
+Start tear down : tearDown,Chrome 74.0.3729.169,,2019-06-14 15:52:35,2019-06-14 15:52:35,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 15:52:35,2019-06-14 15:52:35,0.005s,PASSED

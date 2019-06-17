@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Invoices" time="20" tests="2" failures="1" errors="0">
+   <testsuite name="Invoices" tests="2" failures="1" errors="0" time="20" timestamp="2019-06-13 12:37:33" hostname="nivedita - 192.168.0.12" id="Test Suites/Lemoney/Invoices">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/Lemoney/Invoices/20190613_123659"/>
+         <property name="logFiles" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/Lemoney/Invoices/20190613_123659/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nivedita - 192.168.0.12"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="d972f9b0372a20a10a052e080af7fe38"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Lemoney/Setup and TearDown/Setup" classname="Test Cases/Lemoney/Setup and TearDown/Setup" status="PASSED">
+         <system-out><![CDATA[2019-06-13 12:37:33 - [TEST_CASE][PASSED] - Test Cases/Lemoney/Setup and TearDown/Setup: Test Cases/Lemoney/Setup and TearDown/Setup
+
+2019-06-13 12:37:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-13 12:37:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-13 12:37:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-13 12:37:34 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-13 12:37:34 - [TEST_STEP][PASSED] - Start setup action : setUp: Method 'setUp' complete successfully
+
+2019-06-13 12:37:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-13 12:37:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-13 12:37:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-13 12:37:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-13 12:37:39 - [TEST_STEP][PASSED] - navigateToUrl("https://lmpro.netlify.com/"): Navigate to 'https://lmpro.netlify.com/' successfully
+
+2019-06-13 12:37:48 - [MESSAGE][PASSED] - Navigate to 'https://lmpro.netlify.com/' successfully
+
+2019-06-13 12:37:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/img_Lemoney_logo"), 10): Object 'Object Repository/Lemoney/Setup/Login/img_Lemoney_logo' is present
+
+2019-06-13 12:37:48 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/img_Lemoney_logo' is present
+
+2019-06-13 12:37:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/Title_Lemoney"), 10): Object 'Object Repository/Lemoney/Setup/Login/Title_Lemoney' is present
+
+2019-06-13 12:37:48 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/Title_Lemoney' is present
+
+2019-06-13 12:37:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/Title_Making Banking Useful"), 10): Object 'Object Repository/Lemoney/Setup/Login/Title_Making Banking Useful' is present
+
+2019-06-13 12:37:48 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/Title_Making Banking Useful' is present
+
+2019-06-13 12:37:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/div_Enter Username  Password"), 10): Object 'Object Repository/Lemoney/Setup/Login/div_Enter Username  Password' is present
+
+2019-06-13 12:37:48 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/div_Enter Username  Password' is present
+
+2019-06-13 12:37:48 - [TEST_STEP][PASSED] - setText(findTestObject("Lemoney/Setup/Login/input_EnterUserName"), "owner@lemoney.com"): Text 'owner@lemoney.com' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterUserName'
+
+2019-06-13 12:37:49 - [MESSAGE][PASSED] - Text 'owner@lemoney.com' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterUserName'
+
+2019-06-13 12:37:49 - [TEST_STEP][PASSED] - setText(findTestObject("Lemoney/Setup/Login/input_EnterPassword"), "123456"): Text '123456' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterPassword'
+
+2019-06-13 12:37:49 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterPassword'
+
+2019-06-13 12:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Lemoney/Setup/Login/button_Login")): Object: 'Object Repository/Lemoney/Setup/Login/button_Login' is clicked on
+
+2019-06-13 12:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Lemoney/Setup/Login/button_Login' is clicked on
+
+2019-06-13 12:37:49 - [MESSAGE][PASSED] - Method 'setUp' complete successfully
+
+2019-06-13 12:37:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Lemoney/Setup/Logout/img_profileImage"), 10): Object 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is present
+
+2019-06-13 12:37:49 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is present
+
+2019-06-13 12:37:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-13 12:37:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-13 12:37:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/Invoices/Receivables" classname="Test Cases/Lemoney/Invoices/Receivables" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Lemoney/Invoices/Receivables FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: 'Step failed with error: 'Due Date can not be before Invoice Date
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Receivables.run(Receivables:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560409649153.run(TempTestSuite1560409649153.groovy:36)
+"/>
+         <system-out><![CDATA[2019-06-13 12:37:49 - [TEST_CASE][FAILED] - Test Cases/Lemoney/Invoices/Receivables: Test Cases/Lemoney/Invoices/Receivables FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: 'Step failed with error: 'Due Date can not be before Invoice Date
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Receivables.run(Receivables:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560409649153.run(TempTestSuite1560409649153.groovy:36)
+
+
+2019-06-13 12:37:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-13 12:37:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-13 12:37:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-13 12:37:49 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-13 12:37:50 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Invoices")).equalsIgnoreCase("Invoice Date"): Text of object 'Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Invoices' is: 'Invoice Date'
+
+2019-06-13 12:37:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Invoices' is: 'Invoice Date'
+
+2019-06-13 12:37:50 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Particulars")).equalsIgnoreCase("Particulars"): Text of object 'Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Particulars' is: 'Due Date'
+
+2019-06-13 12:37:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Particulars' is: 'Due Date'
+
+2019-06-13 12:37:50 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tableHeaders_DueDate")).equalsIgnoreCase("Due Date"): Text of object 'Object Repository/Lemoney/Invoices/Receivables/tableHeaders_DueDate' is: 'Invoice Date'
+
+2019-06-13 12:37:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Lemoney/Invoices/Receivables/tableHeaders_DueDate' is: 'Invoice Date'
+
+2019-06-13 12:37:50 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Status")).equalsIgnoreCase("Status"): Text of object 'Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Status' is: 'Invoice Date'
+
+2019-06-13 12:37:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Status' is: 'Invoice Date'
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tableHeaders_AmountDue")).equalsIgnoreCase("Amount Due"): Text of object 'Object Repository/Lemoney/Invoices/Receivables/tableHeaders_AmountDue' is: 'Status'
+
+2019-06-13 12:37:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Lemoney/Invoices/Receivables/tableHeaders_AmountDue' is: 'Status'
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - listInvoiceDate = findWebElements(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tableRows_InvoiceDate"), 10): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - for ([i = 0, i < listInvoiceDate.size(), (i++)]): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - listParticularsCompanyName = findWebElements(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tableRows_ParticularsCompanyName"), 10): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (listInvoiceDate.size() != listParticularsCompanyName.size()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - for ([i = 0, i < listParticularsCompanyName.size(), (i++)]): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - listParticularsInvoiceID = findWebElements(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tableRows_ParticularInvoiceId"), 10): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (listInvoiceDate.size() != listParticularsInvoiceID.size()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - for ([i = 0, i < listParticularsInvoiceID.size(), (i++)]): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - getText().matches("DC-INu-"): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - getText().matches("DC-INu-"): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - getText().matches("DC-INu-"): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - listDueDate = findWebElements(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tableRows_DueDate"), 10): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (listInvoiceDate.size() != listDueDate.size()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - for ([i = 0, i < listDueDate.size(), (i++)]): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (!(get(i).getText() >= get(i).getText())): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - markFailed("'Step failed with error: 'Due Date can not be before Invoice Date"): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:51 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - if (!(get(i).getText() >= get(i).getText())): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - markFailed("'Step failed with error: 'Due Date can not be before Invoice Date"): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - if (!(get(i).getText() >= get(i).getText())): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - listStatus = findWebElements(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tableRows_Status"), 10): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - if (listInvoiceDate.size() != listStatus.size()): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - markFailed("'Step failed with error: 'Missing Invoice date or Status"): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - for ([i = 0, i < listStatus.size(), (i++)]): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - listAmountDueCurrType = findWebElements(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tableRows_AmountDueCurrencyType"), 10): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - for ([i = 0, i < listAmountDueCurrType.size(), (i++)]): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - listAmountDue = findWebElements(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tableRows_AmountDue"), 10): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - for ([i = 0, i < listAmountDue.size(), (i++)]): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(get(i).getText()): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - if (getText().equalsIgnoreCase(" ") || getText().equalsIgnoreCase(null)): null
+
+2019-06-13 12:37:52 - [TEST_STEP][FAILED] - var(url = "apiserver.cw1p29kfimzt.ap-south-1.rds.amazonaws.com"): var(url = "apiserver.cw1p29kfimzt.ap-south-1.rds.amazonaws.com") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: 'Step failed with error: 'Due Date can not be before Invoice Date
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Receivables.run(Receivables:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560409649153.run(TempTestSuite1560409649153.groovy:36)
+
+
+2019-06-13 12:37:52 - [MESSAGE][FAILED] - var(url = "apiserver.cw1p29kfimzt.ap-south-1.rds.amazonaws.com") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: 'Step failed with error: 'Due Date can not be before Invoice Date
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Receivables.run(Receivables:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560409649153.run(TempTestSuite1560409649153.groovy:36)
+
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-06-13 12:37:49 - [TEST_CASE][FAILED] - Test Cases/Lemoney/Invoices/Receivables: Test Cases/Lemoney/Invoices/Receivables FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: 'Step failed with error: 'Due Date can not be before Invoice Date
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Receivables.run(Receivables:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560409649153.run(TempTestSuite1560409649153.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/Setup and TearDown/TearDown" classname="Test Cases/Lemoney/Setup and TearDown/TearDown" status="PASSED">
+         <system-out><![CDATA[2019-06-13 12:37:52 - [TEST_CASE][PASSED] - Test Cases/Lemoney/Setup and TearDown/TearDown: Test Cases/Lemoney/Setup and TearDown/TearDown
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Lemoney/Setup/Logout/img_profileImage")): Object: 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is hovered
+
+2019-06-13 12:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is hovered
+
+2019-06-13 12:37:52 - [TEST_STEP][PASSED] - click(findTestObject("Lemoney/Setup/Logout/Logout")): Object: 'Object Repository/Lemoney/Setup/Logout/Logout' is clicked on
+
+2019-06-13 12:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Lemoney/Setup/Logout/Logout' is clicked on
+
+2019-06-13 12:37:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-13 12:37:53 - [MESSAGE][PASSED] - Browser is closed
+
+2019-06-13 12:37:53 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2019-06-13 12:37:53 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully
+
+2019-06-13 12:37:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-13 12:37:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-13 12:37:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-13 12:37:33 - [TEST_SUITE][FAILED] - Invoices: Test Cases/Lemoney/Invoices/Receivables FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: 'Step failed with error: 'Due Date can not be before Invoice Date
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Receivables.run(Receivables:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560409649153.run(TempTestSuite1560409649153.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-06-13 12:37:33 - [TEST_SUITE][FAILED] - Invoices: Test Cases/Lemoney/Invoices/Receivables FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: 'Step failed with error: 'Due Date can not be before Invoice Date
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at Receivables.run(Receivables:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560409649153.run(TempTestSuite1560409649153.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

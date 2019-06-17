@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>New DataBase Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>00faeef8-bd00-4be5-91a8-b480221f7ade</dataFileGUID>
+   <dataSourceUrl>jdbc:postgresql://apiserver.cw1p29kfimzt.ap-south-1.rds.amazonaws.com:5432/apiserver</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>YXBpLXNlcnZlci1kYi1wd2Q=</password>
+   <query>select id,bill_to,invoice_sent_at,payment_due_date,total_cost from invoice where invoice_nbr='INV_NBR_2';</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>apiserver</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

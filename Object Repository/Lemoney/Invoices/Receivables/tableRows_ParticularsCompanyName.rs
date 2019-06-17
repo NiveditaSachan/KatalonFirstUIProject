@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tableRows_ParticularsCompanyName</name>
+   <tag></tag>
+   <elementGuidId>4c96c2c9-2bb0-4c3a-87e6-831cd7809616</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//tbody[@class='ant-table-tbody']/tr/td/a/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//tbody[@class='ant-table-tbody']/tr/td/a/div</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -32,43 +32,43 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.bigbasket.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_Login'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
+WebUI.setText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
+WebUI.setEncryptedText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
     'LqVTzjb8H0GS29zWb5N07g==')
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/button_LOGIN'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/button_LOGIN'))
 
 //Go To My Orders Page
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'), 
+WebUI.waitForElementClickable(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount'), 
     15)
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount'))
 
-WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders'))
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/UserNivedita_MyOrders'))
 
 WebUI.waitForPageLoad(15)
 
 //Click on First Order in My Orders Screen
-WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/OrderSummary_MyOrders'))
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/OrderSummary_MyOrders'))
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/PastOrders_Header_ViewNoItems'))
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/PastOrders_Header_ViewNoItems'))
 
 WebUI.waitForPageLoad(15)
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR'))
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_SHOP FROM THIS OREDR'))
 
 WebUI.waitForPageLoad(15)
 
-	WebUI.verifyElementPresent(findTestObject('Object Repository/BigBasket/OrderSummary/ShopFromThisOrder_OrderID_Header'), 
+	WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/ShopFromThisOrder_OrderID_Header'), 
     15)
 
 	WebDriver driver= DriverFactory.getWebDriver()
@@ -94,40 +94,40 @@ WebUI.waitForPageLoad(15)
 		
 	
 ///////////////////////////////	IMP : DYNAMICALLY CHANGE XPATH
-//	abc = WebUI.getText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount', [("xpath"): "//div[@class='uiv2-loggedin-user-link']/span[contains(.,'Nivedita')]"]))
+//	abc = WebUI.getText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount', [("xpath"): "//div[@class='uiv2-loggedin-user-link']/span[contains(.,'Nivedita')]"]))
 			
-WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_COPY TO LIST'))
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/OrderDetails/OrderDetails_Btn_COPY TO LIST'))
 
 WebUI.waitForPageLoad(15)
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_RadioBtn_AddToExistingShoppingList'))
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_RadioBtn_AddToExistingShoppingList'))
 
-WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddTo ExistingShoppingList_ListName'))
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddTo ExistingShoppingList_ListName'))
 
 // Select List Name as List 2
-WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddTo ExistingShoppingList_SelectListName'))
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddTo ExistingShoppingList_SelectListName'))
 
-WebUI.click(findTestObject('BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddToExistingShoppingList_Btn_COPY'))
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/OrderDetails/OrderDetails_CopyToList_AddToExistingShoppingList_Btn_COPY'))
 
 Thread.sleep(5000)
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount'))
 
-WebUI.click(findTestObject('Object Repository/BigBasket/OrderSummary/UserNivedita_MyOrders'))
-
-WebUI.waitForPageLoad(15)
-
-WebUI.click(findTestObject('BigBasket/OrderSummary/MyOrders_SHOP FROM_ShoppingList'))
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/UserNivedita_MyOrders'))
 
 WebUI.waitForPageLoad(15)
 
-WebUI.scrollToElement(findTestObject('BigBasket/OrderSummary/MyShoppingLists_ShopFromYourList_ListName'), 15)
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/MyOrders_SHOP FROM_ShoppingList'))
 
-WebUI.click(findTestObject('BigBasket/OrderSummary/MyShoppingLists_ShopFromYourList_ListName'))
+WebUI.waitForPageLoad(15)
 
-List<WebElement> ProductNames=WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/OrderSummary/List2_ProductName'), 15)
+WebUI.scrollToElement(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/MyShoppingLists_ShopFromYourList_ListName'), 15)
+
+WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/MyShoppingLists_ShopFromYourList_ListName'))
+
+List<WebElement> ProductNames=WebUiCommonHelper.findWebElements(findTestObject('TestFolder/nopCommerce_OR/BigBasket/OrderSummary/List2_ProductName'), 15)
 
 println("ProductNames.size() : " +ProductNames.size())
 

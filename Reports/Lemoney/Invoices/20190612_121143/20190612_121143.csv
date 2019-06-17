@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invoices,Chrome 74.0.3729.169,,2019-06-12 12:12:18,2019-06-12 12:12:30,12.076s,PASSED
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/Setup,Chrome 74.0.3729.169,,2019-06-12 12:12:18,2019-06-12 12:12:27,9.008s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-12 12:12:18,2019-06-12 12:12:18,0.016s,PASSED
+Start setup action : setUp,Chrome 74.0.3729.169,,2019-06-12 12:12:18,2019-06-12 12:12:27,8.518s,PASSED
+"waitForElementPresent(findTestObject(""Lemoney/Setup/Logout/img_profileImage""), 10)",Chrome 74.0.3729.169,,2019-06-12 12:12:27,2019-06-12 12:12:27,0.296s,PASSED
+"verifyElementPresent(findTestObject(""Lemoney/Setup/InvoiceHeading/InvoicesHeading""), 10)",Chrome 74.0.3729.169,,2019-06-12 12:12:27,2019-06-12 12:12:27,0.130s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-12 12:12:27,2019-06-12 12:12:27,0.006s,PASSED
+,,,,,,
+Test Cases/Lemoney/Invoices/Receivables,Chrome 74.0.3729.169,,2019-06-12 12:12:27,2019-06-12 12:12:28,1.049s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-12 12:12:27,2019-06-12 12:12:27,0.006s,PASSED
+"getText(findTestObject(""Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Invoices"")).equalsIgnoreCase(""Invoice Date"")",Chrome 74.0.3729.169,,2019-06-12 12:12:28,2019-06-12 12:12:28,0.100s,PASSED
+"getText(findTestObject(""Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Particulars"")).equalsIgnoreCase(""Particulars"")",Chrome 74.0.3729.169,,2019-06-12 12:12:28,2019-06-12 12:12:28,0.060s,PASSED
+"getText(findTestObject(""Object Repository/Lemoney/Invoices/Receivables/tableHeaders_DueDate"")).equalsIgnoreCase(""Due Date"")",Chrome 74.0.3729.169,,2019-06-12 12:12:28,2019-06-12 12:12:28,0.045s,PASSED
+"getText(findTestObject(""Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Status"")).equalsIgnoreCase(""Status"")",Chrome 74.0.3729.169,,2019-06-12 12:12:28,2019-06-12 12:12:28,0.040s,PASSED
+"getText(findTestObject(""Object Repository/Lemoney/Invoices/Receivables/tableHeaders_AmountDue"")).equalsIgnoreCase(""Amount Due"")",Chrome 74.0.3729.169,,2019-06-12 12:12:28,2019-06-12 12:12:28,0.064s,PASSED
+"ele = findWebElements(findTestObject(""Object Repository/Lemoney/Invoices/Receivables/tableRows_InvoiceDate""), 10).get(1)",Chrome 74.0.3729.169,,2019-06-12 12:12:28,2019-06-12 12:12:28,0.042s,PASSED
+println(ele.getText()),Chrome 74.0.3729.169,,2019-06-12 12:12:28,2019-06-12 12:12:28,0.045s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-12 12:12:28,2019-06-12 12:12:28,0.007s,PASSED
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/TearDown,Chrome 74.0.3729.169,,2019-06-12 12:12:28,2019-06-12 12:12:30,1.249s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-12 12:12:28,2019-06-12 12:12:28,0.005s,PASSED
+"mouseOver(findTestObject(""Lemoney/Setup/Logout/img_profileImage""))",Chrome 74.0.3729.169,,2019-06-12 12:12:29,2019-06-12 12:12:29,0.112s,PASSED
+"click(findTestObject(""Lemoney/Setup/Logout/Logout""))",Chrome 74.0.3729.169,,2019-06-12 12:12:29,2019-06-12 12:12:30,0.623s,PASSED
+closeBrowser(),Chrome 74.0.3729.169,,2019-06-12 12:12:30,2019-06-12 12:12:30,0.181s,PASSED
+Start tear down : tearDown,Chrome 74.0.3729.169,,2019-06-12 12:12:30,2019-06-12 12:12:30,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-12 12:12:30,2019-06-12 12:12:30,0.005s,PASSED

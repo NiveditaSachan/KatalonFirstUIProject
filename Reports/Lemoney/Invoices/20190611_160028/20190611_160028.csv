@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invoices,Chrome 74.0.3729.169,,2019-06-11 16:01:03,2019-06-11 16:01:23,19.402s,ERROR
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/Setup,Chrome 74.0.3729.169,,2019-06-11 16:01:04,2019-06-11 16:01:22,17.136s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-11 16:01:04,2019-06-11 16:01:04,0.019s,PASSED
+Start setup action : setUp,Chrome 74.0.3729.169,,2019-06-11 16:01:04,2019-06-11 16:01:21,16.832s,PASSED
+"waitForElementPresent(findTestObject(""Lemoney/Setup/Logout/img_profileImage""), 10)",Chrome 74.0.3729.169,,2019-06-11 16:01:21,2019-06-11 16:01:21,0.116s,PASSED
+"verifyElementPresent(findTestObject(""Lemoney/Setup/InvoiceHeading/InvoicesHeading""), 10)",Chrome 74.0.3729.169,,2019-06-11 16:01:21,2019-06-11 16:01:22,0.091s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-11 16:01:22,2019-06-11 16:01:22,0.012s,PASSED
+,,,,,,
+Test Cases/Lemoney/Invoices/Receivables,Chrome 74.0.3729.169,,2019-06-11 16:01:22,2019-06-11 16:01:22,0.515s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-11 16:01:22,2019-06-11 16:01:22,0.012s,PASSED
+"getText(findTestObject(""Object Repository/Lemoney/Invoices/Receivables/tableHeaders_Invoices"")).equalsIgnoreCase(""Invoice Date"")",Chrome 74.0.3729.169,,2019-06-11 16:01:22,2019-06-11 16:01:22,0.088s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-11 16:01:22,2019-06-11 16:01:22,0.008s,PASSED
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/TearDown,Chrome 74.0.3729.169,,2019-06-11 16:01:22,2019-06-11 16:01:23,0.551s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-11 16:01:22,2019-06-11 16:01:22,0.004s,PASSED
+Start tear down : tearDown,Chrome 74.0.3729.169,,2019-06-11 16:01:22,2019-06-11 16:01:23,0.269s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-11 16:01:23,2019-06-11 16:01:23,0.002s,PASSED

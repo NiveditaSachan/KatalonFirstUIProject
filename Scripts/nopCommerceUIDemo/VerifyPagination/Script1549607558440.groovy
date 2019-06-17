@@ -20,33 +20,33 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://demo.nopcommerce.com/camera-photo')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by'), 
+WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Sort by'), 
     10)
 
-WebUI.verifyOptionSelectedByLabel(findTestObject('nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName'), 
+WebUI.verifyOptionSelectedByLabel(findTestObject('TestFolder/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName'), 
     'Position', false, 60)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName'), 
+WebUI.selectOptionByLabel(findTestObject('TestFolder/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_PositionName A to ZName'), 
     'Price: Low to High', false)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Display'), 
+WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/span_Display'), 
     10)
 
-WebUI.verifyOptionSelectedByLabel(findTestObject('nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369'), 
+WebUI.verifyOptionSelectedByLabel(findTestObject('TestFolder/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369'), 
     '6', false, 10)
 
-WebUI.selectOptionByLabel(findTestObject('nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369'), 
+WebUI.selectOptionByLabel(findTestObject('TestFolder/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/select_369'), 
     '3', false)
 
 i = 2
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/strong_Filter by price'), 
+WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/strong_Filter by price'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Under 500.00'), 
+WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Under 500.00'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Over 500.00'), 
+WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/a_Over 500.00'), 
     0)
 
 // Get all the Child of Grid
@@ -79,7 +79,7 @@ btnAddtoCart= driver.findElement(By.xpath("//div[@class='item-grid']/div[1]/*//d
 println(btnAddtoCart.isDisplayed())
 
 // Get Text of first Child of grid without using webdriver method
-abc = WebUI.getText(findTestObject('nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Nikon D5500 DSLR'))
+abc = WebUI.getText(findTestObject('TestFolder/nopCommerce_OR/PaginationInCamera/Page_nopCommerce demo store. Camera/div_Nikon D5500 DSLR'))
 println('abc ... ' + abc)
 
 

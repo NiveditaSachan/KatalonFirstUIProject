@@ -26,27 +26,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.bigbasket.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_Login'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
+WebUI.setText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
+WebUI.setEncryptedText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
     'LqVTzjb8H0GS29zWb5N07g==')
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/button_LOGIN'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/button_LOGIN'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'),
+WebUI.waitForElementClickable(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount'),
 	15)
 
-WebUI.setText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 'Daal')
+WebUI.setText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 'Daal')
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/SearchIcon'), 10)
+WebUI.waitForElementClickable(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/SearchIcon'), 10)
 
-WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/SearchIcon'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/SearchIcon'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item'), 10)
+WebUI.scrollToElement(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Best Online Grocery Store in I/btn_ADD_item'), 10)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -69,20 +69,20 @@ Thread.sleep(1000)
 
 ///WebUI.waitForElementClickable(findTestObject('Basket/BigBasketLogo'), 15)
 
-WebUI.click(findTestObject('Object Repository/Page_Best Online Grocery Store in I/noOfItemInBasket'))
+WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Best Online Grocery Store in I/noOfItemInBasket'))
 
-noOfItemInBasket = WebUI.getText(findTestObject('Object Repository/Page_Best Online Grocery Store in I/noOfItemInBasket'))
+noOfItemInBasket = WebUI.getText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Best Online Grocery Store in I/noOfItemInBasket'))
 
 println('no Of Item In Basket ...' + noOfItemInBasket)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Best Online Grocery Store in I/div_ QuantityAddRemove'), 
+WebUI.verifyElementPresent(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Best Online Grocery Store in I/div_ QuantityAddRemove'), 
     10)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Best Online Grocery Store in I/div_ProductPriceRs'), 10)
+WebUI.verifyElementPresent(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Best Online Grocery Store in I/div_ProductPriceRs'), 10)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Best Online Grocery Store in I/SubTotalInRs'), 10)
+WebUI.verifyElementPresent(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Best Online Grocery Store in I/SubTotalInRs'), 10)
 
-price = WebUI.getText(findTestObject('Object Repository/Page_Best Online Grocery Store in I/SubTotalInRs'))
+price = WebUI.getText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Best Online Grocery Store in I/SubTotalInRs'))
 
 println('Price is : ' + price)
 

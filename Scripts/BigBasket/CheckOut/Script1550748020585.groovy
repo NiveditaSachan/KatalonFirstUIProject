@@ -26,35 +26,35 @@ WebUI.openBrowser('')
 
 	WebUI.navigateToUrl('https://www.bigbasket.com/')
 	
-	WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_Login'))
+	WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/a_Login'))
 	
-	WebUI.setText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
+	WebUI.setText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
 	
-	WebUI.setEncryptedText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
+	WebUI.setEncryptedText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
 	    'LqVTzjb8H0GS29zWb5N07g==')
 	
-	WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/button_LOGIN'))
+	WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/button_LOGIN'))
 	
-	WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'), 
+	WebUI.waitForElementClickable(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount'), 
 	    15)
 	
-	WebUI.setText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 'Daal')
+	WebUI.setText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_Shop for Rs.or moreand g'), 'Daal')
 	
-	//WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/SearchIcon'), 10)
+	//WebUI.waitForElementClickable(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/SearchIcon'), 10)
 		Thread.sleep(1000)
 		
 		WebUI.waitForPageLoad(15)
 		
-		WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/SearchIcon'))
+		WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/SearchIcon'))
 		
 		WebUI.waitForPageLoad(10)
 		
-		WebUI.scrollToElement(findTestObject('Object Repository/Page_Best Online Grocery Store in I/btn_ADD_item'), 10)
+		WebUI.scrollToElement(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Best Online Grocery Store in I/btn_ADD_item'), 10)
 	
 	//WebElement ele = driver.findElement(By.xpath("(//button[@class='btn btn-add col-xs-9'][contains(text(),'Add')])[1]"))
 	//'This is ADD button in Key word search results to add product to basket'
 		
-	WebElement ele = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/Basket/ADD button'), 15).get(1)
+	WebElement ele = WebUiCommonHelper.findWebElements(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket/ADD button'), 15).get(1)
 	
 	println('ele.............' + ele)
 	
@@ -73,62 +73,62 @@ WebUI.openBrowser('')
 	
 	WebUI.waitForPageLoad(15)
 	
-	WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'))
+	WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount'))
 	
-	WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_My Basket No Items'))
-	
-	WebUI.waitForPageLoad(15)
-	
-	WebUI.scrollToElement(findTestObject('BigBasket/Basket/CHECKOUT'), 15)
-	
-	//WebUI.click(findTestObject('BigBasket/Basket/CHECKOUT'))
-	WebUiCommonHelper.findWebElement(findTestObject('BigBasket/Basket/CHECKOUT'), 15).click()
+	WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/a_My Basket No Items'))
 	
 	WebUI.waitForPageLoad(15)
 	
-	WebUI.verifyElementPresent(findTestObject('BigBasket/Checkout/Checkout_DeliveryAddressIcon'), 15)
+	WebUI.scrollToElement(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket/CHECKOUT'), 15)
 	
-	WebUI.verifyElementPresent(findTestObject('Object Repository/BigBasket/Checkout/Checkout_DeliveryAddressHeading'), 15)
+	//WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket/CHECKOUT'))
+	WebUiCommonHelper.findWebElement(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Basket/CHECKOUT'), 15).click()
 	
-	WebUI.verifyElementPresent(findTestObject('Object Repository/BigBasket/Checkout/Checkout_DeliveryAddress'), 15)
+	WebUI.waitForPageLoad(15)
 	
-	WebUI.verifyElementPresent(findTestObject('Object Repository/BigBasket/Checkout/Checkout_Button_Change'), 15)
+	WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_DeliveryAddressIcon'), 15)
 	
-	WebUI.verifyElementPresent(findTestObject('Object Repository/BigBasket/Checkout/Checkout_DeliveryOptionsHeading'), 15)
+	WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_DeliveryAddressHeading'), 15)
 	
-	WebUI.verifyElementPresent(findTestObject('Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryOptionHeading'), 
+	WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_DeliveryAddress'), 15)
+	
+	WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_Button_Change'), 15)
+	
+	WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_DeliveryOptionsHeading'), 15)
+	
+	WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_DefaultDeliveryOptionHeading'), 
 	    15)
 	
-	WebUI.verifyElementPresent(findTestObject('BigBasket/Checkout/Checkout_ShipmentDeliveryCharge'), 15)
+	WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_ShipmentDeliveryCharge'), 15)
 	
 	// Amount in Basket
-	BasketValue = Integer.parseInt(WebUI.getText(findTestObject('Object Repository/BigBasket/Checkout/Checkout_BasketValue')))
+	BasketValue = Integer.parseInt(WebUI.getText(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_BasketValue')))
 	
 	println('BasketValue ... ' + BasketValue)
 	
 	if (BasketValue < 1000) 
 	{
-	    WebUI.verifyElementPresent(findTestObject('Object Repository/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30'), 15)
+	    WebUI.verifyElementPresent(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_DefaultDeliveryChargeRs30'), 15)
 	} 
 	else
 	 {
-	    freeDelivery = WebUI.getText(findTestObject('Object Repository/BigBasket/Checkout/Checkout_defaultDeliveryChargeFREE'))	
+	    freeDelivery = WebUI.getText(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_defaultDeliveryChargeFREE'))	
 	    assert freeDelivery.equals('FREE')
 	 }
 	
 	WebUI.waitForPageLoad(15)
 	
-	WebUI.click(findTestObject('BigBasket/Checkout/Checkout_DefaultDeliverySlotDropDown'))
+	WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_DefaultDeliverySlotDropDown'))
 	
 	Thread.sleep(2000)
 	
-	WebElement selectAnotherSlot = WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/Checkout/Checkout_DefaultDeliverySelectAnotherSlot'),15).get(1)
+	WebElement selectAnotherSlot = WebUiCommonHelper.findWebElements(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_DefaultDeliverySelectAnotherSlot'),15).get(1)
 	
 	selectAnotherSlot.click()
 	
 	Thread.sleep(1000)
 	
-	DeliveryCharges = WebUI.getText(findTestObject('Object Repository/BigBasket/Checkout/Checkout_OrderSummary_DeliveryCharge'))
+	DeliveryCharges = WebUI.getText(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_OrderSummary_DeliveryCharge'))
 	
 	 DeliveryChargesApplied = 0
 	
@@ -140,14 +140,14 @@ WebUI.openBrowser('')
 	
 	println('DeliveryChargesApplied... ' + DeliveryChargesApplied)
 	
-	SettleBBBalance = Integer.parseInt(WebUI.getText(findTestObject('Object Repository/BigBasket/Checkout/Checkout_OrderSummary_SettleBigBasketBalance')).replace(
+	SettleBBBalance = Integer.parseInt(WebUI.getText(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_OrderSummary_SettleBigBasketBalance')).replace(
 	        'Rs ', '').trim())
 	
 	println('SettleBBBalance.... ' + SettleBBBalance)
 	
 	CalculatedTotalPayableAmount = ((BasketValue + DeliveryChargesApplied) + SettleBBBalance)
 	
-	GlobalVariable.TotalPayableAmount = Integer.parseInt(WebUI.getText(findTestObject('Object Repository/BigBasket/Checkout/Checkout_OrderSummary_TotalAmountPayable')))
+	GlobalVariable.TotalPayableAmount = Integer.parseInt(WebUI.getText(findTestObject('TestFolder/nopCommerce_OR/BigBasket/Checkout/Checkout_OrderSummary_TotalAmountPayable')))
 	
 	println('GlobalVariable.TotalPayableAmount' + GlobalVariable.TotalPayableAmount)
 	

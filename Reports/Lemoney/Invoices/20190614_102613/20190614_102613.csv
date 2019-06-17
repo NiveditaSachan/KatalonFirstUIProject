@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invoices,Chrome 74.0.3729.169,,2019-06-14 10:26:46,2019-06-14 10:27:05,19.125s,PASSED
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/Setup,Chrome 74.0.3729.169,,2019-06-14 10:26:47,2019-06-14 10:27:02,15.264s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 10:26:47,2019-06-14 10:26:47,0.017s,PASSED
+Start setup action : setUp,Chrome 74.0.3729.169,,2019-06-14 10:26:47,2019-06-14 10:27:02,15.104s,PASSED
+"waitForElementPresent(findTestObject(""Lemoney/Setup/Logout/img_profileImage""), 10)",Chrome 74.0.3729.169,,2019-06-14 10:27:02,2019-06-14 10:27:02,0.083s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 10:27:02,2019-06-14 10:27:02,0.010s,PASSED
+,,,,,,
+Test Cases/Lemoney/DataBase/DatabaseConnection,Chrome 74.0.3729.169,,2019-06-14 10:27:02,2019-06-14 10:27:03,1.185s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 10:27:02,2019-06-14 10:27:02,0.037s,PASSED
+"url = ""apiserver.cw1p29kfimzt.ap-south-1.rds.amazonaws.com""",Chrome 74.0.3729.169,,2019-06-14 10:27:03,2019-06-14 10:27:03,0.002s,PASSED
+"dbname = ""apiserver""",Chrome 74.0.3729.169,,2019-06-14 10:27:03,2019-06-14 10:27:03,0.001s,PASSED
+"port = ""5432""",Chrome 74.0.3729.169,,2019-06-14 10:27:03,2019-06-14 10:27:03,0.001s,PASSED
+"userName = ""apiserver""",Chrome 74.0.3729.169,,2019-06-14 10:27:03,2019-06-14 10:27:03,0.001s,PASSED
+"passWord = ""api-server-db-pwd""",Chrome 74.0.3729.169,,2019-06-14 10:27:03,2019-06-14 10:27:03,0.001s,PASSED
+"com.database.DemoSQLPro.connectDB(url, dbname, port, userName, passWord)",Chrome 74.0.3729.169,,2019-06-14 10:27:03,2019-06-14 10:27:03,0.670s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 10:27:03,2019-06-14 10:27:03,0.009s,PASSED
+,,,,,,
+Test Cases/Lemoney/DataBase/Table_invoiceListing,Chrome 74.0.3729.169,,2019-06-14 10:27:03,2019-06-14 10:27:04,0.750s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:04,0.005s,PASSED
+"Invoice_nbr = ""INV_NBR_2""",Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:04,0.001s,PASSED
+"queryString = select id,bill_to,invoice_sent_at,payment_due_date,total_cost from invoice where invoice_nbr='$Invoice_nbr'",Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:04,0.011s,PASSED
+result = com.database.DemoSQLPro.executeQuery(queryString),Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:04,0.066s,PASSED
+println(result),Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:04,0.016s,PASSED
+while (result.next()),Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:04,0.028s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:04,0.003s,PASSED
+,,,,,,
+Test Cases/Lemoney/DataBase/CloseDBConnection,Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:04,0.188s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:04,0.003s,PASSED
+com.database.DemoSQLPro.closeDatabaseConnection(),Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:04,0.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:04,0.002s,PASSED
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/TearDown,Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:05,1.056s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:04,0.004s,PASSED
+"mouseOver(findTestObject(""Lemoney/Setup/Logout/img_profileImage""))",Chrome 74.0.3729.169,,2019-06-14 10:27:04,2019-06-14 10:27:05,0.101s,PASSED
+"click(findTestObject(""Lemoney/Setup/Logout/Logout""))",Chrome 74.0.3729.169,,2019-06-14 10:27:05,2019-06-14 10:27:05,0.634s,PASSED
+closeBrowser(),Chrome 74.0.3729.169,,2019-06-14 10:27:05,2019-06-14 10:27:05,0.134s,PASSED
+Start tear down : tearDown,Chrome 74.0.3729.169,,2019-06-14 10:27:05,2019-06-14 10:27:05,0.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-14 10:27:05,2019-06-14 10:27:05,0.003s,PASSED

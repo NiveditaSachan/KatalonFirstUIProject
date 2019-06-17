@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invoices,Chrome 74.0.3729.169,,2019-06-07 13:56:15,2019-06-07 13:56:37,21.722s,ERROR
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/Setup,Chrome 74.0.3729.169,,2019-06-07 13:56:16,2019-06-07 13:56:33,17.128s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-07 13:56:16,2019-06-07 13:56:16,0.026s,PASSED
+Start setup action : setUp,Chrome 74.0.3729.169,,2019-06-07 13:56:16,2019-06-07 13:56:32,15.703s,PASSED
+"waitForElementPresent(findTestObject(""Lemoney/Setup/Logout/img_profileImage""), 10)",Chrome 74.0.3729.169,,2019-06-07 13:56:32,2019-06-07 13:56:33,1.172s,PASSED
+"verifyElementPresent(findTestObject(""Lemoney/Setup/InvoiceHeading/InvoicesHeading""), 10)",Chrome 74.0.3729.169,,2019-06-07 13:56:33,2019-06-07 13:56:33,0.119s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-07 13:56:33,2019-06-07 13:56:33,0.028s,PASSED
+,,,,,,
+Test Cases/Lemoney/Invoices/InvoiceHeader,Chrome 74.0.3729.169,,2019-06-07 13:56:34,2019-06-07 13:56:36,2.148s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-07 13:56:34,2019-06-07 13:56:34,0.011s,PASSED
+"verifyElementPresent(findTestObject(""Lemoney/Invoices/Header/TriggerMenuFold""), 10)",Chrome 74.0.3729.169,,2019-06-07 13:56:34,2019-06-07 13:56:34,0.068s,PASSED
+"click(findTestObject(""Lemoney/Invoices/Header/TriggerMenuFold""))",Chrome 74.0.3729.169,,2019-06-07 13:56:34,2019-06-07 13:56:35,0.448s,PASSED
+"verifyElementPresent(findTestObject(""Lemoney/Invoices/Header/TriggerMenuUnfold""), 10)",Chrome 74.0.3729.169,,2019-06-07 13:56:35,2019-06-07 13:56:35,0.112s,PASSED
+"click(findTestObject(""Lemoney/Invoices/Header/TriggerMenuUnfold""))",Chrome 74.0.3729.169,,2019-06-07 13:56:35,2019-06-07 13:56:35,0.523s,PASSED
+"verifyElementPresent(findTestObject(""Lemoney/Invoices/Header/icon_searchIcon""), 10)",Chrome 74.0.3729.169,,2019-06-07 13:56:35,2019-06-07 13:56:35,0.121s,PASSED
+"verifyElementPresent(findTestObject(""Lemoney/Invoices/Header/icon_BellIcon""), 10)",Chrome 74.0.3729.169,,2019-06-07 13:56:35,2019-06-07 13:56:36,0.117s,PASSED
+"verifyElementPresent(findTestObject(""Lemoney/Invoices/Header/icon_profileImage""), 10)",Chrome 74.0.3729.169,,2019-06-07 13:56:36,2019-06-07 13:56:36,0.098s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Lemoney/Invoices/InvoicesHeading""), 10)",Chrome 74.0.3729.169,,2019-06-07 13:56:36,2019-06-07 13:56:36,0.043s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-07 13:56:36,2019-06-07 13:56:36,0.004s,PASSED
+,,,,,,
+Test Cases/Lemoney/Invoices/Receivables,Chrome 74.0.3729.169,,2019-06-07 13:56:36,2019-06-07 13:56:36,0.398s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-07 13:56:36,2019-06-07 13:56:36,0.008s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Lemoney/Invoices/Receivables/tab_Receivables""), 10)",Chrome 74.0.3729.169,,2019-06-07 13:56:36,2019-06-07 13:56:36,0.045s,PASSED
+"var(receivableAmount = findTestObject(""Object Repository/Lemoney/Invoices/Receivables/tab_Receivables_Amount"").toString())",Chrome 74.0.3729.169,,2019-06-07 13:56:36,2019-06-07 13:56:36,0.084s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-07 13:56:36,2019-06-07 13:56:36,0.008s,PASSED
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/TearDown,Chrome 74.0.3729.169,,2019-06-07 13:56:36,2019-06-07 13:56:37,0.607s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-07 13:56:36,2019-06-07 13:56:36,0.023s,PASSED
+Start tear down : tearDown,Chrome 74.0.3729.169,,2019-06-07 13:56:36,2019-06-07 13:56:37,0.247s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-07 13:56:37,2019-06-07 13:56:37,0.004s,PASSED

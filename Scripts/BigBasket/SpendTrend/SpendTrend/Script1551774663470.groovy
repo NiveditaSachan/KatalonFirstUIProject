@@ -33,34 +33,34 @@ WebUI.openBrowser('')
 
 	WebUI.navigateToUrl('https://www.bigbasket.com/')
 	
-	WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/a_Login'))
+	WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/a_Login'))
 	
-	WebUI.setText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
+	WebUI.setText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_OR_email'), 'nivedita.hbti@gmail.com')
 	
-	WebUI.setEncryptedText(findTestObject('Object Repository/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
+	WebUI.setEncryptedText(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/input_Please enter valid email'), 
 	    'LqVTzjb8H0GS29zWb5N07g==')
 	
-	WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/button_LOGIN'))
+	WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/button_LOGIN'))
 	
 	//Go To My Orders Page
-	WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'), 
+	WebUI.waitForElementClickable(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount'), 
 	    15)
 	
 	Thread.sleep(2000)
 	
-	WebUI.click(findTestObject('Object Repository/Page_Online Grocery Shopping and On/span_UserAccount'))
+	WebUI.click(findTestObject('TestFolder/test/Page_Online Grocery Shopping and On/Page_Online Grocery Shopping and On/span_UserAccount'))
 	
-	WebUI.click(findTestObject('Object Repository/BigBasket/SpendTrend/Nivedita_MyAccount'))
+	WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/SpendTrend/Nivedita_MyAccount'))
 	
-	WebUI.waitForElementPresent( findTestObject('Object Repository/BigBasket/SpendTrend/LeftMenu_SpendTrends'), 0)
+	WebUI.waitForElementPresent( findTestObject('TestFolder/nopCommerce_OR/BigBasket/SpendTrend/LeftMenu_SpendTrends'), 0)
 	
-	WebUI.click(findTestObject('Object Repository/BigBasket/SpendTrend/LeftMenu_SpendTrends') )
+	WebUI.click(findTestObject('TestFolder/nopCommerce_OR/BigBasket/SpendTrend/LeftMenu_SpendTrends') )
 	
 	Thread.sleep(2000)
 
 	// Read From Bar Chart How much did I spend on orders?
-	List<WebElement> ExpenditureOnOrdersMonthName=WebUiCommonHelper.findWebElements( findTestObject('BigBasket/SpendTrend/Order_ExpenditureChart_Month'), 15)
-	List<WebElement> ExpenditureOnOrdersAmountPerMonth=WebUiCommonHelper.findWebElements(findTestObject('BigBasket/SpendTrend/Order_ExpenditureChart_Amount') , 15)
+	List<WebElement> ExpenditureOnOrdersMonthName=WebUiCommonHelper.findWebElements( findTestObject('TestFolder/nopCommerce_OR/BigBasket/SpendTrend/Order_ExpenditureChart_Month'), 15)
+	List<WebElement> ExpenditureOnOrdersAmountPerMonth=WebUiCommonHelper.findWebElements(findTestObject('TestFolder/nopCommerce_OR/BigBasket/SpendTrend/Order_ExpenditureChart_Amount') , 15)
 	
 	noOfMonths=ExpenditureOnOrdersMonthName.size()
 	
@@ -71,8 +71,8 @@ WebUI.openBrowser('')
 	}
 	
 	// How much did I spend on orders?
-	List<WebElement> SavingOnOrdersMonthName=WebUiCommonHelper.findWebElements( findTestObject('Object Repository/BigBasket/SpendTrend/Order_SavingChart_month'), 15)
-	List<WebElement> SavingOnOrdersAmountPerMonth=WebUiCommonHelper.findWebElements(findTestObject('Object Repository/BigBasket/SpendTrend/Order_SavingChart_Amount') , 15)
+	List<WebElement> SavingOnOrdersMonthName=WebUiCommonHelper.findWebElements( findTestObject('TestFolder/nopCommerce_OR/BigBasket/SpendTrend/Order_SavingChart_month'), 15)
+	List<WebElement> SavingOnOrdersAmountPerMonth=WebUiCommonHelper.findWebElements(findTestObject('TestFolder/nopCommerce_OR/BigBasket/SpendTrend/Order_SavingChart_Amount') , 15)
 	
 	noOfMonths_Saving=SavingOnOrdersMonthName.size()
 	
@@ -83,8 +83,8 @@ WebUI.openBrowser('')
 	}
 	
 	// What categories did I spend money on?
-	List<WebElement> Expenditure_CategoryName=WebUiCommonHelper.findWebElements( findTestObject('Object Repository/BigBasket/SpendTrend/Order_CategoryExpenditure_CategoryName'), 15)
-	List<WebElement> Expenditure_Amount=WebUiCommonHelper.findWebElements( findTestObject('Object Repository/BigBasket/SpendTrend/Order_CategoryExpenditure_Amount'), 15)
+	List<WebElement> Expenditure_CategoryName=WebUiCommonHelper.findWebElements( findTestObject('TestFolder/nopCommerce_OR/BigBasket/SpendTrend/Order_CategoryExpenditure_CategoryName'), 15)
+	List<WebElement> Expenditure_Amount=WebUiCommonHelper.findWebElements( findTestObject('TestFolder/nopCommerce_OR/BigBasket/SpendTrend/Order_CategoryExpenditure_Amount'), 15)
 	
 	noOfCategory=Expenditure_CategoryName.size()
 	

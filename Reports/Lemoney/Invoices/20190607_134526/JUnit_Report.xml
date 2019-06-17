@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Invoices" time="84" tests="1" failures="1" errors="2">
+   <testsuite name="Invoices" tests="1" failures="1" errors="2" time="84" timestamp="2019-06-07 13:45:29" hostname="nivedita - 192.168.0.107" id="Test Suites/Lemoney/Invoices">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/Lemoney/Invoices/20190607_134526"/>
+         <property name="logFiles" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/Lemoney/Invoices/20190607_134526/execution0.log"/>
+         <property name="attachments" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/Lemoney/Invoices/20190607_134526/1559895349598.png, /Users/nivedita/git/KatalonFirstUIProject/Reports/Lemoney/Invoices/20190607_134526/1559895411857.png"/>
+         <property name="hostName" value="nivedita - 192.168.0.107"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="419fce514da0ce385679f9bf71b22c60"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Lemoney/Setup and TearDown/Setup" classname="Test Cases/Lemoney/Setup and TearDown/Setup" status="PASSED">
+         <system-out><![CDATA[2019-06-07 13:45:30 - [TEST_CASE][PASSED] - Test Cases/Lemoney/Setup and TearDown/Setup: Test Cases/Lemoney/Setup and TearDown/Setup
+
+2019-06-07 13:45:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-07 13:45:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-07 13:45:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-07 13:45:30 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-07 13:45:30 - [TEST_STEP][PASSED] - Start setup action : setUp: Method 'setUp' complete successfully
+
+2019-06-07 13:45:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-07 13:45:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-07 13:45:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-07 13:45:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-07 13:45:34 - [TEST_STEP][PASSED] - navigateToUrl("http://lemoney-dev-nlb2-bb7e2c16f0430ace.elb.ap-south-1.amazonaws.com:5100/"): Navigate to 'http://lemoney-dev-nlb2-bb7e2c16f0430ace.elb.ap-south-1.amazonaws.com:5100/' successfully
+
+2019-06-07 13:45:37 - [MESSAGE][PASSED] - Navigate to 'http://lemoney-dev-nlb2-bb7e2c16f0430ace.elb.ap-south-1.amazonaws.com:5100/' successfully
+
+2019-06-07 13:45:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/img_Lemoney__logo"), 10): Object 'Object Repository/Lemoney/Setup/Login/img_Lemoney__logo' is present
+
+2019-06-07 13:45:37 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/img_Lemoney__logo' is present
+
+2019-06-07 13:45:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/Title_Lemoney"), 10): Object 'Object Repository/Lemoney/Setup/Login/Title_Lemoney' is present
+
+2019-06-07 13:45:37 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/Title_Lemoney' is present
+
+2019-06-07 13:45:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/Title_Making Banking Useful"), 10): Object 'Object Repository/Lemoney/Setup/Login/Title_Making Banking Useful' is present
+
+2019-06-07 13:45:37 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/Title_Making Banking Useful' is present
+
+2019-06-07 13:45:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/div_Enter Username  Password"), 10): Object 'Object Repository/Lemoney/Setup/Login/div_Enter Username  Password' is present
+
+2019-06-07 13:45:37 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/div_Enter Username  Password' is present
+
+2019-06-07 13:45:37 - [TEST_STEP][PASSED] - setText(findTestObject("Lemoney/Setup/Login/input_EnterUserName"), "owner@lemoney.com"): Text 'owner@lemoney.com' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterUserName'
+
+2019-06-07 13:45:38 - [MESSAGE][PASSED] - Text 'owner@lemoney.com' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterUserName'
+
+2019-06-07 13:45:38 - [TEST_STEP][PASSED] - setText(findTestObject("Lemoney/Setup/Login/input_EnterPassword"), "123456"): Text '123456' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterPassword'
+
+2019-06-07 13:45:38 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterPassword'
+
+2019-06-07 13:45:38 - [TEST_STEP][PASSED] - click(findTestObject("Lemoney/Setup/Login/button_Login")): Object: 'Object Repository/Lemoney/Setup/Login/button_Login' is clicked on
+
+2019-06-07 13:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Lemoney/Setup/Login/button_Login' is clicked on
+
+2019-06-07 13:45:38 - [MESSAGE][PASSED] - Method 'setUp' complete successfully
+
+2019-06-07 13:45:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Lemoney/Setup/Logout/img_profileImage"), 10): Object 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is present
+
+2019-06-07 13:45:38 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is present
+
+2019-06-07 13:45:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/InvoiceHeading/InvoicesHeading"), 10): Object 'Object Repository/Lemoney/Setup/InvoiceHeading/InvoicesHeading' is present
+
+2019-06-07 13:45:38 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/InvoiceHeading/InvoicesHeading' is present
+
+2019-06-07 13:45:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-07 13:45:38 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-07 13:45:38 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/Invoices/InvoiceHeader" classname="Test Cases/Lemoney/Invoices/InvoiceHeader" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Lemoney/Invoices/InvoiceHeader FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at InvoiceHeader.run(InvoiceHeader:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)
+"/>
+         <system-out><![CDATA[2019-06-07 13:45:38 - [TEST_CASE][FAILED] - Test Cases/Lemoney/Invoices/InvoiceHeader: Test Cases/Lemoney/Invoices/InvoiceHeader FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at InvoiceHeader.run(InvoiceHeader:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)
+
+
+2019-06-07 13:45:38 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-07 13:45:38 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-07 13:45:38 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-07 13:45:38 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-07 13:45:39 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Lemoney/Invoices/Header/TriggerMenuUnfold"), 10): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']' not found
+
+2019-06-07 13:45:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-06-07 13:45:50 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']' not found
+[[ATTACHMENT|/Users/nivedita/git/KatalonFirstUIProject/Reports/Lemoney/Invoices/20190607_134526/1559895349598.png]]
+
+2019-06-07 13:45:50 - [TEST_STEP][FAILED] - click(findTestObject("Lemoney/Invoices/Header/TriggerMenuUnfold")): Unable to click on object 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']' not found)
+
+2019-06-07 13:46:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-06-07 13:46:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']' not found)
+[[ATTACHMENT|/Users/nivedita/git/KatalonFirstUIProject/Reports/Lemoney/Invoices/20190607_134526/1559895411857.png]]
+
+2019-06-07 13:46:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Invoices/Header/TriggerMenuFold"), 10): Object 'Object Repository/Lemoney/Invoices/Header/TriggerMenuFold' is present
+
+2019-06-07 13:46:52 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Invoices/Header/TriggerMenuFold' is present
+
+2019-06-07 13:46:52 - [TEST_STEP][PASSED] - click(findTestObject("Lemoney/Invoices/Header/TriggerMenuFold")): Object: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuFold' is clicked on
+
+2019-06-07 13:46:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuFold' is clicked on
+
+2019-06-07 13:46:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Invoices/Header/icon_searchIcon"), 10): Object 'Object Repository/Lemoney/Invoices/Header/icon_searchIcon' is present
+
+2019-06-07 13:46:52 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Invoices/Header/icon_searchIcon' is present
+
+2019-06-07 13:46:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Invoices/Header/icon_BellIcon"), 10): Object 'Object Repository/Lemoney/Invoices/Header/icon_BellIcon' is present
+
+2019-06-07 13:46:52 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Invoices/Header/icon_BellIcon' is present
+
+2019-06-07 13:46:52 - [TEST_STEP][FAILED] - verifyElemnetPresent(findTestObject("Lemoney/Invoices/Header/icon_profileImage"), 10): verifyElemnetPresent(findTestObject("Lemoney/Invoices/Header/icon_profileImage"), 10) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at InvoiceHeader.run(InvoiceHeader:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)
+
+
+2019-06-07 13:46:52 - [MESSAGE][FAILED] - verifyElemnetPresent(findTestObject("Lemoney/Invoices/Header/icon_profileImage"), 10) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at InvoiceHeader.run(InvoiceHeader:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)
+
+
+2019-06-07 13:46:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-07 13:46:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-07 13:46:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-06-07 13:45:38 - [TEST_CASE][FAILED] - Test Cases/Lemoney/Invoices/InvoiceHeader: Test Cases/Lemoney/Invoices/InvoiceHeader FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at InvoiceHeader.run(InvoiceHeader:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/Invoices/Receivables" classname="Test Cases/Lemoney/Invoices/Receivables" status="ERROR">
+         <error type="ERROR" message="Test Cases/Lemoney/Invoices/Receivables FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Lemoney/Invoices/Receivables/tab_Receivables_Amount', ...]
+Possible solutions: getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), getUrl(), clearText(com.kms.katalon.core.testobject.TestObject)
+	at Receivables.run(Receivables:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)
+"/>
+         <system-out><![CDATA[2019-06-07 13:46:52 - [TEST_CASE][ERROR] - Test Cases/Lemoney/Invoices/Receivables: Test Cases/Lemoney/Invoices/Receivables FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Lemoney/Invoices/Receivables/tab_Receivables_Amount', ...]
+Possible solutions: getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), getUrl(), clearText(com.kms.katalon.core.testobject.TestObject)
+	at Receivables.run(Receivables:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)
+
+
+2019-06-07 13:46:52 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-07 13:46:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-07 13:46:52 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-07 13:46:52 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-07 13:46:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tab_Receivables"), 10): Object 'Object Repository/Lemoney/Invoices/Receivables/tab_Receivables' is present
+
+2019-06-07 13:46:53 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Invoices/Receivables/tab_Receivables' is present
+
+2019-06-07 13:46:53 - [TEST_STEP][ERROR] - var(receivableAmount = getText(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tab_Receivables_Amount"), 10)): var(receivableAmount = getText(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tab_Receivables_Amount"), 10)) FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Lemoney/Invoices/Receivables/tab_Receivables_Amount', ...]
+Possible solutions: getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), getUrl(), clearText(com.kms.katalon.core.testobject.TestObject)
+	at Receivables.run(Receivables:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)
+
+
+2019-06-07 13:46:53 - [MESSAGE][ERROR] - var(receivableAmount = getText(findTestObject("Object Repository/Lemoney/Invoices/Receivables/tab_Receivables_Amount"), 10)) FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Lemoney/Invoices/Receivables/tab_Receivables_Amount', ...]
+Possible solutions: getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), getUrl(), clearText(com.kms.katalon.core.testobject.TestObject)
+	at Receivables.run(Receivables:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)
+
+
+2019-06-07 13:46:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-07 13:46:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-07 13:46:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-06-07 13:46:52 - [TEST_CASE][ERROR] - Test Cases/Lemoney/Invoices/Receivables: Test Cases/Lemoney/Invoices/Receivables FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Lemoney/Invoices/Receivables/tab_Receivables_Amount', ...]
+Possible solutions: getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), getUrl(), clearText(com.kms.katalon.core.testobject.TestObject)
+	at Receivables.run(Receivables:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/Setup and TearDown/TearDown" classname="Test Cases/Lemoney/Setup and TearDown/TearDown" status="ERROR">
+         <error type="ERROR" message="Test Cases/Lemoney/Setup and TearDown/TearDown FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/nivedita/git/KatalonFirstUIProject/Scripts/Lemoney/Setup%20and%20TearDown/TearDown/Script1559895221723.groovy: 16: unable to resolve class TearDown ,  unable to find class for annotation
+ @ line 16, column 1.
+   @TearDown(skipped=false)
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)
+"/>
+         <system-out><![CDATA[2019-06-07 13:46:53 - [TEST_CASE][ERROR] - Test Cases/Lemoney/Setup and TearDown/TearDown: Test Cases/Lemoney/Setup and TearDown/TearDown FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/nivedita/git/KatalonFirstUIProject/Scripts/Lemoney/Setup%20and%20TearDown/TearDown/Script1559895221723.groovy: 16: unable to resolve class TearDown ,  unable to find class for annotation
+ @ line 16, column 1.
+   @TearDown(skipped=false)
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)
+
+
+2019-06-07 13:46:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-07 13:46:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-07 13:46:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-07 13:46:53 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-07 13:46:53 - [TEST_STEP][PASSED] - Start tear down : tearDown: Error occurred when try to run method 'tearDown' (Root cause: org.codehaus.groovy.control.MultipleCompilationErrorsException - org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/nivedita/git/KatalonFirstUIProject/Scripts/Lemoney/Setup%20and%20TearDown/TearDown/Script1559895221723.groovy: 16: unable to resolve class TearDown ,  unable to find class for annotation
+ @ line 16, column 1.
+   @TearDown(skipped=false)
+   ^
+
+1 error
+)
+
+2019-06-07 13:46:54 - [MESSAGE][WARNING] - Error occurred when try to run method 'tearDown' (Root cause: org.codehaus.groovy.control.MultipleCompilationErrorsException - org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/nivedita/git/KatalonFirstUIProject/Scripts/Lemoney/Setup%20and%20TearDown/TearDown/Script1559895221723.groovy: 16: unable to resolve class TearDown ,  unable to find class for annotation
+ @ line 16, column 1.
+   @TearDown(skipped=false)
+   ^
+
+1 error
+)
+
+2019-06-07 13:46:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-07 13:46:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-07 13:46:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-06-07 13:46:53 - [TEST_CASE][ERROR] - Test Cases/Lemoney/Setup and TearDown/TearDown: Test Cases/Lemoney/Setup and TearDown/TearDown FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/nivedita/git/KatalonFirstUIProject/Scripts/Lemoney/Setup%20and%20TearDown/TearDown/Script1559895221723.groovy: 16: unable to resolve class TearDown ,  unable to find class for annotation
+ @ line 16, column 1.
+   @TearDown(skipped=false)
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-07 13:45:29 - [TEST_SUITE][FAILED] - Invoices: Test Cases/Lemoney/Invoices/InvoiceHeader FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at InvoiceHeader.run(InvoiceHeader:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-06-07 13:45:29 - [TEST_SUITE][FAILED] - Invoices: Test Cases/Lemoney/Invoices/InvoiceHeader FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Lemoney/Invoices/Header/TriggerMenuUnfold' located by 'By.xpath: //span[@class='trigger']/i[@class='anticon anticon-menu-unfold']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at InvoiceHeader.run(InvoiceHeader:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559895326609.run(TempTestSuite1559895326609.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

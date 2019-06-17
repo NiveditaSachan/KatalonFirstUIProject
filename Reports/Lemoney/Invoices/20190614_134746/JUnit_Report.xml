@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Invoices" time="10" tests="4" failures="0" errors="1">
+   <testsuite name="Invoices" tests="4" failures="0" errors="1" time="10" timestamp="2019-06-14 13:48:19" hostname="nivedita - 192.168.0.12" id="Test Suites/Lemoney/Invoices">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/Lemoney/Invoices/20190614_134746"/>
+         <property name="logFiles" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/Lemoney/Invoices/20190614_134746/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nivedita - 192.168.0.12"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="26a623f0e04217beeaca1585612ce8d0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Lemoney/Setup and TearDown/Setup" classname="Test Cases/Lemoney/Setup and TearDown/Setup" status="PASSED">
+         <system-out><![CDATA[2019-06-14 13:48:20 - [TEST_CASE][PASSED] - Test Cases/Lemoney/Setup and TearDown/Setup: Test Cases/Lemoney/Setup and TearDown/Setup
+
+2019-06-14 13:48:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-14 13:48:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:48:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-14 13:48:20 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-14 13:48:20 - [TEST_STEP][PASSED] - Start setup action : setUp: Method 'setUp' complete successfully
+
+2019-06-14 13:48:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-14 13:48:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-14 13:48:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-14 13:48:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-14 13:48:24 - [TEST_STEP][PASSED] - navigateToUrl("https://lmpro.netlify.com/"): Navigate to 'https://lmpro.netlify.com/' successfully
+
+2019-06-14 13:48:25 - [MESSAGE][PASSED] - Navigate to 'https://lmpro.netlify.com/' successfully
+
+2019-06-14 13:48:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/img_Lemoney_logo"), 10): Object 'Object Repository/Lemoney/Setup/Login/img_Lemoney_logo' is present
+
+2019-06-14 13:48:25 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/img_Lemoney_logo' is present
+
+2019-06-14 13:48:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/Title_Lemoney"), 10): Object 'Object Repository/Lemoney/Setup/Login/Title_Lemoney' is present
+
+2019-06-14 13:48:25 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/Title_Lemoney' is present
+
+2019-06-14 13:48:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/Title_Making Banking Useful"), 10): Object 'Object Repository/Lemoney/Setup/Login/Title_Making Banking Useful' is present
+
+2019-06-14 13:48:25 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/Title_Making Banking Useful' is present
+
+2019-06-14 13:48:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/div_Enter Username  Password"), 10): Object 'Object Repository/Lemoney/Setup/Login/div_Enter Username  Password' is present
+
+2019-06-14 13:48:25 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/div_Enter Username  Password' is present
+
+2019-06-14 13:48:25 - [TEST_STEP][PASSED] - setText(findTestObject("Lemoney/Setup/Login/input_EnterUserName"), "owner@lemoney.com"): Text 'owner@lemoney.com' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterUserName'
+
+2019-06-14 13:48:26 - [MESSAGE][PASSED] - Text 'owner@lemoney.com' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterUserName'
+
+2019-06-14 13:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("Lemoney/Setup/Login/input_EnterPassword"), "123456"): Text '123456' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterPassword'
+
+2019-06-14 13:48:26 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterPassword'
+
+2019-06-14 13:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Lemoney/Setup/Login/button_Login")): Object: 'Object Repository/Lemoney/Setup/Login/button_Login' is clicked on
+
+2019-06-14 13:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Lemoney/Setup/Login/button_Login' is clicked on
+
+2019-06-14 13:48:26 - [MESSAGE][PASSED] - Method 'setUp' complete successfully
+
+2019-06-14 13:48:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Lemoney/Setup/Logout/img_profileImage"), 10): Object 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is present
+
+2019-06-14 13:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is present
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/DataBase/DatabaseConnection" classname="Test Cases/Lemoney/DataBase/DatabaseConnection" status="PASSED">
+         <system-out><![CDATA[2019-06-14 13:48:27 - [TEST_CASE][PASSED] - Test Cases/Lemoney/DataBase/DatabaseConnection: Test Cases/Lemoney/DataBase/DatabaseConnection
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - url = "apiserver.cw1p29kfimzt.ap-south-1.rds.amazonaws.com": null
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - dbname = "apiserver": null
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - port = "5432": null
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - userName = "apiserver": null
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - passWord = "api-server-db-pwd": null
+
+2019-06-14 13:48:27 - [TEST_STEP][PASSED] - com.database.DemoSQLPro.connectDB(url, dbname, port, userName, passWord): com.database.DemoSQLPro.connectDB is PASSED
+
+2019-06-14 13:48:28 - [MESSAGE][PASSED] - com.database.DemoSQLPro.connectDB is PASSED
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/DataBase/Table_invoiceListing" classname="Test Cases/Lemoney/DataBase/Table_invoiceListing" status="ERROR">
+         <error type="ERROR" message="Test Cases/Lemoney/DataBase/Table_invoiceListing FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/nivedita/git/KatalonFirstUIProject/Scripts/Lemoney/DataBase/Table_invoiceListing/Script1560486088483.groovy: 63: The current scope already contains a variable of the name RowDataPrecedingInvoice_nbr
+ @ line 63, column 19.
+   	List&lt;WebElement> RowDataPrecedingInvoice_nbr = WebUiCommonHelper.findWebElements(findTestObject('Lemoney/Invoices/Receivables/DataBaseObjects/Page_Dashboard/td_29 Mar 2019'), 10)
+                     ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560500296129.run(TempTestSuite1560500296129.groovy:36)
+"/>
+         <system-out><![CDATA[2019-06-14 13:48:28 - [TEST_CASE][ERROR] - Test Cases/Lemoney/DataBase/Table_invoiceListing: Test Cases/Lemoney/DataBase/Table_invoiceListing FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/nivedita/git/KatalonFirstUIProject/Scripts/Lemoney/DataBase/Table_invoiceListing/Script1560486088483.groovy: 63: The current scope already contains a variable of the name RowDataPrecedingInvoice_nbr
+ @ line 63, column 19.
+   	List<WebElement> RowDataPrecedingInvoice_nbr = WebUiCommonHelper.findWebElements(findTestObject('Lemoney/Invoices/Receivables/DataBaseObjects/Page_Dashboard/td_29 Mar 2019'), 10)
+                     ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560500296129.run(TempTestSuite1560500296129.groovy:36)
+
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-06-14 13:48:28 - [TEST_CASE][ERROR] - Test Cases/Lemoney/DataBase/Table_invoiceListing: Test Cases/Lemoney/DataBase/Table_invoiceListing FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/nivedita/git/KatalonFirstUIProject/Scripts/Lemoney/DataBase/Table_invoiceListing/Script1560486088483.groovy: 63: The current scope already contains a variable of the name RowDataPrecedingInvoice_nbr
+ @ line 63, column 19.
+   	List<WebElement> RowDataPrecedingInvoice_nbr = WebUiCommonHelper.findWebElements(findTestObject('Lemoney/Invoices/Receivables/DataBaseObjects/Page_Dashboard/td_29 Mar 2019'), 10)
+                     ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560500296129.run(TempTestSuite1560500296129.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/DataBase/CloseDBConnection" classname="Test Cases/Lemoney/DataBase/CloseDBConnection" status="PASSED">
+         <system-out><![CDATA[2019-06-14 13:48:28 - [TEST_CASE][PASSED] - Test Cases/Lemoney/DataBase/CloseDBConnection: Test Cases/Lemoney/DataBase/CloseDBConnection
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-14 13:48:28 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-14 13:48:29 - [TEST_STEP][PASSED] - com.database.DemoSQLPro.closeDatabaseConnection(): com.database.DemoSQLPro.closeDatabaseConnection is PASSED
+
+2019-06-14 13:48:29 - [MESSAGE][PASSED] - com.database.DemoSQLPro.closeDatabaseConnection is PASSED
+
+2019-06-14 13:48:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-14 13:48:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:48:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/Setup and TearDown/TearDown" classname="Test Cases/Lemoney/Setup and TearDown/TearDown" status="PASSED">
+         <system-out><![CDATA[2019-06-14 13:48:29 - [TEST_CASE][PASSED] - Test Cases/Lemoney/Setup and TearDown/TearDown: Test Cases/Lemoney/Setup and TearDown/TearDown
+
+2019-06-14 13:48:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-14 13:48:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:48:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-14 13:48:29 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-14 13:48:29 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Lemoney/Setup/Logout/img_profileImage")): Object: 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is hovered
+
+2019-06-14 13:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is hovered
+
+2019-06-14 13:48:29 - [TEST_STEP][PASSED] - click(findTestObject("Lemoney/Setup/Logout/Logout")): Object: 'Object Repository/Lemoney/Setup/Logout/Logout' is clicked on
+
+2019-06-14 13:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Lemoney/Setup/Logout/Logout' is clicked on
+
+2019-06-14 13:48:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-14 13:48:30 - [MESSAGE][PASSED] - Browser is closed
+
+2019-06-14 13:48:30 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2019-06-14 13:48:30 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully
+
+2019-06-14 13:48:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-14 13:48:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:48:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-14 13:48:19 - [TEST_SUITE][ERROR] - Invoices: Test Cases/Lemoney/DataBase/Table_invoiceListing FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/nivedita/git/KatalonFirstUIProject/Scripts/Lemoney/DataBase/Table_invoiceListing/Script1560486088483.groovy: 63: The current scope already contains a variable of the name RowDataPrecedingInvoice_nbr
+ @ line 63, column 19.
+   	List<WebElement> RowDataPrecedingInvoice_nbr = WebUiCommonHelper.findWebElements(findTestObject('Lemoney/Invoices/Receivables/DataBaseObjects/Page_Dashboard/td_29 Mar 2019'), 10)
+                     ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560500296129.run(TempTestSuite1560500296129.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-06-14 13:48:19 - [TEST_SUITE][ERROR] - Invoices: Test Cases/Lemoney/DataBase/Table_invoiceListing FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/nivedita/git/KatalonFirstUIProject/Scripts/Lemoney/DataBase/Table_invoiceListing/Script1560486088483.groovy: 63: The current scope already contains a variable of the name RowDataPrecedingInvoice_nbr
+ @ line 63, column 19.
+   	List<WebElement> RowDataPrecedingInvoice_nbr = WebUiCommonHelper.findWebElements(findTestObject('Lemoney/Invoices/Receivables/DataBaseObjects/Page_Dashboard/td_29 Mar 2019'), 10)
+                     ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1560500296129.run(TempTestSuite1560500296129.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

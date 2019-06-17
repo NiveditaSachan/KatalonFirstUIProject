@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CloseDBConnection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0330075-f851-458a-b23e-171472f85b88</testCaseGuid>
+</TestCaseEntity>

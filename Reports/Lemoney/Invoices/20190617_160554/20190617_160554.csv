@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Invoices,Chrome 74.0.3729.169,,2019-06-17 16:06:27,2019-06-17 16:06:38,10.636s,ERROR
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/Setup,Chrome 74.0.3729.169,,2019-06-17 16:06:28,2019-06-17 16:06:36,7.721s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-17 16:06:28,2019-06-17 16:06:28,0.018s,PASSED
+Start setup action : setUp,Chrome 74.0.3729.169,,2019-06-17 16:06:28,2019-06-17 16:06:36,7.208s,PASSED
+"waitForElementPresent(findTestObject(""Lemoney/Setup/Logout/img_profileImage""), 10)",Chrome 74.0.3729.169,,2019-06-17 16:06:36,2019-06-17 16:06:36,0.442s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-17 16:06:36,2019-06-17 16:06:36,0.008s,PASSED
+,,,,,,
+Test Cases/Lemoney/Invoices/Receivables,Chrome 74.0.3729.169,,2019-06-17 16:06:36,2019-06-17 16:06:37,0.641s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-17 16:06:36,2019-06-17 16:06:36,0.007s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-17 16:06:37,2019-06-17 16:06:37,0.003s,PASSED
+,,,,,,
+Test Cases/Lemoney/Setup and TearDown/TearDown,Chrome 74.0.3729.169,,2019-06-17 16:06:37,2019-06-17 16:06:38,1.148s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 74.0.3729.169,,2019-06-17 16:06:37,2019-06-17 16:06:37,0.004s,PASSED
+"mouseOver(findTestObject(""Lemoney/Setup/Logout/img_profileImage""))",Chrome 74.0.3729.169,,2019-06-17 16:06:37,2019-06-17 16:06:37,0.087s,PASSED
+"click(findTestObject(""Lemoney/Setup/Logout/Logout""))",Chrome 74.0.3729.169,,2019-06-17 16:06:37,2019-06-17 16:06:38,0.704s,PASSED
+closeBrowser(),Chrome 74.0.3729.169,,2019-06-17 16:06:38,2019-06-17 16:06:38,0.170s,PASSED
+Start tear down : tearDown,Chrome 74.0.3729.169,,2019-06-17 16:06:38,2019-06-17 16:06:38,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 74.0.3729.169,,2019-06-17 16:06:38,2019-06-17 16:06:38,0.007s,PASSED

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Invoices" time="18" tests="5" failures="0" errors="0">
+   <testsuite name="Invoices" tests="5" failures="0" errors="0" time="18" timestamp="2019-06-14 13:06:25" hostname="nivedita - 192.168.0.12" id="Test Suites/Lemoney/Invoices">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/Lemoney/Invoices/20190614_130552"/>
+         <property name="logFiles" value="/Users/nivedita/git/KatalonFirstUIProject/Reports/Lemoney/Invoices/20190614_130552/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nivedita - 192.168.0.12"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="0871c6e2c86cfc5de5907eef38780631"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Lemoney/Setup and TearDown/Setup" classname="Test Cases/Lemoney/Setup and TearDown/Setup" status="PASSED">
+         <system-out><![CDATA[2019-06-14 13:06:26 - [TEST_CASE][PASSED] - Test Cases/Lemoney/Setup and TearDown/Setup: Test Cases/Lemoney/Setup and TearDown/Setup
+
+2019-06-14 13:06:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-14 13:06:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:06:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-14 13:06:26 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-14 13:06:26 - [TEST_STEP][PASSED] - Start setup action : setUp: Method 'setUp' complete successfully
+
+2019-06-14 13:06:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-06-14 13:06:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-14 13:06:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-14 13:06:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-14 13:06:30 - [TEST_STEP][PASSED] - navigateToUrl("https://lmpro.netlify.com/"): Navigate to 'https://lmpro.netlify.com/' successfully
+
+2019-06-14 13:06:39 - [MESSAGE][PASSED] - Navigate to 'https://lmpro.netlify.com/' successfully
+
+2019-06-14 13:06:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/img_Lemoney_logo"), 10): Object 'Object Repository/Lemoney/Setup/Login/img_Lemoney_logo' is present
+
+2019-06-14 13:06:39 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/img_Lemoney_logo' is present
+
+2019-06-14 13:06:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/Title_Lemoney"), 10): Object 'Object Repository/Lemoney/Setup/Login/Title_Lemoney' is present
+
+2019-06-14 13:06:39 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/Title_Lemoney' is present
+
+2019-06-14 13:06:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/Title_Making Banking Useful"), 10): Object 'Object Repository/Lemoney/Setup/Login/Title_Making Banking Useful' is present
+
+2019-06-14 13:06:39 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/Title_Making Banking Useful' is present
+
+2019-06-14 13:06:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Lemoney/Setup/Login/div_Enter Username  Password"), 10): Object 'Object Repository/Lemoney/Setup/Login/div_Enter Username  Password' is present
+
+2019-06-14 13:06:39 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Login/div_Enter Username  Password' is present
+
+2019-06-14 13:06:39 - [TEST_STEP][PASSED] - setText(findTestObject("Lemoney/Setup/Login/input_EnterUserName"), "owner@lemoney.com"): Text 'owner@lemoney.com' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterUserName'
+
+2019-06-14 13:06:40 - [MESSAGE][PASSED] - Text 'owner@lemoney.com' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterUserName'
+
+2019-06-14 13:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("Lemoney/Setup/Login/input_EnterPassword"), "123456"): Text '123456' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterPassword'
+
+2019-06-14 13:06:40 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Lemoney/Setup/Login/input_EnterPassword'
+
+2019-06-14 13:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Lemoney/Setup/Login/button_Login")): Object: 'Object Repository/Lemoney/Setup/Login/button_Login' is clicked on
+
+2019-06-14 13:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Lemoney/Setup/Login/button_Login' is clicked on
+
+2019-06-14 13:06:41 - [MESSAGE][PASSED] - Method 'setUp' complete successfully
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Lemoney/Setup/Logout/img_profileImage"), 10): Object 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is present
+
+2019-06-14 13:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is present
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/DataBase/DatabaseConnection" classname="Test Cases/Lemoney/DataBase/DatabaseConnection" status="PASSED">
+         <system-out><![CDATA[2019-06-14 13:06:41 - [TEST_CASE][PASSED] - Test Cases/Lemoney/DataBase/DatabaseConnection: Test Cases/Lemoney/DataBase/DatabaseConnection
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - url = "apiserver.cw1p29kfimzt.ap-south-1.rds.amazonaws.com": null
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - dbname = "apiserver": null
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - port = "5432": null
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - userName = "apiserver": null
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - passWord = "api-server-db-pwd": null
+
+2019-06-14 13:06:41 - [TEST_STEP][PASSED] - com.database.DemoSQLPro.connectDB(url, dbname, port, userName, passWord): com.database.DemoSQLPro.connectDB is PASSED
+
+2019-06-14 13:06:42 - [MESSAGE][PASSED] - com.database.DemoSQLPro.connectDB is PASSED
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/DataBase/Table_invoiceListing" classname="Test Cases/Lemoney/DataBase/Table_invoiceListing" status="PASSED">
+         <system-out><![CDATA[2019-06-14 13:06:42 - [TEST_CASE][PASSED] - Test Cases/Lemoney/DataBase/Table_invoiceListing: Test Cases/Lemoney/DataBase/Table_invoiceListing
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - Invoice_nbr = "INV_NBR_2": null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - queryString = select invoice_nbr,id,bill_to,invoice_sent_at,payment_due_date,total_cost from invoice where invoice_nbr='$Invoice_nbr': null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - result = com.database.DemoSQLPro.executeQuery(queryString): com.database.DemoSQLPro.executeQuery is PASSED
+
+2019-06-14 13:06:42 - [MESSAGE][PASSED] - com.database.DemoSQLPro.executeQuery is PASSED
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - while (result.next()): null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - println("invoice nbr : " + result.getString(1)): null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - println("id : " + result.getString(2)): null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - println("billTo : " + result.getString(3)): null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - println("InvoiceDate : " + result.getString(4)): null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - println("Due date : " + result.getString(5)): null
+
+2019-06-14 13:06:42 - [TEST_STEP][PASSED] - println("Amount : " + result.getString(6)): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - println(driver): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - RowDataPrecedingInvoice_nbr = driver.findElement(By.xpath("//span[(text() = 'DC-INV-001' or . = 'DC-INV-001')]/preceding::td[count(. | //td[(text() = '29 Mar, 2019' or . = '29 Mar, 2019')]) = count(//td[(text() = '29 Mar, 2019' or . = '29 Mar, 2019')])]")): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - println(RowDataPrecedingInvoice_nbr.getText()): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/DataBase/CloseDBConnection" classname="Test Cases/Lemoney/DataBase/CloseDBConnection" status="PASSED">
+         <system-out><![CDATA[2019-06-14 13:06:43 - [TEST_CASE][PASSED] - Test Cases/Lemoney/DataBase/CloseDBConnection: Test Cases/Lemoney/DataBase/CloseDBConnection
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - com.database.DemoSQLPro.closeDatabaseConnection(): com.database.DemoSQLPro.closeDatabaseConnection is PASSED
+
+2019-06-14 13:06:43 - [MESSAGE][PASSED] - com.database.DemoSQLPro.closeDatabaseConnection is PASSED
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Lemoney/Setup and TearDown/TearDown" classname="Test Cases/Lemoney/Setup and TearDown/TearDown" status="PASSED">
+         <system-out><![CDATA[2019-06-14 13:06:43 - [TEST_CASE][PASSED] - Test Cases/Lemoney/Setup and TearDown/TearDown: Test Cases/Lemoney/Setup and TearDown/TearDown
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - println(" This is before test"): null
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Lemoney/Setup/Logout/img_profileImage")): Object: 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is hovered
+
+2019-06-14 13:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Lemoney/Setup/Logout/img_profileImage' is hovered
+
+2019-06-14 13:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Lemoney/Setup/Logout/Logout")): Object: 'Object Repository/Lemoney/Setup/Logout/Logout' is clicked on
+
+2019-06-14 13:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Lemoney/Setup/Logout/Logout' is clicked on
+
+2019-06-14 13:06:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-06-14 13:06:44 - [MESSAGE][PASSED] - Browser is closed
+
+2019-06-14 13:06:44 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2019-06-14 13:06:44 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully
+
+2019-06-14 13:06:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-06-14 13:06:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-06-14 13:06:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-14 13:06:25 - [TEST_SUITE][PASSED] - Invoices: Test Cases/Lemoney/Setup and TearDown/TearDown]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
