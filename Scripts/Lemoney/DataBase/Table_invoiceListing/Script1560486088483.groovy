@@ -28,6 +28,7 @@ import org.openqa.selenium.By.ByXPath as ByXPath
 	
 	//Run the loop until there is next row in result set-  result.next() 
 	while (result.next()) {
+		
 	    println('invoice nbr : ' + result.getString(1))
 	
 	    println('id : ' + result.getString(2))
